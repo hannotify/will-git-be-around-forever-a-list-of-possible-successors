@@ -1,3 +1,6 @@
-# will-git-be-around-forever
+# README #
 
-Slide deck for the conference talk &#34;Will Git Be Around Forever? A List of Possible Successors&#34;.
+The slide deck for my conference talk "Entering the Fourth Dimension of OCR with Tesseract".
+
+As presented at:
+* Voxxed Days Athens 2019

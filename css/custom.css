@@ -57,3 +57,8 @@ a {
     font-size: 0.3em;
     text-shadow: none;
 }
+
+.print-pdf .reveal section .attribution {
+    bottom: -50px;
+    position: absolute;
+}

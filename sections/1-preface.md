@@ -99,6 +99,10 @@ And although Newton (*point*) probably talked about an apple here, his quote can
 
 TODO: overweeg om hier extra plaatjes te gebruiken.
 
+Throughout this talk, we'll discover several ideas that I will use as input variables for the prediction at the end of the talk. The idea of "What's goes up..." is actually the first variable that we'll use.
+
+TODO: maak een plaatje voor 'Prediction variable', dat bij elk nieuw geïntroduceerd idee als een fragment op de slide gegooid wordt.
+
 ---
 
 note:

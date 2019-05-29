@@ -9,3 +9,6 @@ note:
 
 ---
 
+## Fossil for Git users
+
+[https://www.fossil-scm.org/home/doc/trunk/www/fossil-v-git.wiki](https://www.fossil-scm.org/home/doc/trunk/www/fossil-v-git.wiki)

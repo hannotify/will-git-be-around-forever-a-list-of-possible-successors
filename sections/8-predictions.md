@@ -8,3 +8,18 @@ note:
 **Time Elapsed:** 42 min.
 
 ---
+
+## Prediction variables
+
+* What goes up, must come down.
+* Killer features
+* Hosting platform support
+* Bundled with operating system
+* The disadvantage of the most popular product
+
+
+note:
+
+* **What goes up, must come down.** But when?
+
+---

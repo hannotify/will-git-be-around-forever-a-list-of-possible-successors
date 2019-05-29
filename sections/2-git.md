@@ -36,10 +36,13 @@ When Linus Torvalds was developing Git, one of his guiding principles was WWCVSN
 # Why has Git become so popular?
 
 note:
-In Stack Overflow’s 2015 developer survey, 69.3% of respondents used Git, almost twice as many as used the second-most-popular version control system, Subversion.1 After 2015, Stack Overflow stopped asking developers about the version control systems they use, perhaps because Git had become so popular that the question was uninteresting.
+In Stack Overflow’s 2015 developer survey, 69.3% of respondents used Git, almost twice as many as used the second-most-popular version control system, Subversion.1 After 2015, Stack Overflow stopped asking developers about the version control systems they use, perhaps because Git had become so popular that the question had become uninteresting.
 
 ---
 
+# Measuring Version Control System Popularity
+
+<!-- TODO: haal recente data over Git, Mercurial, Subversion, Darcs, Fossil, Plastic en Pijul uit Google Trends.  -->
 <!-- TODO: test deze slide op een 16:9-resolutie. -->
 
 <!-- .slide: data-background-color="#f9f9f9" data-background="img/background/vcs-popularity-graph.png" data-background-size="60%" --->

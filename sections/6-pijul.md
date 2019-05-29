@@ -44,7 +44,7 @@ Its performance is comparable to that of C++.
 
 Bootstrapped means that it is used for its own development.
 
---- 
+---
 
 ## Patch-oriented design
 

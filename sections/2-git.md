@@ -7,15 +7,21 @@
 note: 
 **Time Elapsed:** 10 min.
 
+---
+
 ## Version Control 'By USB Stick'
 
+---
+
 ## Basic features
+
+---
 
 # Some surprising facts on Git
 
 ---
 
-* "First Linux, now Git"
+> "First Linux, now Git"
 
 [https://www.infoworld.com/article/2669670/after-controversy--torvalds-begins-work-on--git-.html](https://www.infoworld.com/article/2669670/after-controversy--torvalds-begins-work-on--git-.html)  <!-- .element: class="attribution" -->
 
@@ -40,10 +46,12 @@ In Stack Overflow’s 2015 developer survey, 69.3% of respondents used Git, almo
 
 ---
 
-# Measuring Version Control System Popularity
+## Measuring Version Control System Popularity
 
 <!-- TODO: haal recente data over Git, Mercurial, Subversion, Darcs, Fossil, Plastic en Pijul uit Google Trends.  -->
 <!-- TODO: test deze slide op een 16:9-resolutie. -->
+
+---
 
 <!-- .slide: data-background-color="#f9f9f9" data-background="img/background/vcs-popularity-graph.png" data-background-size="60%" --->
 

@@ -1,11 +1,23 @@
 <!-- .slide: data-background="img/background/usb-sticks.jpg" data-background-color="black" data-background-opacity="0.3"-->
 
-# Why Is Git So Popular?
+# Why has Git become so popular?
 
 [https://pxhere.com/en/photo/652221](https://pxhere.com/en/photo/652221)  <!-- .element: class="attribution" -->
 
 note: 
 **Time Elapsed:** 10 min.
+
+Now if we want to be able to predict 'the next big thing' in version control, surely some information on the 'current big thing' is very relevant to our quest.
+Moreover, it could be useful to understand how 'the current big thing' became 'the big thing' in the first place.
+
+---
+
+<!-- .slide: data-background-color="#f9f9f9" data-background="img/background/vcs-popularity-graph.png" data-background-size="60%" --->
+
+[https://blog.gitprime.com/git-didnt-beat-svn-github-did/](https://blog.gitprime.com/git-didnt-beat-svn-github-did/) <!-- .element: class="attribution" -->
+
+note:
+Here is some information on how 'the current big thing' - which is Git - became 'the big thing'.
 
 ---
 
@@ -50,12 +62,6 @@ In Stack Overflow’s 2015 developer survey, 69.3% of respondents used Git, almo
 
 <!-- TODO: haal recente data over Git, Mercurial, Subversion, Darcs, Fossil, Plastic en Pijul uit Google Trends.  -->
 <!-- TODO: test deze slide op een 16:9-resolutie. -->
-
----
-
-<!-- .slide: data-background-color="#f9f9f9" data-background="img/background/vcs-popularity-graph.png" data-background-size="60%" --->
-
-[https://blog.gitprime.com/git-didnt-beat-svn-github-did/](https://blog.gitprime.com/git-didnt-beat-svn-github-did/) <!-- .element: class="attribution" -->
 
 ---
 

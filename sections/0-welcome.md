@@ -24,8 +24,9 @@ We never drive cars to work; no, we ride our bikes.
 Or we ice-skate in the winter.
 On our daily commute we easily pass ten different windmills.
 
-And the office cafeteria serves stroopwafels ONLY.
+And when it's lunch time, the office cafeteria serves stroopwafels ONLY.
 I actually brought some with me, because we have plenty of them.
 So feel free to grab one after the talk.
 Or DURING the talk, if you get bored.
-I didn't say WHEN you get bored, I said IF you get bored!
+I didn't say WHEN you get bored, mind you, I said IF you get bored!
+There's a difference!

@@ -9,6 +9,10 @@ note:
 
 ---
 
+<!-- .slide: data-background-iframe="pdf/version-control-history-poster.pdf" -->
+
+---
+
 * Fossil (2006)
 * Plastic (2006)
 * Veracity (2010)
@@ -17,15 +21,53 @@ note:
 note: 
 These four Version Control Systems have been published after the large Distributed Version Control wave in March/April 2005. 
 
-TODO: neem hier wat inhoud uit https://www.plasticscm.com/documents/version-control-history/version-control-history-poster-A3.pdf in op.
-
-FIXME: wat meer verhaaltje.
+FIXME: why did I choose to consider these four and not a few older ones?
 
 ---
 
 # Plastic
 
-<!-- TODO: twee slides over Plastic, en waarom het niet wat gaat worden. -->
+* Fast branching
+* Merge previews
+* Both central and distributed
+* Comes with **a lot** of GUI stuff
+
+<!-- FINAL: add Plastic logo -->
+
+<https://www.plasticscm.com> <!-- .element: class="attribution" -->
+
+note:
+Git has most of these features already.
+It just lacks the GUI stuff.
+
+---
+
+## Focus on artists and designers
+
+* 'Plastic Gluon' is a version control component meant for artists and designers
+* Image diffing
+* Their references are almost exclusively game studios
+
+note:
+In game studios a lot of different expertise is joined in a team.
+Programmers, designers, artists. 
+And they all need to use the same code repository.
+So for them it seems to make sense to add GUI tools to help their source code management.
+
+---
+
+## But
+#### Plastic is not going to be 'the Git killer'
+
+* not open-source software
+* Git users are not switching SCM's just for some *eye candy*
+
+note:
+* **not open-source software**
+  * apparently, the story of BitKeeper has not taught the people of Plastic **anything**
+* Git users are not switching SCM's just for some *eye candy*
+  * most of them are used to using the command-line.
+  * those who are not are probably using a web-based product, or SourceTree or GitHub Desktop.
 
 ---
 

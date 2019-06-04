@@ -2,10 +2,10 @@
 
 # Pijul
 
-[https://pxhere.com/en/photo/652221](https://pxhere.com/en/photo/652221)  <!-- .element: class="attribution" -->
+<https://pxhere.com/en/photo/652221>  <!-- .element: class="attribution" -->
 
 note: 
-**Time Elapsed:** 26 min.
+**Time Elapsed:** 42 min.
 
 ---
 
@@ -16,14 +16,15 @@ note:
     or <em>crotophaga sulcirostris</em>, a bird known to do collaborative nest building.
 </blockquote>
 
-[https://commons.wikimedia.org/wiki/File:Museo_de_la_Naturaleza_de_Cantabria_(208).jpg](https://commons.wikimedia.org/wiki/File:Museo_de_la_Naturaleza_de_Cantabria_(208).jpg) <!-- .element: class="attribution" -->
+<https://commons.wikimedia.org/wiki/File:Museo_de_la_Naturaleza_de_Cantabria_(208).jpg> <!-- .element: class="attribution" -->
 
 note:
-
+FIXME: link over Pijul toevoegen:
+* https://www.pijul.com/
 
 ---
 
-## Features That Pijul Promises
+## Features that Pijul promises
 
 * **distributed** version control
 * **simple**, because of its basis on a *sound theory of patches*
@@ -31,7 +32,7 @@ note:
 
 ---
 
-## Quick Facts
+## Quick facts
 
 * written in Rust
 * *bootstrapped* since April 2017
@@ -48,6 +49,8 @@ Bootstrapped means that it is used for its own development.
 
 ## Patch-oriented design
 
+<!-- TODO: werking uitleggen -->
+
 ---
 
 ## Quick demo
@@ -57,13 +60,24 @@ Bootstrapped means that it is used for its own development.
 * Removing patches
 * Patch dependencies
 * Branches
-* (but maybe we don't need them)
+  * (but maybe we don't need them)
+* Resolving Conflicts
 
 note:
 TODO: demo voorbereiden
+
+Inhoud van de demo:
+* Schrijf een klasse die een random nummer genereert.
+* Eerste implementatie: gooi een dobbelsteen.
+* Tweede implementatie: (int) Math.random() * 6
+  * deze implementatie moet een conflict veroorzaken.
+* Derde implementatie: java.util.Random.nextInt(7).
+  * deze implementatie moet een conflict veroorzaken.
+
+Zie `misc/MyRandom.java` voor als je de details vergeet.
 
 ---
 
 ## Pijul for Git users
 
-[https://nest.pijul.com/tae/pijul-for-git-users](https://nest.pijul.com/tae/pijul-for-git-users)
+<https://nest.pijul.com/tae/pijul-for-git-users>

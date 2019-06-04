@@ -2,7 +2,7 @@
 
 # Teaching a course on Git
 
-[https://pxhere.com/en/photo/652221](https://pxhere.com/en/photo/652221) <!-- .element: class="attribution" -->
+<https://pxhere.com/en/photo/652221> <!-- .element: class="attribution" -->
 
 note:
 **Time Elapsed:** 1 min.
@@ -18,62 +18,77 @@ Besides doing the practical stuff we also discuss the pros and cons of distribut
 
 <!-- .slide: data-background="img/background/version-control-timeline.png" data-background-size="contain" data-background-color="white" -->
 
-[http://blog.plasticscm.com/2010/11/version-control-timeline.html](http://blog.plasticscm.com/2010/11/version-control-timeline.html) <!-- .element: class="attribution" -->
+<http://blog.plasticscm.com/2010/11/version-control-timeline.html> <!-- .element: class="attribution" -->
 
 note:
 This is actually one of the course slides.
-And it shows which version control systems have emerged in the past and when they became available.
-It tries to put the publication date of each version control system in perspective by comparing them to the most modern phone known at that time.
+It displays which version control systems have emerged until now, and when they became available.
+It also tries to put the publication date of each version control system in perspective by comparing them to the most modern phone known at that time.
 
 So, Subversion relates to the Nokia 3210, for example. (*point*)
 And CVS relates to the thing with the power plug.
+Both are obviously **ancient**.
 
-Now, when I talk about this slide during the Git course, I tend to focus on the events of the year 2005.
-Because to me, 2005 REALLY stands out in version control history.
-I mean, FIVE new version control systems were published in that year. 
-In a single year.
+Now, when I talk about this slide during the Git course, I tend to focus on the events of the year 2005. (*point*)
+Because to me, 2005 **really** stands out in version control history.
+I mean, **five** new version control systems were published in that year. 
+In a **single** year.
 
-To put this number in context, before 2005, it had taken NINE years for five version control systems to emerge.
-Starting with VSS in 1994, and ending with BitKeeper in 2003.
-And in 2005, it all happened within a few months.
+To put things in perspective, before 2005, it had taken **nine** years for five version control systems to emerge.
+(Starting with VSS in 1994, and ending with BitKeeper in 2003.)
+And in 2005, it all happened within a few months!
 
-So, who knows why it happened like this?
+So, does anyone know why things happened like this?
 
---- 
+---
+
+<!-- .slide: data-background="img/background/bitkeeper-goes-commercial.png" data-background-size="contain" data-background-color="#707070" -->
+
+<http://web.archive.org/web/20050408062838/http://www.bitkeeper.com/press/2005-04-05.html> <!-- .element: class="attribution" -->
 
 note:
-The answer is BitKeeper!
+Well, BitKeeper happened.
+They went from open-source to proprietary just like **that**.
+The open-source world - Linus Torvalds in front - was not amused.
+He had been using BitKeeper for the Linux kernel, but was now in need of a new system.
+
+And becasue BitKeeper was the only distributed version control system at the time, which was now no longer freely available, a lot of similar products were developed in a short amount of time.
+Including Mr. Torvalds' own rendition of distributed version control, which later became Git.
 
 ---
 
 <!-- .slide: data-background="img/background/version-control-timeline.png" data-background-size="contain" data-background-color="white" -->
 
-[http://blog.plasticscm.com/2010/11/version-control-timeline.html](http://blog.plasticscm.com/2010/11/version-control-timeline.html) <!-- .element: class="attribution" -->
+<http://blog.plasticscm.com/2010/11/version-control-timeline.html> <!-- .element: class="attribution" -->
 
 note:
 Now just because I thought the year 2005 really stood out in this graphic, doesn't necessarily mean it was like that for everyone.
-In fact, at the end of the course day a student came to me with a question.
-And his question proved that he had noticed an entirely different thing than I had noticed.
-Moreover, his 'discovery' - if you will - proved to be a LOT more interesting than mine.
+In fact, at the end of one particular course day a student came to me with a question.
+And his question proved that he had noticed an **entirely** different thing than I had noticed.
+Moreover, his 'discovery' - if you will - proved to be a **lot** more interesting than mine.
 
-He came over to me and said: "Git is great and all that, but what is gonna be the next big thing?"
+He came up to me and said: "Git is great and all that, but what's gonna be the **next** big thing?"
 So I told him I was quite sure distributed version control systems like Git and Mercurial would be around for a while longer.
-But to be honest, I didn't really know the answer.
+But this wasn't a good answer, really.
+Because **I didn't know** what was gonna be the next big thing.
 So it was a great question, actually.
 
 And he was right in asking this question, of course.
-Because if you look at the chart and you look beyond what you've already seen (the year 2005), then it becomes painfully obvious
-In version control land, nothing seems to have happened after 2006.
-This is one of those things that, once you see it, you can't UNSEE it.
+Because if you look at the chart and you look beyond what you've already seen (the year 2005), then it becomes painfully obvious...
+That in version control land, nothing seems to have happened after 2006.
+This is one of those things that, once you see it, you can't **unsee** it.
 
----
+FIXME: het volgende verhaaltje vloeiender, natuurlijker laten lopen.
+En het kan ook best wat korter.
 
-note:
-Now I really hated the fact that I couldn't tell him more on the subject, so I decided to research the matter a bit further.
-And what started out as finding the answer to a simple question turned into giving a conference talk.
+Now I kind of felt bad that I had dodged my student's question a bit by telling him distributed version control was the present **and** the future.
+I had effectively told him that "Git will probably be around forever", even if I didn't phrase it exactly like that.
+And I really hated the fact that I couldn't tell him more on the subject, so I decided to research the matter a bit further.
+And what started out as finding the answer to a simple question turned into an investigation.
+And the investigation turned into a conference talk.
 Which is the one you're attending right now!
 
-So, welcome to you all.
+So, welcome to you all! (*open arms*)
 I'm going to assume that you are all more or less like the student I told you about.
 He just couldn't believe that everything in version control land would stay the same for a long period of time.
 And I hope you're also a little bit like me, because you probably also can't stand not being able to know the answer to a question.
@@ -90,8 +105,6 @@ So, let's see if we can find the answer together, shall we?
 <https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Bill_Gates_2004.jpg/1280px-Bill_Gates_2004.jpg> <!-- .element: class="attribution" -->
 
 note: 
-**Time Elapsed:** 3 min.
-
 Now, whenever I hear somebody say that [insert-product-name-here] "will probably be around forever", it immediately reminds me of...
 [slide]
 ...this quote. 
@@ -116,7 +129,8 @@ If you think about it for just a second, you can come up with lots of examples.
 * Browser behaviours change.
 
 Agile was invented for a reason! To be able to cope with CHANGE.
-Because change is the only constant, and has been for a long time.
+Because in our industry, change is the only constant
+And it has been like that for a long time.
 
 ---
 
@@ -133,8 +147,25 @@ And although Newton (*point*) probably talked about an apple here, his quote can
 * browser market shares;
 * and maybe even version control system market shares.
 
-TODO: overweeg om hier extra plaatjes te gebruiken.
+FINAL: wanneer voorbereidingstijd over, gebruik hier dan meer slides met plaatjes van de voorbeelden.
 
-Throughout this talk, we'll discover several ideas that I will use as input variables for the prediction at the end of the talk. The idea of "What's goes up..." is actually the first variable that we'll use.
+---
 
-TODO: maak een plaatje voor 'Prediction variable', dat bij elk nieuw geïntroduceerd idee als een fragment op de slide gegooid wordt.
+<!-- .slide: data-background="img/background/crystal-ball.jpg" data-background-color="black" data-background-opacity="0.5" --->
+
+## What goes up must come down.
+
+<blockquote class="explanation">
+    <code>prediction variable</code>
+</blockquote>
+
+<https://www.pexels.com/photo/photo-displays-person-holding-ball-with-reflection-of-horizon-940880> <!-- .element: class="attribution" -->
+
+note:
+FIXME: leg het idee van 'prediction variable' wat beter uit.
+
+Throughout this talk, we will discover several ideas that I will use as input variables for the final prediction.
+At the moment we're far from it.
+But we'll get there in the end, by identifying more prediction variables.
+The idea of "What's goes up..." is actually the first variable that we'll use.
+Because...? FIXME

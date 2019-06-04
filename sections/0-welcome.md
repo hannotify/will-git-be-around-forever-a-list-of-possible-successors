@@ -18,15 +18,17 @@ Hi, my name is Hanno.
 I work at Info Support as an IT consultant.
 
 Also, I'm from the Netherlands.
-Now, everything you've heard about my country is probably true.
-When we go to work in the morning, we wear our wooden clogs.
-We never drive cars to work; no, we ride our bikes.
-Or we ice-skate in the winter.
-On our daily commute we easily pass ten different windmills.
+Now, everything you've heard about my country is probably true:
 
-And when it's lunch time, the office cafeteria serves stroopwafels ONLY.
-I actually brought some with me, because we have plenty of them.
+* Before we go to work in the morning, we put on our wooden clogs.
+* We never drive cars to work; no, we ride our bikes.
+  * Or if it's winter, we ice-skate.
+* On our daily commute we easily pass ten different windmills.
+* And when it's lunch time, the office cafeteria serves stroopwafels ONLY.
+
+I actually brought some with me, because in my country we have plenty of them.
 So feel free to grab one after the talk.
 Or DURING the talk, if you get bored.
-I didn't say WHEN you get bored, mind you, I said IF you get bored!
+I didn't say WHEN you get bored, mind you!
+I said IF you get bored!
 There's a difference!

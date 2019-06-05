@@ -1,5 +1,3 @@
-package misc;
-
 import java.util.Random;
 
 public class MyRandom {

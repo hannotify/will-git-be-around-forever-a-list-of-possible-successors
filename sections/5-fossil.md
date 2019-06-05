@@ -2,7 +2,7 @@
 
 # Fossil
 
-<https://pxhere.com/en/photo/652221>  <!-- .element: class="attribution" -->
+<https://pxhere.com/en/photo/652221> <!-- .element: class="attribution" -->
 
 note: 
 **Time Elapsed:** 35 min.
@@ -55,17 +55,20 @@ Fossil, on the other hand, parses essential information about check-ins (parents
 
 ---
 
-## Cathedral vs. Bazaar
+## 'Github in a box'
+
+* repository UI
+* wiki, ticketing &amp; bug tracking
+* embedded documentation
+* technical notes
+* forum
 
 note:
-FIXME:
-Fossil and Git promote different development styles. Git promotes a "bazaar" development style in which numerous anonymous developers make small and sometimes haphazard contributions. Fossil promotes a "cathedral" development model in which the project is closely supervised by an highly engaged architect and implemented by a clique of developers.
+FIXME: 
+So there's no need to use 3rd party products; after cloning a repo you have a fully-featured developer website available.
 
-Nota Bene: This is not to say that Git cannot be used for cathedral-style development or that Fossil cannot be used for bazaar-style development. They can be. But those modes are not their design intent nor their low-friction path.
-
-Git encourages a style in which individual developers work in relative isolation, maintaining their own branches and occasionally rebasing and pushing selected changes up to the main repository. Developers using Git often have their own private branches that nobody else ever sees. Work becomes siloed. This is exactly what one wants when doing bazaar-style development.
-
-Fossil, in contrast, strives to keep all changes from all contributors mirrored in the main repository (in separate branches) at all times. Work in progress from one developer is readily visible to all other developers and to the project leader, well before the code is ready to integrate. Fossil places a lot of emphasis on reporting the state of the project, and the changes underway by all developers, so that all developers and especially the project leader can maintain a better mental picture of what is happening, and better situational awareness.
+* Well-suited for startups and small-scale projects ('SQLite-style')
+* But not really for large-scale open-source development ('Linux-style')
 
 ---
 
@@ -80,21 +83,42 @@ note:
 
 ### Up and running
 
-<!-- TODO: oefen de demo 
-En gebruik daarbij doitlive of demo-magic -->
+    cd ~/development/fossil
+    mkdir demo
+    fossil new demo.repo
+    cd demo
+    fossil open ../demo.repo
+    touch Sample.java
+    fossil changes
+    fossil add .
+    fossil commit -m "message"
 
 ### Using the web interface
 
+    fossil ui
+
 ### Retrieving descendants of a checkin
 
-Inhoud van de demo:
-* Schrijf een klasse die een random nummer genereert.
-* Eerste implementatie: gooi een dobbelsteen.
-* Tweede implementatie: (int) Math.random() * 6
-  * deze implementatie moet een conflict veroorzaken.
+    fossil descendants [hash]
+
+### Close
+
+    fossil close
+
+---
+
+## The Bad
+
+* Dealing with large files 
+* Dealing with large commits
+
+<https://www.omiyagames.com/blog/2014/02/15/farewell-fossil-version-control> <!-- .element: class="attribution" -->
+
+note:
+Because Fossil repositories are stored in a single file.
 
 ---
 
 ## Fossil for Git users
 
-<https://www.fossil-scm.org/home/doc/trunk/www/fossil-v-git.wiki>
+<https://www.fossil-scm.org/home/doc/trunk/www/fossil-v-git.wiki> 

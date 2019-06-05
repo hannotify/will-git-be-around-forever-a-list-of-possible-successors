@@ -25,6 +25,7 @@ note:
 * **distributed** version control
 * **simple**, because of its basis on a *sound theory of patches*
 * **fast**, because it aims to fix the Darcs performance issues
+* **interactive** recording
 
 <https://www.pijul.com> <!-- element: class="attribution" -->
 
@@ -63,32 +64,104 @@ FIXME: toelichting schrijven
 
 ## Quick demo
 
+<!-- FIXME: dit gaan we niet allemaal demonstreren, zie de notes --->
+
 * Up and running
 * Recording patches
-* Ignore
-* Removing patches
-* Patch dependencies
 * Branches
-  * (but maybe we don't need them)
+  * (but maybe we don't need them - https://nest.pijul.com/tae/pijul-for-git-users)
 * Resolving Conflicts
 * Nest demo - <https://nest.pijul.com/pijul_org/pijul>
 
 note:
-<!-- TODO: oefen de demo 
-En gebruik daarbij doitlive of demo-magic -->
 
-Inhoud van de demo:
-* Schrijf een klasse die een random nummer genereert.
-* Eerste implementatie: gooi een dobbelsteen.
-* Tweede implementatie: (int) Math.random() * 6
-  * deze implementatie moet een conflict veroorzaken.
-* Derde implementatie: java.util.Random.nextInt(7).
-  * deze implementatie moet een conflict veroorzaken.
+### Up and running
+
+    pijul init demo
+    touch Sample.java
+    pijul status
+    pijul add Sample.java
+    mkdir directory
+    pijul add directory
+    pijul status
+    pijul record 
+
+    (Here y means yes, n means no, k means undo and remake last decision, a means include this and all remaining patches, d means include neither this patch nor the remaining patches and i means ignore this file locally (i.e. it is added to .pijul/local/ignore).)
+
+### Generating random numbers
+
+!!! Throw the dice on stage !!!
+
+    public class Sample {
+
+        public static void main(String... args) {
+            System.out.println(random());
+        }
+
+        private static int random() {
+            // Chosen by fair dice roll; guaranteed to be random.
+            return 4;
+        }
+    }
+
+    pijul add Sample.java
+    pijul record
+
+### Handling conflicts
+
+    pijul fork use-math-random
+    pijul checkout use-math-random
+
+    private static int random() {
+        return (int)(Math.random() * 6);
+    }
+
+    pijul add Sample.java
+    pijul record
+
+    pijul checkout master
+    pijul fork use-random-class
+    pijul checkout use-random-class
+
+    private static int random() {
+        return new java.util.Random().nextInt(7);
+    }
+
+    pijul add Sample.java
+    pijul record
+
+    pijul checkout use-math-random
+    pijul apply [hash]
+    pijul add Sample.java
+    pijul record
 
 Zie `misc/MyRandom.java` voor als je de details vergeet.
+
+### Nest Demo
+
+<https://nest.pijul.com/pijul_org/pijul>
+
+---
+
+## The Bad
+
+* Usability needs to improve 
+* FIXME: verzin er nog een
+
+<https://mivehind.net/2017/04/09/pijul-first-thoughts> <!-- .element: class="attribution" -->
 
 ---
 
 ## Pijul for Git users
 
 <https://nest.pijul.com/tae/pijul-for-git-users>
+
+
+FIXME: verwerk dit nog ergens (bron: https://news.ycombinator.com/item?id=19090514)
+
+I've not used Pijul, but I used Darcs — which Pijul is essentially an improved clone of — for half a decade, and I assume it's roughly the same.
+The patch model is incredible. Think of "git cherry-pick". Imagine you could use that instead of "git merge" or "git rebase" for all your work. Imagine that every time you cherry-picked, it would tell you which additional commits you'd need, and then pick them for you. And that when you merged your heavily cherry-picked branch back into the mainline, it just worked. That's Pijul/Darcs.
+
+One doesn't have to understand the "theory of patches" to use Pijul/Darcs. As a user, you just work with changes, just like Git. But the UX is much simpler than Git — in a good way.
+
+I remember switching from Darcs to Git back in 2008 or so. It was like switching out a sleek spaceship [] for an old rusty, clanking pickup truck. Git has gotten better over the years, but ultimately, I think Github was the killer app, not Git. Going back technical merits alone, Darcs and Mercurial "should" have won that battle.

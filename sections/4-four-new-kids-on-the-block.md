@@ -15,13 +15,35 @@ note:
 
 * Fossil (2006)
 * Plastic (2006)
-* Veracity (2010)
+* Veracity (2011)
 * Pijul (2015)
 
 note: 
 These four Version Control Systems have been published after the large Distributed Version Control wave in March/April 2005. 
 
 FIXME: why did I choose to consider these four and not a few older ones?
+
+---
+
+# Veracity
+
+* Distributed version control
+* Issue tracking and wiki, also distributed
+
+<!-- FINAL: add Veracity logo -->
+
+<http://www.veracity-scm.com> <!-- .element: class="attribution" -->
+
+---
+
+## But
+#### Veracity is not going to be 'the Git killer'
+
+* Development status: web site appears unmaintained; latest release March 25, 2013	
+* Hosting platform onveracity.com hasn't been online since February 4, 2015
+
+note:
+FIXME - why was this one even in the abstract and why that's the only reason I have included it.
 
 ---
 
@@ -59,7 +81,7 @@ So for them it seems to make sense to add GUI tools to help their source code ma
 ## But
 #### Plastic is not going to be 'the Git killer'
 
-* not open-source software
+* it's not open-source software
 * Git users are not switching SCM's just for some *eye candy*
 
 note:
@@ -68,15 +90,3 @@ note:
 * Git users are not switching SCM's just for some *eye candy*
   * most of them are used to using the command-line.
   * those who are not are probably using a web-based product, or SourceTree or GitHub Desktop.
-
----
-
-# Veracity
-
-<!-- TODO: twee slides over Veracity, en waarom het niet wat gaat worden. -->
-
-note:
-TODO: opnemen:
-* Development status: web site appears unmaintained; latest release March 25, 2013	
-* http://veracity-scm.com/compare/
-* onveracity.com (offline :()

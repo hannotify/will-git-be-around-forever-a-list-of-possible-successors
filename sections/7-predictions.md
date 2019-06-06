@@ -5,93 +5,197 @@
 <https://pxhere.com/en/photo/652221>  <!-- .element: class="attribution" -->
 
 note: 
-**Time Elapsed:** 48 min.
+**Time Elapsed:** 44 min.
+
+Well, the wait is finally over, it's prediction time!
+About time, right?
+
+Let's compile a list of the prediction variables that we've assembled. 
 
 ---
 
 ## Prediction variables
 
-* What goes up, must come down.
 * Killer features.
 * Hosting platform support.
 * Open-source community support.
 * The disadvantage of the dominant product.
 
 note:
+Looks like we've gathered four prediction variables so far:
 
-* **What goes up, must come down.** But when?
-* **Hosting platform support** 
-<!-- FIXME: gebruik "img/background/hosting-platform-support" voor een weergave van de stand van zaken voor Git, Hg, Svn en Fossil. -->
-* FIXME: afmaken
-
----
-
-## The scores
-
-<!-- FIXME: toon een matrix van PV's en VCS's (de 5 bestaande plus Fossil, Pijul) en deel scores uit.
-Tussen -2 en +2.
-En toon onderaan een totaalscore.
---->
+* **Killer features.**
+* **Hosting platform support.** 
+* **Open-source community support.**
+* **The disadvantage of the dominant product.**
 
 ---
-
-## Prediction matrix 2.0
-
-<!-- 
-FIXME: Pas scores van bestaande VCS's aan (eventueel) en laat de veranderingen zien tov 'First Prediction'.
-Dat zou bijvoorbeeld kunnen met ~strikethrough~.git  
-FIXME: Voeg Fossil en Pijul toe en geef ze een plek.
-FIXME: Maak per 'decennium' een slide en pas de volgorde van populariteit daarin aan, zodat je zaken ziet 'verspringen'.
--->
 
 <table>
     <thead>
         <tr>
             <th/>
-            <th>2009</th>
-            <th class="fragment" data-fragment-index="1">2019</th>
-            <th class="fragment" data-fragment-index="2">2029</th>
+            <th>Git</th>
+            <th>Hg</th>
+            <th>TFS</th>
+            <th>Fossil</th>
+            <th>Pijul</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <th align="right">Subversion</th>
-            <td align="right">45%</td>
-            <td align="right" class="fragment" data-fragment-index="1">8%</td>
-            <td align="right" class="fragment" data-fragment-index="2">4%</td>
+            <th align="right">Features</th>
+            <td align="right">-1</td>
+            <td align="right">-1</td>
+            <td align="right">-1</td>
+            <td align="right">+1</td>
+            <td align="right">+2</td>
+        </tr>  
+    </tbody>
+</table>
+
+note:
+Pijuls major feature (fast patch-based versioning) might lure new users who think Git is too difficult to understand.
+Fossil just adds 'show descendants' and integrated developer website to the mix, which is a bit less 'killer'.
+
+---
+
+<table>
+    <thead>
+        <tr>
+            <th/>
+            <th>Git</th>
+            <th>Hg</th>
+            <th>TFS</th>
+            <th>Fossil</th>
+            <th>Pijul</th>
         </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th align="right">Features</th>
+            <td align="right">-1</td>
+            <td align="right">-1</td>
+            <td align="right">-1</td>
+            <td align="right">+1</td>
+            <td align="right">+2</td>
+        </tr>  
+        <tr class="fragment">
+            <th align="right">Hosting</th>
+            <td align="right">+2</td>
+            <td align="right">+1</td>
+            <td align="right">-1</td>
+            <td align="right">+1</td>
+            <td align="right">+1</td>
+        </tr>
+        <tr class="fragment">
+            <th align="right">Open-source</th>
+            <td align="right">+2</td>
+            <td align="right">+2</td>
+            <td align="right">-2</td>
+            <td align="right">-1</td>
+            <td align="right">+1</td>
+        </tr>
+        <tr class="fragment">
+            <th align="right">Dominant</th>
+            <td align="right">-2</td>
+            <td align="right">-1</td>
+            <td align="right">0</td>
+            <td align="right">0</td>
+            <td align="right">0</td>
+        </tr>    
+        <tr class="fragment">
+            <th/>
+            <th align="right">+1</td>
+            <th align="right">+1</td>
+            <th align="right">-4</td>
+            <th align="right">+1</td>
+            <th align="right">+4</td>
+        </tr>              
+    </tbody>
+</table>
+
+---
+
+<table>
+    <thead>
+        <tr>
+            <th/>
+            <th>2029</th>
+        </tr>
+    </thead>
+    <tbody>
         <tr>
             <th align="right">Git</th>
-            <td align="right">20%</td>
-            <td align="right" class="fragment" data-fragment-index="1">73%</td>
-            <td align="right" class="fragment" data-fragment-index="2">80%</td>
+            <td align="right">80%</td>
         </tr>
         <tr>
             <th align="right">Mercurial</th>
-            <td align="right">17%</td>
-            <td align="right" class="fragment" data-fragment-index="1">12%</td>
-            <td align="right" class="fragment" data-fragment-index="2">9%</td>
+            <td align="right">9%</td>
         </tr>  
         <tr>
             <th align="right">TFS</th>
-            <td align="right">11%</td>
-            <td align="right" class="fragment" data-fragment-index="1">7%</td>
-            <td align="right" class="fragment" data-fragment-index="2">7%</td>
+            <td align="right">7%</td>
         </tr>
         <tr>
+            <th align="right">Subversion</th>
+            <td align="right">4%</td>
+        </tr>     
+        <tr>
             <th align="right">CVS</th>
-            <td align="right">7%</td>
-            <td align="right" class="fragment" data-fragment-index="1">&lt;1%</td>
-            <td align="right" class="fragment" data-fragment-index="2">&lt;1%</td>
+            <td align="right">&lt;1%</td>
         </tr>      
     </tbody>
 </table>
 
 ---
 
-## Prediction chart
-
-<!-- FIXME: wanneer voorbereidingstijd over, breid de VCS Popularity Chart uit richting 2029. -->
+<table>
+    <thead>
+        <tr>
+            <th/>
+            <th><del>2029</del></th>
+            <th>2029</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th align="right">Git</th>
+            <td align="right"><del>80%</del></td>
+            <td align="right">77%</td>
+        </tr>
+        <tr>
+            <th align="right">Mercurial</th>
+            <td align="right"><del>9%</del></td>
+            <td align="right">8%</td>
+        </tr>
+          <tr>
+            <th align="right">Pijul</th>
+            <td align="right"></td>
+            <td align="right">5%</td>
+        </tr>      
+        <tr>
+            <th align="right">TFS</th>
+            <td align="right"><del>7%</del></td>
+            <td align="right">4%</td>
+        </tr>
+        <tr>
+            <th align="right">Subversion</th>
+            <td align="right"><del>4%</del></td>
+            <td align="right">4%</td>
+        </tr>  
+        <tr>
+            <th align="right">Fossil</th>
+            <td align="right"></td>
+            <td align="right">2%</td>
+        </tr>           
+        <tr>
+            <th align="right">CVS</th>
+            <td align="right"><del>&lt;1%</del></td>
+            <td align="right">&lt;1%</td>
+        </tr>      
+    </tbody>
+</table>
 
 note:
 FIXME: schrijf hier een conclusie die men kan onthouden.

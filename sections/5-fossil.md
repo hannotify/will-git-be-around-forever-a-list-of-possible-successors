@@ -5,7 +5,10 @@
 <https://pxhere.com/en/photo/652221> <!-- .element: class="attribution" -->
 
 note: 
-**Time Elapsed:** 30 min.
+**Time Elapsed:** 26 min.
+
+Now we get to the more serious contenders!
+And first up is Fossil.
 
 ---
 
@@ -15,15 +18,13 @@ note:
 * **integrated bug tracking**, wiki, forum and technotes
 * built-in **web interface**
 * **autosync** mode
-* show **descendants** of a checkin
+* show **descendants** of a check-in
 * supports operations on multiple repositories (`fossil all`)
 
 <https://www.fossil-scm.org> <!-- element: class="attribution" -->
 
 note:
-FIXME: uitbreiden
-
-* **autosync mode** - push automatically after each check-in
+* **autosync mode** - pushes automatically after each check-in
 
 ---
 
@@ -45,28 +46,32 @@ So any hosting space provider could do the job.
 
 ## Uses a relational database
 
+* a repository is stored in a single SQLite database file
+* contains relations between check-ins to be able to produce both ancestors and descendants of a check-in 
+
+![Fossil logo](img/logos/fossil.png) <!-- .element: class="no-background" width="12%" -->
+
 note:
-FIXME:
-The difference is that Git stores its objects as individual files in the ".git" folder or compressed into bespoke "pack-files", whereas Fossil stores its objects in a relational (SQLite) database file. To put it another way, Git uses an ad-hoc pile-of-files key/value database whereas Fossil uses a proven, general-purpose SQL database. This difference is more than an implementation detail. It has important consequences.
-
-With Git, one can easily locate the ancestors of a particular check-in by following the pointers embedded in the check-in object, but it is difficult to go the other direction and locate the descendants of a check-in. It is so difficult, in fact, that neither native Git nor GitHub provide this capability. With Git, if you are looking at some historical check-in then you cannot ask "what came next" or "what are the children of this check-in".
-
-Fossil, on the other hand, parses essential information about check-ins (parents, children, committers, comments, files changed, etc.) into a relational database that can be easily queried using concise SQL statements to find both ancestors and descendents of a check-in.
+In Git a single commit knows only who its ancestor is.
+So producing a list of all descendants of a commit is nearly impossible.
+Both native Git and GitHub don't provide this capability.
 
 ---
 
 ## 'Github in a box'
 
-* repository UI
+* repository UI (`fossil ui`)
 * wiki, ticketing &amp; bug tracking
 * embedded documentation
 * technical notes
 * forum
 
 note:
-FIXME: 
-So there's no need to use 3rd party products; after cloning a repo you have a fully-featured developer website available.
+And, speaking of Github, Fossil is actually some sort of 'Github in a box'.
+A feature-rich web interface is available through the command `fossil ui`.
+So there's no need to use any 3rd party products; after cloning a repo you have a fully-featured developer website available.
 
+This makes Fossil:
 * Well-suited for startups and small-scale projects ('SQLite-style')
 * But not really for large-scale open-source development ('Linux-style')
 

@@ -5,11 +5,14 @@
 <https://pxhere.com/en/photo/652221> <!-- .element: class="attribution" -->
 
 note:
-**Time Elapsed:** 21 min.
+**Time Elapsed:** 17 min.
 
-This is not the first time I'm speaking on popularity of a software product.
+This is exactly what happened during 'The Browser Wars'.
+Multiple times, actually.
 When I was in college I did a talk on 'the browser wars'.
 In this college talk I tried to predict what browser we would be using ten years later in time.
+So the talk was actually quite similar to this one.
+Apart from the fact that my slides back then looked **very** different.
 
 ---
 
@@ -22,14 +25,18 @@ This slide deck was created fourteen years ago, and it shows.
 It's a RETRO slide deck.
 
 I mean, the obnoxious headers and footers.
-The background gradient.
+Which were present on **every** slide.
+They were obviously a major waste of space.
+Also: the background gradient.
 The page number at the bottom.
-Fantastic stuff.
-If you would just wait for fifteen years, it would be fashionable again.
+Horrifying stuff!
+I think slide deck designs are a lot like fashion.
+If you just wait for fifteen years, they will be popular again.
+Don't you think so?
 
-The slide also shows that the Internet Explorer browser family was VERY dominant in 2005.
+Anyway, apart from the fact that this slide causes your eyes to sting, it also shows that the Internet Explorer browser family was VERY dominant in 2005.
 Almost 90% of all Internet users used an IE browser.
-Now in this talk I predicted three things, of which two **actually really happened**.
+Now in this college talk I predicted three things, of which two **actually really happened**.
 These were my predictions:
 
 ---
@@ -39,6 +46,22 @@ These were my predictions:
 1. ...Internet Explorer would be surpassed as the top browser family;
 2. ...Mozilla Firefox would surpass Internet Explorer;
 3. ...Mozilla Firefox would be the top browser.
+
+note:
+
+## In ten years time...
+
+1. ...Internet Explorer would be surpassed as the top browser family;
+2. ...Mozilla Firefox would surpass Internet Explorer;
+3. ...Mozilla Firefox would be the top browser.
+
+---
+
+## In ten years time...
+
+1. ...Internet Explorer would be surpassed as the top browser family;
+2. ...Mozilla Firefox would surpass Internet Explorer;
+3. ~...Mozilla Firefox would be the top browser.~
 
 note:
 Just the last prediction didn't happen, the other two did!
@@ -83,10 +106,12 @@ note:
 Now I was quite confident this would happen, because of a mechanism I like to call:
 "The disadvantage of the dominant product"
 
-FIXME: leg dit mechanisme beter uit. Wat er zeker in moet voorkomen:
-* een dominant product trekt meer aandacht, zowel positief als negatief:
-  * vatbaarder voor maliciousness - zie virussen op Windows vs. Linux
-  * meer mensen kennen je product en kunnen in theorie iets nieuws verzinnen dat je product nog niet heeft.
+The dominant product will get a lot of attention. 
+Both positive *and* negative.
+Your product - or the users of your product - could be popular victims of malicious software
+(This is the reason why there are so many viruses on Windows, compared to Linux for example)
+Also, if more people know your product, then in theory they can come up with fresh new ideas that your product doesn't have.
+Just like in sports, it is a lot harder to stay on top, than it is to get there.
 
 ---
 
@@ -101,17 +126,12 @@ FIXME: leg dit mechanisme beter uit. Wat er zeker in moet voorkomen:
 <https://www.pexels.com/photo/photo-displays-person-holding-ball-with-reflection-of-horizon-940880> <!-- .element: class="attribution" -->
 
 note:
-FIXME: Introduceer deze variable. Voeg waar mogelijk samen met het verhaal hieronder.
+So here's our final prediction variable.
+It is hard to stay on top, hence "the disadvantage of the dominant product".
+Eventually the dominant product will be replaced by a new one, like the browser world.
+Netscape was replaced by Internet Explorer.
+Internet Explorer was replaced by Mozilla Firefox
+Mozilla Firefox was replaced by Google Chrome.
+And I can't think of a reason why it wouldn't happen again.
 
-Because who in their right mind would dare to claim that Google Chrome will be around forever?
-I mean, it will probably be gone in ten years or so...
-By then it will have been replaced by a superior product.
-These replacements in the browser world have happened at least four times until now.
-Mosaic was replaced by Netscape, which was replaced by Internet Explorer.
-Which was replaced by Internet Explorer, which was replaced by Mozilla Firefox, which was replaced by Google Chrome.
-And I can't think of a reason why it wouldn't happen for a fifth time.
-
-FIXME: bedenk een verbindende zin naar het volgende onderwerp. 
-En hopelijk iets beters dan wat er nu staat.
-
-So let's see how these things have happened until now in the version control world!
+So let's return to the version control world antd see which products we need to investigate as aspiring successors of Git!

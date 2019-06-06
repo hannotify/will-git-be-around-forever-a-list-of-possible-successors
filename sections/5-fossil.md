@@ -5,7 +5,7 @@
 <https://pxhere.com/en/photo/652221> <!-- .element: class="attribution" -->
 
 note: 
-**Time Elapsed:** 35 min.
+**Time Elapsed:** 30 min.
 
 ---
 
@@ -39,7 +39,7 @@ FIXME: uitbreiden
 note:
 Though the SourceForge implementation is a bit unorthodox.
 Because Fossil needs just an SQLite database to generate static HTML.
-So any hosting space provider would do the job.
+So any hosting space provider could do the job.
 
 ---
 

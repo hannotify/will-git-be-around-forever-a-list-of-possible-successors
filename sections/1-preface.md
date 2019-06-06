@@ -52,7 +52,7 @@ They went from open-source to proprietary just like **that**.
 The open-source world - Linus Torvalds in front - was not amused.
 He had been using BitKeeper for the Linux kernel, but was now in need of a new system.
 
-And becasue BitKeeper was the only distributed version control system at the time, which was now no longer freely available, a lot of similar products were developed in a short amount of time.
+And because BitKeeper was the only distributed version control system at the time, which was now no longer freely available, a lot of similar products were developed in a short amount of time.
 Including Mr. Torvalds' own rendition of distributed version control, which later became Git.
 
 ---
@@ -69,11 +69,11 @@ Moreover, his 'discovery' - if you will - proved to be a **lot** more interestin
 
 He came up to me and said: "Git is great and all that, but what's gonna be the **next** big thing?"
 So I told him I was quite sure distributed version control systems like Git and Mercurial would be around for a while longer.
-But this wasn't a good answer, really.
+But this wasn't the right answer, really.
 Because **I didn't know** what was gonna be the next big thing.
 So it was a great question, actually.
 
-And he was right in asking this question, of course.
+And he was right in asking the question, of course.
 Because if you look at the chart and you look beyond what you've already seen (the year 2005), then it becomes painfully obvious...
 That in version control land, nothing seems to have happened after 2006.
 This is one of those things that, once you see it, you can't **unsee** it.

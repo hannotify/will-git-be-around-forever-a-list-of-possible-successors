@@ -5,31 +5,30 @@
 <https://pxhere.com/en/photo/652221>  <!-- .element: class="attribution" -->
 
 note: 
-**Time Elapsed:** 49 min.
+**Time Elapsed:** 48 min.
 
 ---
 
 ## Prediction variables
 
-<!-- FIXME: Opsommen van alle prediction variables -->
-
 * What goes up, must come down.
 * Killer features.
 * Hosting platform support.
+* Open-source community support.
 * The disadvantage of the dominant product.
 
 note:
 
 * **What goes up, must come down.** But when?
 * **Hosting platform support** 
-TODO: gebruik https://en.wikipedia.org/wiki/Comparison_of_source-code-hosting_facilities#Version_control_systems voor een evt. overzicht op een slide.
+<!-- FIXME: gebruik "img/background/hosting-platform-support" voor een weergave van de stand van zaken voor Git, Hg, Svn en Fossil. -->
 * FIXME: afmaken
 
 ---
 
 ## The scores
 
-<!-- TODO: toon een matrix van PV's en VCS's (de 5 bestaande plus Fossil, Pijul) en deel scores uit.
+<!-- FIXME: toon een matrix van PV's en VCS's (de 5 bestaande plus Fossil, Pijul) en deel scores uit.
 Tussen -2 en +2.
 En toon onderaan een totaalscore.
 --->
@@ -39,10 +38,10 @@ En toon onderaan een totaalscore.
 ## Prediction matrix 2.0
 
 <!-- 
-TODO: Pas scores van bestaande VCS's aan (eventueel) en laat de veranderingen zien tov 'First Prediction'.
+FIXME: Pas scores van bestaande VCS's aan (eventueel) en laat de veranderingen zien tov 'First Prediction'.
 Dat zou bijvoorbeeld kunnen met ~strikethrough~.git  
-TODO: Voeg Fossil en Pijul toe en geef ze een plek.
-TODO: Maak per 'decennium' een slide en pas de volgorde van populariteit daarin aan, zodat je zaken ziet 'verspringen'.
+FIXME: Voeg Fossil en Pijul toe en geef ze een plek.
+FIXME: Maak per 'decennium' een slide en pas de volgorde van populariteit daarin aan, zodat je zaken ziet 'verspringen'.
 -->
 
 <table>
@@ -92,7 +91,7 @@ TODO: Maak per 'decennium' een slide en pas de volgorde van populariteit daarin 
 
 ## Prediction chart
 
-<!-- TODO: wanneer voorbereidingstijd over, breid de VCS Popularity Chart uit richting 2029. -->
+<!-- FIXME: wanneer voorbereidingstijd over, breid de VCS Popularity Chart uit richting 2029. -->
 
 note:
 FIXME: schrijf hier een conclusie die men kan onthouden.

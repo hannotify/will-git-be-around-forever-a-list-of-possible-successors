@@ -5,7 +5,7 @@
 <https://pxhere.com/en/photo/652221>  <!-- .element: class="attribution" -->
 
 note: 
-**Time Elapsed:** 30 min.
+**Time Elapsed:** 26 min.
 
 ---
 

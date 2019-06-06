@@ -5,7 +5,7 @@
 <https://pxhere.com/en/photo/652221> <!-- .element: class="attribution" -->
 
 note:
-**Time Elapsed:** 25 min.
+**Time Elapsed:** 21 min.
 
 This is not the first time I'm speaking on popularity of a software product.
 When I was in college I did a talk on 'the browser wars'.

@@ -126,6 +126,10 @@ FIXME: Introduceer deze variable.
 
 ---
 
+FIXME: Introduceer de PV "Open-source community support."
+
+---
+
 <!-- .slide: data-background-color="#f9f9f9" data-background="img/background/vcs-popularity-graph.png" data-background-size="60%" --->
 
 [https://blog.gitprime.com/git-didnt-beat-svn-github-did/](https://blog.gitprime.com/git-didnt-beat-svn-github-did/) <!-- .element: class="attribution" -->

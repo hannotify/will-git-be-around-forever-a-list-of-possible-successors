@@ -22,13 +22,20 @@ Now, everything you've heard about my country is probably true:
 
 * Before we go to work in the morning, we put on our wooden clogs.
 * We never drive cars to work; no, we ride our bikes.
+  * And we **never** wear a biking helmet.
   * Or if it's winter, we ice-skate.
 * On our daily commute we easily pass ten different windmills.
 * And when it's lunch time, the office cafeteria serves stroopwafels ONLY.
 
-I actually brought some with me, because in my country we have plenty of them.
+---
+
+<!-- .slide: data-background-video="video/stroopwafel.mp4" data-background-video-muted="true" data-background-size="contain" data-background-video-loop="true" -->
+
+<https://tenor.com/view/stroopwafel-caramel-gif-5308327> <!-- .element: class="attribution" -->
+
+I actually brought some stroopwafels with me, because in my country we have plenty of them.
 So feel free to grab one after the talk.
 Or DURING the talk, if you get bored.
 I didn't say WHEN you get bored, mind you!
 I said IF you get bored!
-There's a difference!
+There's a big difference!

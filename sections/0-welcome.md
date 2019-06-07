@@ -22,6 +22,8 @@ note:
   * Speaker notes
 * Tweede scherm:
   * Slides
+* Test Extend -> Mirror
+* Test Mirror -> Extend
 
 Hi, my name is Hanno. 
 I work at Info Support as an IT consultant.

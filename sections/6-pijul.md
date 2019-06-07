@@ -59,7 +59,7 @@ Bootstrapped means that it is used for its own development.
 * No merges or rebases; applying a patch is like `git cherry-pick`.
 
 note:
-In contrast, Git doesn't store patches.
+In contrast, Git doesn't store any patches.
 It stores snapshots.
 
 ---

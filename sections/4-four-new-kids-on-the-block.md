@@ -9,7 +9,7 @@ note:
 
 ---
 
-## Four new(er) kinds on the block
+## Four new(er) kids on the block
 
 * Fossil (2006)
 * Plastic (2006)

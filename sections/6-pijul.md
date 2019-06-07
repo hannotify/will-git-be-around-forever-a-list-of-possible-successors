@@ -5,7 +5,7 @@
 <https://pxhere.com/en/photo/652221>  <!-- .element: class="attribution" -->
 
 note: 
-**Time Elapsed:** 34 min.
+**Time Elapsed:** 33 min.
 
 ---
 
@@ -68,8 +68,6 @@ It stores snapshots.
 
 * Up and running
 * Recording patches
-* Branches
-* Resolving Conflicts
 * Nest demo - <https://nest.pijul.com/pijul_org/pijul>
 
 note:
@@ -106,11 +104,6 @@ note:
     pijul add Sample.java
     pijul record
 
-### Handling conflicts
-
-    pijul fork use-math-random
-    pijul checkout use-math-random
-
     private static int random() {
         return (int)(Math.random() * 6);
     }
@@ -118,19 +111,10 @@ note:
     pijul add Sample.java
     pijul record
 
-    pijul checkout master
-    pijul fork use-random-class
-    pijul checkout use-random-class
-
     private static int random() {
         return new java.util.Random().nextInt(7);
     }
 
-    pijul add Sample.java
-    pijul record
-
-    pijul checkout use-math-random
-    pijul apply [hash]
     pijul add Sample.java
     pijul record
 

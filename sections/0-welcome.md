@@ -22,7 +22,7 @@ note:
   * Speaker notes
 * Tweede scherm:
   * Slides
-* Test Extend -> Mirror
+* Test Extend -> Mirror (not needed if there is a screen on the stage)
 * Test Mirror -> Extend
 
 Hi, my name is Hanno. 

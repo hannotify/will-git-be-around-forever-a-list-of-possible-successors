@@ -5,7 +5,7 @@
 <https://pxhere.com/en/photo/652221> <!-- .element: class="attribution" -->
 
 note: 
-**Time Elapsed:** 26 min.
+**Time Elapsed:** 24 min.
 
 Now we get to the more serious contenders!
 And first up is Fossil.
@@ -117,7 +117,7 @@ note:
 * Dealing with large files 
 * Dealing with large commits
 
-<https://www.omiyagames.com/blog/2014/02/15/farewell-fossil-version-control> <!-- .element: class="attribution" -->
+<https://www.omiyagames.com/blog/2014/02/15/farewell-fossil-version-control>
 
 note:
 Because Fossil repositories are stored in a single file.

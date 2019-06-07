@@ -5,7 +5,7 @@
 <https://pxhere.com/en/photo/652221> <!-- .element: class="attribution" -->
 
 note:
-**Time Elapsed:** 17 min.
+**Time Elapsed:** 16 min.
 
 This is exactly what happened during 'The Browser Wars'.
 Multiple times, actually.

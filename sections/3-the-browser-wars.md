@@ -120,7 +120,7 @@ Just like in sports, it is a lot harder to stay on top, than it is to get there.
 ## The disadvantage of the dominant product
 
 <blockquote class="explanation">
-    <code>prediction variable</code>
+    <code>prediction variable #4</code>
 </blockquote>
 
 <https://www.pexels.com/photo/photo-displays-person-holding-ball-with-reflection-of-horizon-940880> <!-- .element: class="attribution" -->

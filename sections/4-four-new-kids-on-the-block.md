@@ -56,6 +56,12 @@ So for them it seems to make sense to add GUI tools to help their source code ma
 
 ---
 
+<!-- .slide: data-background="img/plastic-image-compare.png" -->
+
+<https://www.plasticscm.com/images/gallery/large/image-02-diff-swipe.png> <!-- .element: class="attribution" -->
+
+---
+
 ## But
 #### Plastic is not going to be 'the Git killer'
 

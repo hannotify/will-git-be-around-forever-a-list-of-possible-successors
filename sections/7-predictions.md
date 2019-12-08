@@ -16,10 +16,10 @@ Let's compile a list of the prediction variables that we've assembled.
 
 ## Prediction variables
 
-* Killer features.
-* Hosting platform support.
-* Open-source community support.
-* The disadvantage of the dominant product.
+* Killer features. <!-- .element: class="fragment fade-in-then-semi-out" -->
+* Hosting platform support. <!-- .element: class="fragment fade-in-then-semi-out" -->
+* Open-source community support. <!-- .element: class="fragment fade-in-then-semi-out" -->
+* The disadvantage of the dominant product. <!-- .element: class="fragment fade-in-then-semi-out" -->
 
 note:
 Looks like we've gathered four prediction variables so far:

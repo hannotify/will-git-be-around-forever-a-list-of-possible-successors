@@ -20,18 +20,25 @@ Apart from the fact that my slides back then looked **very** different.
 
 note:
 This was actually one of the slides I used.
-Now notice the date, in the bottom left corner.
+It's in Dutch, but obviously that's not the worst thing.
+
+Firstly, notice the date, in the bottom left corner.
 This slide deck was created fourteen years ago, and it shows.
 It's a RETRO slide deck.
 
 I mean, the obnoxious headers and footers.
-Which were present on **every** slide.
-They were obviously a major waste of space.
-Also: the background gradient.
-The page number at the bottom.
+Which were repeated on **every** slide. 
+Disastrous!
+Major waste of space.
+ 
+Also: the background gradient. 
+What is up with that?
+Nobody uses that any more.
+
+The page numbers  at the bottom.
 Horrifying stuff!
 I think slide deck designs are a lot like fashion.
-If you just wait for fifteen years, they will be popular again.
+If you would just wait another  fifteen years, they will be popular again.
 Don't you think so?
 
 Anyway, apart from the fact that this slide causes your eyes to sting, it also shows that the Internet Explorer browser family was VERY dominant in 2005.
@@ -110,7 +117,7 @@ The dominant product will get a lot of attention.
 Both positive *and* negative.
 Your product - or the users of your product - could be popular victims of malicious software
 (This is the reason why there are so many viruses on Windows, compared to Linux for example)
-Also, if more people know your product, then in theory they can come up with fresh new ideas that your product doesn't have.
+Also, if more people know your product, then in theory there are more people that can come up with fresh new ideas that your product doesn't have.
 Just like in sports, it is a lot harder to stay on top, than it is to get there.
 
 ---

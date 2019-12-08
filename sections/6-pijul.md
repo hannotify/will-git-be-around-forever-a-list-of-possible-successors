@@ -22,10 +22,10 @@ note:
 
 ## Features that Pijul promises
 
-* **distributed** version control
-* **simple**, because of its basis on a *sound theory of patches*
-* **fast**, because it aims to fix the Darcs performance issues
-* **interactive** recording
+* distributed version control <!-- .element: class="fragment fade-in-then-semi-out" -->
+* simple, because of its basis on a sound theory of patches <!-- .element: class="fragment fade-in-then-semi-out" -->
+* fast, because it aims to fix the Darcs performance issues <!-- .element: class="fragment fade-in-then-semi-out" -->
+* interactive recording <!-- .element: class="fragment fade-in-then-semi-out" -->
 
 <https://www.pijul.com> <!-- element: class="attribution" -->
 
@@ -37,9 +37,12 @@ However it didn't gain much popularity due to the fact that it was very slow.
 
 ## Quick facts
 
-* written in Rust
-* *bootstrapped* since April 2017
-* free code hosting at <https://nest.pijul.com>
+<ul>
+    <li class="fragment fade-in-then-semi-out">written in Rust
+    <li class="fragment fade-in-then-semi-out">bootstrapped since April 2017
+    <li class="fragment fade-in-then-semi-out">free code hosting at 
+    <a href="https://nest.pijul.com">https://nest.pijul.com</a> 
+</ul>
 
 note:
 Rust is one of the faster languages around, because it is a low-level language.
@@ -51,12 +54,14 @@ Bootstrapped means that it is used for its own development.
 
 ## Patch-oriented design
 
-* A patch is an intuitive atomic unit of work.
-* It focuses on *changes*, instead of *differences between snapshots* (i.e. Git commits).
-* Applying or unapplying a patch *doesn't change* its identity.
-* The end result of applying several patches is always the same, regardless of the order in which they were applied.
-* Pijul keeps track of 'dependent patches'
-* No merges or rebases; applying a patch is like `git cherry-pick`.
+<ul>
+    <li class="fragment fade-in-then-semi-out">A patch is an intuitive atomic unit of work.</li>
+    <li class="fragment fade-in-then-semi-out">It focuses on <em>changes</em>, instead of <em>differences between snapshots</em> (i.e. Git commits).</li>
+    <li class="fragment fade-in-then-semi-out">Applying or unapplying a patch <em>doesn't change</em> its identity.</li>
+    <li class="fragment fade-in-then-semi-out">The end result of applying several patches is always the same, regardless of the order in which they were applied.</li>
+    <li class="fragment fade-in-then-semi-out">Pijul keeps track of 'dependent patches'</li>
+    <li class="fragment fade-in-then-semi-out">No merges or rebases; applying a patch is like <code>git cherry-pick</code>.</li>
+</ul>
 
 note:
 In contrast, Git doesn't store any patches.
@@ -74,16 +79,16 @@ note:
 
 ### Up and running
 
-    pijul init demo
-    touch Sample.java
-    pijul status
-    pijul add Sample.java
-    mkdir directory
-    pijul add directory
-    pijul status
-    pijul record 
+    `pijul init demo`
+    `touch Sample.java`
+    `pijul status`
+    `pijul add Sample.java`
+    `mkdir directory`
+    `pijul add directory`
+    `pijul status`
+    `pijul record `
 
-    (Here y means yes, n means no, k means undo and remake last decision, a means include this and all remaining patches, d means include neither this patch nor the remaining patches and i means ignore this file locally (i.e. it is added to .pijul/local/ignore).)
+    (Here `y` means yes, `n` means no, `k` means undo and remake last decision, `a` means include this and all remaining patches, `d` means include neither this patch nor the remaining patches and `i` means ignore this file locally (i.e. it is added to .pijul/local/ignore).)
 
 ### Generating random numbers
 

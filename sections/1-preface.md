@@ -72,30 +72,30 @@ note:
 So **I** thought the year 2005 really stood out in this graphic.
 Of course, that doesn't necessarily mean everyone thought so.
 In fact, at the end of one particular course day, a student came to me with a question.
-And his question proved that he had noticed an **entirely** different thing than I had.
-Moreover, his 'discovery' - if you will - proved to be a **lot** more interesting than mine.
+And her question proved that she had noticed an **entirely** different thing than I had.
+Moreover, her 'discovery' - if you will - actually proved to be a **lot** more interesting than mine.
 
-He came up to me and said: "Git is great and all that, but what's gonna be the **next** big thing?"
+She came to me after class and said: "Git is great and all that, but what's gonna be the **next** big thing?"
 So I turned around and looked at the chart for a while, thinking "Huh!" 
 "Funny how it seems we can't look any further, after we think we've got it all figured out."
 Because if you look at the chart and you look beyond what you've already seen (the year 2005), then it becomes painfully obvious -- that in version control land, **nothing** seems to have happened after 2006.
 This is one of those things that, once you see it, you can't **unsee** it.
 
-Now I turned to the student and told him everything I knew.
+Now I turned to the student and told her everything I knew.
 That I was quite sure that distributed version control systems like Git and Mercurial would be around for a while longer.
-But this wasn't a proper answer at all!
+But of course this wasn't a proper answer at all!
 Because **I didn't know** what was gonna be the next big thing.
 
-Now afterwards, I really felt bad about not being able to answer his question directly.
-I had effectively told the guy that "Git will probably be around forever", even if I didn't phrase it exactly like that.
+Now afterwards, I really felt bad about not being able to answer my student's question directly.
+I had effectively told her that "Git will probably be around forever", even if I didn't phrase it exactly like that.
 So I decided to research the matter a bit further.
 And what started out as finding the answer to a simple question turned into an investigation.
 And the investigation turned into a conference talk.
-Which is the one you're attending right now!
+Which is the one you're attending right now! 
 
 So, welcome to you all! (*open arms*)
 And let's see if we can find the answer to the student's question together, shall we?
-And after we find out, I'll make sure that he gets the answer as soon as possible.
+And after we find out, I'll make sure that she gets the answer as soon as possible.
 OK? I promise.
 
 ---
@@ -113,7 +113,9 @@ Now, whenever I hear somebody say that some product "will probably be around for
 [slide]
 ...this quote. 
 
-If working in software development for almost 12 years has taught me anything, it's that...
+Boy, was he wrong!
+
+If working in software development for over 12 years has taught me anything, it's that...
 [slide]
 
 ---

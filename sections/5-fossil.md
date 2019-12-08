@@ -14,14 +14,16 @@ And first up is Fossil.
 
 ## Features that Fossil promises
 
-* **distributed** version control
-* **integrated bug tracking**, wiki, forum and technotes
-* built-in **web interface**
-* **autosync** mode
-* show **descendants** of a check-in
-* supports operations on multiple repositories (`fossil all`)
+<ul>
+    <li class="fragment fade-in-then-semi-out">distributed version control</li>
+    <li class="fragment fade-in-then-semi-out">integrated bug tracking, wiki, forum and technotes</li>
+    <li class="fragment fade-in-then-semi-out">built-in web interface</li>
+    <li class="fragment fade-in-then-semi-out">autosync mode</li>
+    <li class="fragment fade-in-then-semi-out">show descendants of a check-in</li>
+    <li class="fragment fade-in-then-semi-out">supports operations on multiple repositories (<code>fossil all</code>)</li>
+</ul>
 
-<https://www.fossil-scm.org> <!-- element: class="attribution" -->
+<a href="https://www.fossil-scm.org" class="attribution">https://www.fossil-scm.org</a>
 
 note:
 * **autosync mode** - pushes automatically after each check-in
@@ -30,10 +32,10 @@ note:
 
 ## Quick facts
 
-* Written in C and SQL
-* Is the VCS of choice for the SQLite project
-* 'Github in a box'
-* Free code hosting at:
+* Written in C and SQL <!-- .element: class="fragment fade-in-then-semi-out" -->
+* Is the VCS of choice for the SQLite project <!-- .element: class="fragment fade-in-then-semi-out" -->
+* 'Github in a box' <!-- .element: class="fragment fade-in-then-semi-out" -->
+* Free code hosting at: <!-- .element: class="fragment fade-in-then-semi-out" -->
   * Chisel - <http://chiselapp.com/>
   * SourceForge - <http://fossilrepos.sourceforge.net> 
 
@@ -46,8 +48,8 @@ So any hosting space provider could do the job.
 
 ## Uses a relational database
 
-* a repository is stored in a single SQLite database file
-* contains relations between check-ins to be able to produce both ancestors and descendants of a check-in 
+* a repository is stored in a single SQLite database file <!-- .element: class="fragment fade-in-then-semi-out" -->
+* contains relations between check-ins to be able to produce both ancestors and descendants of a check-in <!-- .element: class="fragment fade-in-then-semi-out" -->
 
 ![Fossil logo](img/logos/fossil.png) <!-- .element: class="no-background" width="12%" -->
 
@@ -60,11 +62,13 @@ Both native Git and GitHub don't provide this capability.
 
 ## 'Github in a box'
 
-* repository UI (`fossil ui`)
-* wiki, ticketing &amp; bug tracking
-* embedded documentation
-* technical notes
-* forum
+<ul>
+    <li class="fragment fade-in-then-semi-out">repository UI (<code>fossil ui</code>)</li>
+    <li class="fragment fade-in-then-semi-out">wiki, ticketing &amp; bug tracking</li>
+    <li class="fragment fade-in-then-semi-out">embedded documentation</li>
+    <li class="fragment fade-in-then-semi-out">technical notes</li>
+    <li class="fragment fade-in-then-semi-out">forum</li>
+</ul>
 
 note:
 And, speaking of Github, Fossil is actually some sort of 'Github in a box'.
@@ -82,7 +86,6 @@ This makes Fossil:
 * Up and running
 * Using the web interface (`fossil ui`)
 * Retrieving descendants of a checkin
-* Resolving conflicts
 
 note:
 

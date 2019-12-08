@@ -24,10 +24,10 @@ So, why *did* Git become so popular?
 
 ## Main features of Git
 
-* Distributed
-* Free &amp; open-source
-* Fast
-* Optimized for branching
+* Distributed <!-- .element: class="fragment fade-in-then-semi-out" -->
+* Free &amp; open-source <!-- .element: class="fragment fade-in-then-semi-out" -->
+* Fast <!-- .element: class="fragment fade-in-then-semi-out" -->
+* Optimized for branching <!-- .element: class="fragment fade-in-then-semi-out" -->
 
 note:
 Well, as you may already know, these are Git's main features:
@@ -38,8 +38,9 @@ Well, as you may already know, these are Git's main features:
   * **Unlike** BitKeeper, obviously!
 * **Fast** 
   * Linus said "everything you ever do on a daily basis should take less than a second".
-* **Optimized for branching** 
-  * In the Subversion age, developers 'were afraid of branching', so they didn't do it! 
+* **Optimized for branching**
+  * Like Subversion, Git has 'easy branching'.
+  * In the CVS age, developers 'were afraid of branching', so they didn't do it! 
   * Which was a very bad thing in a time where Continuous Delivery did not yet exist like we know it today.
 
 ---

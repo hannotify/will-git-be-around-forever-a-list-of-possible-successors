@@ -24,6 +24,7 @@ note:
   * Slides
 * Test Extend -> Mirror (not needed if there is a screen on the stage)
 * Test Mirror -> Extend
+* Niet te snel praten!! Er is tijd genoeg!
 
 Hi, my name is Hanno. 
 I work at Info Support as an IT consultant.

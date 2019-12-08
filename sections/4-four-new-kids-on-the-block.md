@@ -9,15 +9,14 @@ note:
 
 ---
 
-## Four new(er) kids on the block
+## Three new(er) kids on the block
 
-* Fossil (2006)
 * Plastic (2006)
-* Veracity (2011)
+* Fossil (2006)
 * Pijul (2015)
 
 note: 
-These four Version Control Systems have been published after the large Distributed Version Control wave in March/April 2005.
+These three Version Control Systems have been published after the large Distributed Version Control wave in March/April 2005.
 I knowingly didn't choose to investigate products that were published *before* Git.
 Because let's face it: these products have already been beaten by a newer product - being Git.
 So I can't imagine any product older than Git to still beat it in the future.
@@ -26,39 +25,12 @@ And... it didn't!
 
 ---
 
-## Veracity (2011)
-
-* Distributed version control
-* Issue tracking and wiki, also distributed
-
-![Veracity logo](img/logos/veracity.png) <!-- .element: class="no-background" -->
-
-<http://www.veracity-scm.com> <!-- .element: class="attribution" -->
-
----
-
-## But
-#### Veracity is not going to be 'the Git killer'
-
-* Development status: web site appears unmaintained; latest release March 25, 2013	
-* Hosting platform www.onveracity.com hasn't been online since February 4, 2015
-
-note:
-Sorry if this is a bit of an anti-climax.
-But in the talk abstract I included Veracity as one of the contenders.
-And when I wrote the abstract I never thought about the fact that it could disappear from the Internet altogether.
-Because that's literally what happened.
-But no worries, I've found a replacement contender!
-Which is Plastic.
-
----
-
 # Plastic
 
-* Fast branching
-* Merge previews
-* Both central and distributed
-* Comes with **a lot** of GUI stuff
+* Fast branching <!-- .element: class="fragment fade-in-then-semi-out" -->
+* Merge previews <!-- .element: class="fragment fade-in-then-semi-out" -->
+* Both central and distributed <!-- .element: class="fragment fade-in-then-semi-out" -->
+* Comes with a lot of GUI stuff <!-- .element: class="fragment fade-in-then-semi-out" -->
 
 ![Plastic logo](img/logos/plastic.png) <!-- .element: class="no-background" -->
 
@@ -72,9 +44,9 @@ It just lacks the GUI stuff.
 
 ## Focus on artists and designers
 
-* 'Plastic Gluon' is a version control component meant for artists and designers
-* Image diffing
-* References on their website are exclusively from game studios
+* 'Plastic Gluon' is a version control component meant for artists and designers <!-- .element: class="fragment fade-in-then-semi-out" -->
+* Image diffing <!-- .element: class="fragment fade-in-then-semi-out" -->
+* References on their website are exclusively from game studios <!-- .element: class="fragment fade-in-then-semi-out" -->
 
 note:
 In game studios a lot of different expertise is joined in a team.
@@ -87,8 +59,8 @@ So for them it seems to make sense to add GUI tools to help their source code ma
 ## But
 #### Plastic is not going to be 'the Git killer'
 
-* it's not open-source software
-* Git users are not changing their VCS just for some *eye candy*
+* it's not open-source software <!-- .element: class="fragment fade-in-then-semi-out" -->
+* Git users are not changing their VCS just for some eye candy <!-- .element: class="fragment fade-in-then-semi-out" -->
 
 note:
 * **not open-source software**

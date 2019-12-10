@@ -79,27 +79,25 @@ note:
 
 ### Up and running
 
-    `pijul init demo`
-    `touch Sample.java`
-    `pijul status`
-    `pijul add Sample.java`
-    `mkdir directory`
-    `pijul add directory`
-    `pijul status`
-    `pijul record `
+    pijul init demo
+    touch Sample.java
+    pijul status
+    pijul add Sample.java
+    mkdir directory
+    pijul add directory
+    pijul status
+    pijul record
 
-    (Here `y` means yes, `n` means no, `k` means undo and remake last decision, `a` means include this and all remaining patches, `d` means include neither this patch nor the remaining patches and `i` means ignore this file locally (i.e. it is added to .pijul/local/ignore).)
+(Here `y` means yes, `n` means no, `k` means undo and remake last decision, `a` means include this and all remaining patches, `d` means include neither this patch nor the remaining patches and `i` means ignore this file locally (i.e. it is added to .pijul/local/ignore).)
 
 ### Generating random numbers
 
-!!! Roll the die on stage !!!
+**!!! Roll the die on stage !!!**
 
     public class Sample {
-
         public static void main(String... args) {
             System.out.println(random());
         }
-
         private static int random() {
             // Chosen by fair dice roll; guaranteed to be random.
             return 4;
@@ -108,18 +106,14 @@ note:
 
     pijul add Sample.java
     pijul record
-
     private static int random() {
         return (int)(Math.random() * 6);
     }
-
     pijul add Sample.java
     pijul record
-
     private static int random() {
         return new java.util.Random().nextInt(7);
     }
-
     pijul add Sample.java
     pijul record
 

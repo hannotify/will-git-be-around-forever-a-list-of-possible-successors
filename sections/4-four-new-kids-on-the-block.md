@@ -1,6 +1,6 @@
 <!-- .slide: data-background="img/background/usb-sticks.jpg" data-background-color="black" data-background-opacity="0.3"-->
 
-# Four New(er) Kids On The Block
+# Three New(er) Kids On The Block
 
 <https://pxhere.com/en/photo/652221>  <!-- .element: class="attribution" -->
 

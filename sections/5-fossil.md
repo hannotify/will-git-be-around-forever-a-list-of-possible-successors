@@ -123,7 +123,7 @@ note:
 <https://www.omiyagames.com/blog/2014/02/15/farewell-fossil-version-control>
 
 note:
-Because Fossil repositories are stored in a single file.
+The problem occurs because Fossil puts every revision into a single file, and when you have a ton of files to pack into a single file, it exceeds the computer memory. So maybe Fossil's garbage collect is not yet as sophisticated as the one currently present in Git.
 
 ---
 

@@ -38,7 +38,7 @@ Because to me, 2005 **really** stands out in version control history.
 I mean, **five** new version control systems were published in that year. 
 In a **single** year.
 
-To put things in perspective, before 2005, it had taken **nine** years for five version control systems to appear.
+To put things in perspective, before 2005, it had taken **nine** years for five different version control systems to appear.
 Starting with VSS in 1994, and ending with BitKeeper in 2003.
 And in 2005, it all happened within a few months.
 Now that's remarkable!
@@ -73,7 +73,7 @@ So **I** thought the year 2005 really stood out in this graphic.
 Of course, that doesn't necessarily mean everyone thought so.
 In fact, at the end of one particular course day, a student came to me with a question.
 And her question proved that she had noticed an **entirely** different thing than I had.
-Moreover, her 'discovery' - if you will - actually proved to be a **lot** more interesting than mine.
+Moreover, her 'discovery' actually proved to be a **lot** more interesting than mine.
 
 She came to me after class and said: "Git is great and all that, but what's gonna be the **next** big thing?"
 So I turned around and looked at the chart for a while, thinking "Huh!" 
@@ -115,7 +115,7 @@ Now, whenever I hear somebody say that some product "will probably be around for
 
 Boy, was he wrong!
 
-If working in software development for over 12 years has taught me anything, it's that...
+If working in software development for over 14 years has taught me anything, it's that...
 [slide]
 
 ---

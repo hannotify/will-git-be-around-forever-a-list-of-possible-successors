@@ -152,7 +152,7 @@ note:
 Let's introduce another one, while we`re at it!
 Your version control system may be supported by a hosting provider, but that doesn't necessarily mean that said hosting provider supports the open-source community.
 Lots of hosting providers primarily offer private repositories.
-Also, not all version control systems focus as much on open-source develoment as Git does, for example.
+Also, not all version control systems focus as much on open-source development as Git does, for example.
 So, here's prediction variable number three: "Open-source community support."
 
 That's enough about prediction variables, for now.

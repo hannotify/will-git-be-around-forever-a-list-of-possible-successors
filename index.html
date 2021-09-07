@@ -1,174 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
+    <head>
+        <meta charset="utf-8">
 
-		<title>Will Git Be Around Forever? A List of Possible Successors</title>
+        <title>Will Git Be Around Forever? A List of Possible Successors</title>
 
-		<meta name="description" content="">
-		<meta name="author" content="Hanno Embregts">
-
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-
-		<link rel="stylesheet" href="../../css/reveal.css">
-		<link rel="stylesheet" href="../../css/theme/blood.css" id="theme">
+        <meta name="description" content="">
+        <meta name="author" content="Hanno Embregts">
+        
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="../../dist/reset.css">
+        <link rel="stylesheet" href="../../dist/reveal.css">
+        <link rel="stylesheet" href="../../dist/theme/blood.css" id="theme">
         <link rel="stylesheet" href="css/custom.css" id="custom">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap">
+        
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="../../plugin/highlight/darcula.css" id="highlight-theme">
+    </head>
 
-        <!-- Code syntax highlighting -->
-        <link rel="stylesheet" href="lib/css/zenburn.css">
+    <body>
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? '../../css/print/pdf.css' : '../../css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
+        <div class="reveal">
 
-		<!--[if lt IE 9]>
-		<script src="../../lib/js/html5shiv.js"></script>
-		<![endif]-->
-	</head>
+            <!-- Any section element inside of this container is displayed as a slide -->
+            <div class="slides">
 
-	<body>
-
-		<div class="reveal">
-
-			<!-- Any section element inside of this container is displayed as a slide -->
-			<div class="slides">
-
-				<section data-markdown="sections/0-welcome.md"
-						data-separator="^\r?\n------\r?\n$"
-						data-separator-vertical="^\r?\n---\r?\n$">
-				</section>
-
-				<section data-markdown="sections/1-preface.md"
-						data-separator="^\r?\n------\r?\n$"
-						data-separator-vertical="^\r?\n---\r?\n$">
-				</section>
-
-				<section data-markdown="sections/2-git.md"
-						data-separator="^\r?\n------\r?\n$"
-						data-separator-vertical="^\r?\n---\r?\n$">
-				</section>
-
-				<section data-markdown="sections/3-the-browser-wars.md"
-						data-separator="^\r?\n------\r?\n$"
-						data-separator-vertical="^\r?\n---\r?\n$">
-				</section>
-
-				<section data-markdown="sections/4-four-new-kids-on-the-block.md"
-						data-separator="^\r?\n------\r?\n$"
-						data-separator-vertical="^\r?\n---\r?\n$">
-				</section>
-
-				<section data-markdown="sections/5-fossil.md"
-						data-separator="^\r?\n------\r?\n$"
-						data-separator-vertical="^\r?\n---\r?\n$">
-				</section>
-
-				<section data-markdown="sections/6-pijul.md"
-						data-separator="^\r?\n------\r?\n$"
-						data-separator-vertical="^\r?\n---\r?\n$">
-				</section>
-
-				<section data-markdown="sections/7-predictions.md"
-						data-separator="^\r?\n------\r?\n$"
-						data-separator-vertical="^\r?\n---\r?\n$">
-				</section>			
-
-				<section>
-					<section data-background="img/background/further-reading.jpg" data-background-color="black" data-background-opacity="0.5">
-						<h1 class="stroke"><strong>Further reading</strong></h1>
-						<a href="https://www.pexels.com/photo/white-teddy-bear-reading-book-33196/" class="attribution">https://www.pexels.com/photo/white-teddy-bear-reading-book-33196/</a>
-					</section>
-
-					<section>
-						<h2>Further reading</h2>
-						<ul>
-							<li class="fragment fade-in-then-semi-out">"Beyond Git" (by Paweł Świątkowski)
-								<br/><small><a href="http://katafrakt.me/2017/05/27/beyond-git/">http://katafrakt.me/2017/05/27/beyond-git/</a></small>
-							</li>
-							<li class="fragment fade-in-then-semi-out">"Merging, patches and Pijul" (by Joe Neeman)
-								<br/><small><a href="https://jneem.github.io/pijul/">https://jneem.github.io/pijul/</a></small>
-							</li>
-							<li class="fragment fade-in-then-semi-out">"The Pijul Manual"
-								<br/><small><a href="https://pijul.org/manual/introduction.html">https://pijul.org/manual/introduction.html</a></small>
-							</li>
-						</ul>
-
-						<aside class="notes">
-							<strong>Time Elapsed: 45 min.</strong>
-							
-							If you want to read a bit more on the subject, here are some great articles that I read during the preparation of this talk.
-						</aside>
-					</section>
-				</section>
-
-				<section>
-                    <section data-background="img/background/questions-monopoly.jpeg" data-background-color="black" data-background-opacity="0.5">
-						<h1 class="stroke"><strong>Any questions?</strong></h1>
-						<a href="https://www.pexels.com/photo/monopoly-car-piece-1634213/" class="attribution">https://www.pexels.com/photo/monopoly-car-piece-1634213/</a>
-					</section>
-					
-					<section>
-						<h2>Thank you! ☺️</h2>
-						<br/>
-						<table>
-							<tr>
-								<td style="text-align: right; vertical-align: middle;"><img width="20%" data-src="img/icons/slide-deck.png" class="no-background"/></td>
-								<td style="vertical-align: middle;"><a href="https://nest.pijul.com/hannotify/will-git-be-around-forever-slides">https://nest.pijul.com/hannotify/will-git-be-around-forever-slides</a></td>
-							</tr>
-							<tr>
-								<td style="text-align: right; vertical-align: middle;"><img width="20%" data-src="img/icons/website.png" class="no-background"/></td>
-								<td style="vertical-align: middle;"><a href="https://hannotify.github.io">https://hannotify.github.io</a></td>
-							</tr>
-							<tr>
-								<td style="text-align: right; vertical-align: middle;"><img width="20%" data-src="img/icons/twitter-white.png" class="no-background"/></td>
-								<td style="vertical-align: middle;"><a href="https://www.twitter.com/hannotify">@hannotify</a></td>
-							</tr>
-							<tr>
-								<td style="text-align: right; vertical-align: middle;"><img width="20%" data-src="img/icons/envelope.png" class="no-background"/></td>
-								<td style="vertical-align: middle;"><a href="mailto:hanno.embregts@infosupport.com">hanno.embregts@infosupport.com</a></td>
-							</tr>
-						</table>
-					</section>
+                <section data-markdown="sections/0-welcome.md"
+                        data-separator="^\r?\n------\r?\n$"
+                        data-separator-vertical="^\r?\n---\r?\n$">
                 </section>
-			</div>
-		</div>
 
-		<script src="../../lib/js/head.min.js"></script>
-		<script src="../../js/reveal.js"></script>
+                <section data-markdown="sections/1-preface.md"
+                        data-separator="^\r?\n------\r?\n$"
+                        data-separator-vertical="^\r?\n---\r?\n$">
+                </section>
 
-		<script>
+                <section data-markdown="sections/2-git.md"
+                        data-separator="^\r?\n------\r?\n$"
+                        data-separator-vertical="^\r?\n---\r?\n$">
+                </section>
 
-			// Full list of configuration options available at:
-			// https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				controls: false,
-				progress: true,
-				history: true,
-				center: true,
-				navigationMode: 'linear',
+                <section data-markdown="sections/3-the-browser-wars.md"
+                        data-separator="^\r?\n------\r?\n$"
+                        data-separator-vertical="^\r?\n---\r?\n$">
+                </section>
 
-				transition: 'fade', // none/fade/slide/convex/concave/zoom
+                <section data-markdown="sections/4-four-new-kids-on-the-block.md"
+                        data-separator="^\r?\n------\r?\n$"
+                        data-separator-vertical="^\r?\n---\r?\n$">
+                </section>
 
-				// Optional reveal.js plugins
-				dependencies: [
-					{ src: '../../lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: '../../plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: '../../plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: '../../plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					// { src: '../../plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: '../../plugin/zoom-js/zoom.js', async: true },
-					{ src: '../../plugin/notes/notes.js', async: true }
-				],
-			});
+                <section data-markdown="sections/5-fossil.md"
+                        data-separator="^\r?\n------\r?\n$"
+                        data-separator-vertical="^\r?\n---\r?\n$">
+                </section>
 
-		</script>
-	</body>
+                <section data-markdown="sections/6-pijul.md"
+                        data-separator="^\r?\n------\r?\n$"
+                        data-separator-vertical="^\r?\n---\r?\n$">
+                </section>
+
+                <section data-markdown="sections/7-predictions.md"
+                        data-separator="^\r?\n------\r?\n$"
+                        data-separator-vertical="^\r?\n---\r?\n$">
+                </section>            
+
+                <section>
+                    <section data-background="img/background/further-reading.jpg" data-background-color="black" data-background-opacity="0.5">
+                        <h1 class="stroke"><strong>Further reading</strong></h1>
+                        <a href="https://www.pexels.com/photo/white-teddy-bear-reading-book-33196/" class="attribution">https://www.pexels.com/photo/white-teddy-bear-reading-book-33196/</a>
+                    </section>
+
+                    <section>
+                        <h2>Further reading</h2>
+                        <ul>
+                            <li class="fragment fade-in-then-semi-out">"Beyond Git" (by Paweł Świątkowski)
+                                <br/><small><a href="http://katafrakt.me/2017/05/27/beyond-git/">http://katafrakt.me/2017/05/27/beyond-git/</a></small>
+                            </li>
+                            <li class="fragment fade-in-then-semi-out">"Merging, patches and Pijul" (by Joe Neeman)
+                                <br/><small><a href="https://jneem.github.io/pijul/">https://jneem.github.io/pijul/</a></small>
+                            </li>
+                            <li class="fragment fade-in-then-semi-out">"The Pijul Manual"
+                                <br/><small><a href="https://pijul.org/manual/introduction.html">https://pijul.org/manual/introduction.html</a></small>
+                            </li>
+                        </ul>
+
+                        <aside class="notes">
+                            <strong>Time Elapsed: 45 min.</strong>
+                            
+                            If you want to read a bit more on the subject, here are some great articles that I read during the preparation of this talk.
+                        </aside>
+                    </section>
+                </section>
+
+                <section>
+                    <section data-background="img/background/questions-monopoly.jpeg" data-background-color="black" data-background-opacity="0.5">
+                        <h1 class="stroke"><strong>Any questions?</strong></h1>
+                        <a href="https://www.pexels.com/photo/monopoly-car-piece-1634213/" class="attribution">https://www.pexels.com/photo/monopoly-car-piece-1634213/</a>
+                    </section>
+                    
+                    <section>
+                        <h2>Thank you! ☺️</h2>
+                        <br/>
+                        <table>
+                            <tr>
+                                <td style="text-align: right; vertical-align: middle;"><img width="20%" data-src="img/icons/slide-deck.png" class="no-background"/></td>
+                                <td style="vertical-align: middle;"><a href="https://nest.pijul.com/hannotify/will-git-be-around-forever-slides">https://nest.pijul.com/hannotify/will-git-be-around-forever-slides</a></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: right; vertical-align: middle;"><img width="20%" data-src="img/icons/website.png" class="no-background"/></td>
+                                <td style="vertical-align: middle;"><a href="https://hannotify.github.io">https://hannotify.github.io</a></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: right; vertical-align: middle;"><img width="20%" data-src="img/icons/twitter-white.png" class="no-background"/></td>
+                                <td style="vertical-align: middle;"><a href="https://www.twitter.com/hannotify">@hannotify</a></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: right; vertical-align: middle;"><img width="20%" data-src="img/icons/envelope.png" class="no-background"/></td>
+                                <td style="vertical-align: middle;"><a href="mailto:hanno.embregts@infosupport.com">hanno.embregts@infosupport.com</a></td>
+                            </tr>
+                        </table>
+                    </section>
+                </section>
+            </div>
+        </div>
+        
+        <script src="../../dist/reveal.js"></script>
+        <script src="../../plugin/zoom/zoom.js"></script>
+        <script src="../../plugin/notes/notes.js"></script>
+        <script src="../../plugin/search/search.js"></script>
+        <script src="../../plugin/markdown/markdown.js"></script>
+        <script src="../../plugin/highlight/highlight.js"></script>
+        <script>
+
+            // Also available as an ES module, see:
+            // https://revealjs.com/initialization/
+            Reveal.initialize({
+                controls: false,
+                progress: true,
+                center: true,
+                history: true,
+                hash: true,
+                keyboard: {
+                    39: 'next',
+                    37: 'prev'
+                },
+                showHiddenSlides: true,
+                transition: 'fade', // none/fade/slide/convex/concave/zoom
+                // Learn about plugins: https://revealjs.com/plugins/
+                plugins: [RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight]
+            });
+            Reveal.configure({
+                pdfSeparateFragments: false
+            });
+        </script>
+    </body>
 </html>

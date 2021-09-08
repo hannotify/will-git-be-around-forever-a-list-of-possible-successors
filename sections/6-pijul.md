@@ -117,6 +117,10 @@ note:
     pijul add Sample.java
     pijul record
 
+    pijul unrecord // unrecord all patches and squash them into one
+    pijul add .
+    pijul record
+
 Zie `misc/MyRandom.java` voor als je de details vergeet.
 
 ### Nest Demo

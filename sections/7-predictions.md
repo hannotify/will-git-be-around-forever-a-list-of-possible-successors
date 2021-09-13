@@ -93,7 +93,7 @@ Fossil just adds 'show descendants' and an integrated developer website to the m
 [slide]
 
 Hosting capabilities for Git are superb. 
-Wikipedia lists 16 different hosting websites that support Git.
+Wikipedia lists 19 different hosting websites that support Git.
 Mercurial has 9 websites.
 TFVC only has 1 - which is Azure DevOps.
 Fossil and Pijul both have one, but with the potential to grow.

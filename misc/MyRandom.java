@@ -13,10 +13,14 @@ public class MyRandom {
     }
     
     private static int randomMath() {
-        return (int) (Math.random() * 6);
+        return 1 + (int) (Math.random() * 6);
     }
 
     private static int randomClass() {
-        return random.nextInt(7);
+        return 1 + random.nextInt(6);
+    }
+
+    private static int randomThreadLocalRandom() {
+        return ThreadLocalRandom.current().nextInt(1, 7);
     }
 }

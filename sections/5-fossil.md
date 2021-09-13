@@ -18,7 +18,7 @@ And first up is Fossil.
     <li class="fragment fade-in-then-semi-out">distributed version control</li>
     <li class="fragment fade-in-then-semi-out">integrated bug tracking, wiki, forum and technotes</li>
     <li class="fragment fade-in-then-semi-out">built-in web interface</li>
-    <li class="fragment fade-in-then-semi-out">autosync mode</li>
+    <li class="fragment fade-in-then-semi-out">both autosync and manual merge mode</li>
     <li class="fragment fade-in-then-semi-out">show descendants of a check-in</li>
     <li class="fragment fade-in-then-semi-out">supports operations on multiple repositories (<code>fossil all</code>)</li>
 </ul>
@@ -26,7 +26,10 @@ And first up is Fossil.
 <a href="https://www.fossil-scm.org" class="attribution">https://www.fossil-scm.org</a>
 
 note:
-* **autosync mode** - pushes automatically after each check-in
+* integrated project management (bug tracking, wiki, forum and technotes)
+* built-in web interface - the Fossil website actually runs on the same web interface
+* **autosync mode** - performs an automatic push after each commit
+* **manual merge mode** - like Git and Hg
 
 ---
 
@@ -37,11 +40,13 @@ note:
 * 'Github in a box' <!-- .element: class="fragment fade-in-then-semi-out" -->
 * Free code hosting at: <!-- .element: class="fragment fade-in-then-semi-out" -->
   * Chisel - <http://chiselapp.com/>
-  * SourceForge - <http://fossilrepos.sourceforge.net> 
+* Or simply host it yourself using an SQLite database and a web server
 
 note:
-Though the SourceForge implementation is a bit unorthodox.
-Because Fossil needs just an SQLite database to generate static HTML.
+
+It was even written specifically to support development of SQLite.
+
+Fossil needs just an SQLite database to generate static HTML.
 So any hosting space provider could do the job.
 
 ---
@@ -97,8 +102,8 @@ note:
     cd demo
     fossil open ../demo.repo
     touch Sample.java
-    fossil changes
     fossil add .
+    fossil changes
     fossil commit -m "message"
 
 ### Using the web interface
@@ -107,7 +112,13 @@ note:
 
 ### Retrieving descendants of a checkin
 
-    fossil descendants [hash]
+    fossil branch new feature current
+
+    public class Sample {}
+
+    fossil add .
+    fossil commit -m "change Sample"
+    fossil ui
 
 ### Close
 

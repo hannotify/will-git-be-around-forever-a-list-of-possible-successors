@@ -120,6 +120,16 @@ These data were acquired by combining usage statistics from various sources.
 Sources like Google Trends, GitHub, Atlassian and GitLab.
 So any prediction based on these estimates will also be an estimate. 
 
+And lastly: TFS is now Azure DevOps Server, and the version control system part is now called TFVC (Team Foundation Version Control).
+
+---
+
+<!-- .slide: data-background-color="#fff" data-background="img/azure-devops-git-or-tfvc.png" data-background-size="60%" --->
+
+note:
+
+You can still pick it when you create a repository in Azure DevOps.
+
 ---
 
 <!-- .slide: data-background="img/background/crystal-ball.jpg" data-background-color="black" data-background-opacity="0.5" --->
@@ -186,7 +196,7 @@ So, let's take some existing data and extrapolate it!
     <thead>
         <tr>
             <th/>
-            <th>2009</th>
+            <th>2010</th>
         </tr>
     </thead>
     <tbody>
@@ -203,7 +213,7 @@ So, let's take some existing data and extrapolate it!
             <td align="right">16%</td>
         </tr>  
         <tr>
-            <th align="right">TFS</th>
+            <th align="right">TFVC</th>
             <td align="right">6%</td>
         </tr>
         <tr>
@@ -227,8 +237,8 @@ So, let's take some existing data and extrapolate it!
     <thead>
         <tr>
             <th/>
-            <th>2009</th>
-            <th>2019</th>
+            <th>2010</th>
+            <th>2020</th>
         </tr>
     </thead>
     <tbody>
@@ -248,7 +258,7 @@ So, let's take some existing data and extrapolate it!
             <td align="right">12%</td>
         </tr>  
         <tr>
-            <th align="right">TFS</th>
+            <th align="right">TFVC</th>
             <td align="right">6%</td>
             <td align="right">7%</td>
         </tr>
@@ -274,9 +284,9 @@ So, let's take some existing data and extrapolate it!
     <thead>
         <tr>
             <th/>
-            <th>2009</th>
-            <th>2019</th>
-            <th>2029</th>
+            <th>2010</th>
+            <th>2020</th>
+            <th>2030</th>
         </tr>
     </thead>
     <tbody>
@@ -299,7 +309,7 @@ So, let's take some existing data and extrapolate it!
             <td align="right">9%</td>
         </tr>  
         <tr>
-            <th align="right">TFS</th>
+            <th align="right">TFVC</th>
             <td align="right">6%</td>
             <td align="right">7%</td>
             <td align="right">7%</td>

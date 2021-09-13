@@ -32,6 +32,7 @@ note:
 note:
 Darcs is a version control system from 2003 that is also patch-based.
 However it didn't gain much popularity due to the fact that it was very slow.
+It was also in the VCS popularity graph that I showed you earlier.
 
 ---
 
@@ -106,14 +107,18 @@ note:
 
     pijul add Sample.java
     pijul record
+
     private static int random() {
-        return (int)(Math.random() * 6);
+        return 1 + new java.util.Random().nextInt(6);
     }
+
     pijul add Sample.java
     pijul record
+
     private static int random() {
-        return new java.util.Random().nextInt(7);
+        return ThreadLocalRandom.current().nextInt(1, 7);
     }
+
     pijul add Sample.java
     pijul record
 

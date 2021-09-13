@@ -19,7 +19,7 @@ Let's compile a list of the prediction variables that we've assembled.
 * Killer features. <!-- .element: class="fragment fade-in-then-semi-out" -->
 * Hosting platform support. <!-- .element: class="fragment fade-in-then-semi-out" -->
 * Open-source community support. <!-- .element: class="fragment fade-in-then-semi-out" -->
-* The disadvantage of the dominant product. <!-- .element: class="fragment fade-in-then-semi-out" -->
+* The handicap of a head start. <!-- .element: class="fragment fade-in-then-semi-out" -->
 
 note:
 Looks like we've gathered four prediction variables so far:
@@ -27,7 +27,7 @@ Looks like we've gathered four prediction variables so far:
 * **Killer features.**
 * **Hosting platform support.** 
 * **Open-source community support.**
-* **The disadvantage of the dominant product.**
+* **The handicap of a head start.**
 
 ---
 
@@ -37,7 +37,7 @@ Looks like we've gathered four prediction variables so far:
             <th/>
             <th>Git</th>
             <th>Hg</th>
-            <th>TFS</th>
+            <th>TFVC</th>
             <th>Fossil</th>
             <th>Pijul</th>
         </tr>
@@ -95,13 +95,13 @@ Fossil just adds 'show descendants' and an integrated developer website to the m
 Hosting capabilities for Git are superb. 
 Wikipedia lists 16 different hosting websites that support Git.
 Mercurial has 9 websites.
-TFS only has 1 - which is Azure DevOps.
+TFVC only has 1 - which is Azure DevOps.
 Fossil and Pijul both have one, but with the potential to grow.
 
 [slide]
 
 Git and Hg have proven that that contribute massively to open-source development.
-TFS just doesn't.
+TFVC just doesn't.
 I'm not too impressed with Fossil on this one.
 With their 'Github-in-a-box' and 'you don't need a dedicated hosting platform', they tend to tailor their product to small teams that are physically at the same location (and not spread out across the world). 
 This is not the best support that open-source development can have.
@@ -110,7 +110,7 @@ But the Nest obviously needs to become a lot more popular in the future.
 
 [slide]
 
-Being the dominant products, Git and Hg suffer the most from the "disadvantage of the dominant product".
+Being the dominant products, Git and Hg suffer the most from the "handicap of a head start".
 
 ---
 
@@ -118,7 +118,7 @@ Being the dominant products, Git and Hg suffer the most from the "disadvantage o
     <thead>
         <tr>
             <th/>
-            <th>2029</th>
+            <th>2030</th>
         </tr>
     </thead>
     <tbody>
@@ -131,7 +131,7 @@ Being the dominant products, Git and Hg suffer the most from the "disadvantage o
             <td align="right">9%</td>
         </tr>  
         <tr>
-            <th align="right">TFS</th>
+            <th align="right">TFVC</th>
             <td align="right">7%</td>
         </tr>
         <tr>
@@ -151,8 +151,8 @@ Being the dominant products, Git and Hg suffer the most from the "disadvantage o
     <thead>
         <tr>
             <th/>
-            <th><del>2029</del></th>
-            <th>2029</th>
+            <th><del>2030</del></th>
+            <th>2030</th>
         </tr>
     </thead>
     <tbody>
@@ -172,7 +172,7 @@ Being the dominant products, Git and Hg suffer the most from the "disadvantage o
             <td align="right">5%</td>
         </tr>      
         <tr>
-            <th align="right">TFS</th>
+            <th align="right">TFVC</th>
             <td align="right"><del>7%</del></td>
             <td align="right">4%</td>
         </tr>
@@ -196,11 +196,11 @@ Being the dominant products, Git and Hg suffer the most from the "disadvantage o
 
 note:
 So, this is the final prediction!
-I think Git will gain a few users who now use TFS.
-(In my Git course I meet a lot of TFS users who are switching to Git)
+I think Git will gain a few users who now use TFVC.
+(In my Git course I meet a lot of TFVC users who are switching to Git)
 And both Git and Mercurial will lose some users to Pijul, and to a lesser extent: to Fossil.
 
-So Pijul will be the third version control system in 2029!
+So Pijul will be the third version control system in 2030!
 But I based this prediction on the current hosting situation.
 Should Github announce in the meantime that they're gonna support Pijul, for example, then Pijul will gain users a lot faster and might even take the #2 spot from Mercurial.
 

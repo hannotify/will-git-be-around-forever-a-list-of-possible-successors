@@ -101,30 +101,35 @@ I correctly predicted that Internet Explorer would be surpassed by a new browser
 
 <!-- .slide: data-background="img/background/chess-champion.jpg" data-background-color="black" data-background-opacity="0.7" --->
 
-## The disadvantage of the dominant product
+## The handicap of a head start
 
 <blockquote class="explanation">
     You will get a lot of attention.
 </blockquote>
 
+<small>Jan Romein, "The dialectics of progress", 1937</small>
+
 <https://www.pexels.com/photo/battle-black-blur-board-game-260024> <!-- .element: class="attribution" -->
 
 note:
-Now I was quite confident this would happen, because of a mechanism I like to call:
-"The disadvantage of the dominant product"
+Now I was quite confident this would happen, because of a mechanism that is called
+"the law of the handicap of a head start".
+(or in Dutch "de wet van de remmende voorsprong").
+This term was coined by Dutch historian Jan Romein in his essay "The dialectics of progress" in 1937.
 
-The dominant product will get a lot of attention. 
-Both positive *and* negative.
-Your product - or the users of your product - could be popular victims of malicious software
-(This is the reason why there are so many viruses on Windows, compared to Linux for example)
-Also, if more people know your product, then in theory there are more people that can come up with fresh new ideas that your product doesn't have.
+The law suggests that individuals or groups that start out ahead eventually are overtaken by others. 
+In the terminology of the law, the head start, which is an advantage at first, subsequently becomes a handicap.
+This phenomenon occurs when a society dedicates itself to certain standards and those standards change. 
+Then it becomes harder for the leading group to adapt.
+This is exactly what happened during the browser wars!
+Society demanded tabbed browsing and Microsoft had a hard time adapting to that, which resulted in Firefox and Chrome taking over.
 Just like in sports, it is a lot harder to stay on top, than it is to get there.
 
 ---
 
 <!-- .slide: data-background="img/background/crystal-ball.jpg" data-background-color="black" data-background-opacity="0.5" --->
 
-## The disadvantage of the dominant product
+## The handicap of a head start
 
 <blockquote class="explanation">
     <code>prediction variable #4</code>
@@ -134,11 +139,11 @@ Just like in sports, it is a lot harder to stay on top, than it is to get there.
 
 note:
 So here's our final prediction variable.
-It is hard to stay on top, hence "the disadvantage of the dominant product".
+It is hard to stay on top, hence "the handicap of a head start".
 Eventually the dominant product will be replaced by a new one, like the browser world.
 Netscape was replaced by Internet Explorer.
 Internet Explorer was replaced by Mozilla Firefox
 Mozilla Firefox was replaced by Google Chrome.
 And I can't think of a reason why it wouldn't happen again.
 
-So let's return to the version control world antd see which products we need to investigate as aspiring successors of Git!
+So let's return to the version control world and see which products we need to investigate as aspiring successors of Git!

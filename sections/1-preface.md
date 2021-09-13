@@ -103,7 +103,8 @@ OK? I promise.
 <!-- .slide: data-background="img/background/bill-gates-2004.jpg" -->
 
 <blockquote class="explanation fragment">
-    <em>"640K ought to be enough for anybody."</em>
+    <em>"640K ought to be enough for anybody</em>
+    <em class="fragment">for now..."</em>
 </blockquote>
 
 <https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Bill_Gates_2004.jpg/1280px-Bill_Gates_2004.jpg> <!-- .element: class="attribution" -->
@@ -113,9 +114,11 @@ Now, whenever I hear somebody say that some product "will probably be around for
 [slide]
 ...this quote. 
 
-Boy, was he wrong!
+Which he probably didn't say exactly like this, it is very plausible that he added
+[slide]
+"for now" to that claim.
 
-If working in software development for over 14 years has taught me anything, it's that...
+And I think he added the "for now", because mr. Gates knows very well that in the computer industry...
 [slide]
 
 ---
@@ -136,4 +139,4 @@ If you think about it for just a second, you can come up with lots of examples.
 
 To me, this proves that in our industry, change is the only constant.
 So no, Git *won't* be around forever.
-Eventually, there will be a successor.
+It might be around "for now", but eventually there will be a successor.

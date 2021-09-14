@@ -62,3 +62,17 @@ a {
     bottom: -50px;
     position: absolute;
 }
+
+.reveal .rightFooter {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+  font-size: 0.5em;
+}
+
+.reveal .leftFooter {
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+  font-size: 0.5em;
+}

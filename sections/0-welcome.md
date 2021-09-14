@@ -8,7 +8,7 @@
         <td style="vertical-align: middle; padding: 0 0 0 0"><a href="https://www.twitter.com/hannotify">@hannotify</a></td>
     </tr>
 </table>
-<img data-src="img/logos/luxoft-logo.png" width="15%" class="no-background"/>
+<img data-src="img/logos/utrecht-jug.png" width="20%" class="no-background"/>
 <br/>
 
 note:

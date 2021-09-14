@@ -45,43 +45,43 @@ Looks like we've gathered four prediction variables so far:
     <tbody>
         <tr>
             <th align="right">Features</th>
-            <td align="right">-1</td>
-            <td align="right">-1</td>
-            <td align="right">-1</td>
-            <td align="right">+1</td>
-            <td align="right">+2</td>
+            <td align="center"><code>-</code></td>
+            <td align="center"><code>-</code></td>
+            <td align="center"><code>-</code></td>
+            <td align="center"><code>+</code></td>
+            <td align="center"><code>++</code></td>
         </tr>  
         <tr class="fragment">
             <th align="right">Hosting</th>
-            <td align="right">+2</td>
-            <td align="right">+1</td>
-            <td align="right">-1</td>
-            <td align="right">0</td>
-            <td align="right">0</td>
+            <td align="center"><code>++</code></td>
+            <td align="center"><code>+</code></td>
+            <td align="center"><code>-</code></td>
+            <td align="center"><code>0</code></td>
+            <td align="center"><code>0</code></td>
         </tr>
         <tr class="fragment">
             <th align="right">Open-source</th>
-            <td align="right">+2</td>
-            <td align="right">+2</td>
-            <td align="right">-2</td>
-            <td align="right">-1</td>
-            <td align="right">+1</td>
+            <td align="center"><code>++</code></td>
+            <td align="center"><code>++</code></td>
+            <td align="center"><code>--</code></td>
+            <td align="center"><code>-</code></td>
+            <td align="center"><code>+</code></td>
         </tr>
         <tr class="fragment">
             <th align="right">Dominant</th>
-            <td align="right">-2</td>
-            <td align="right">-1</td>
-            <td align="right">0</td>
-            <td align="right">0</td>
-            <td align="right">0</td>
+            <td align="center"><code>--</code></td>
+            <td align="center"><code>-</code></td>
+            <td align="center"><code>0</code></td>
+            <td align="center"><code>0</code></td>
+            <td align="center"><code>0</code></td>
         </tr>    
         <tr class="fragment">
             <th/>
-            <th align="right">+1</td>
-            <th align="right">+1</td>
-            <th align="right">-4</td>
-            <th align="right">0</td>
-            <th align="right">+3</td>
+            <th align="center"><code>+1</code></td>
+            <th align="center"><code>+1</code></td>
+            <th align="center"><code>-4</code></td>
+            <th align="center"><code>0</code></td>
+            <th align="center"><code>+3</code></td>
         </tr>              
     </tbody>
 </table>

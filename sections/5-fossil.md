@@ -21,6 +21,7 @@ And first up is Fossil.
     <li class="fragment fade-in-then-semi-out">both autosync and manual merge mode</li>
     <li class="fragment fade-in-then-semi-out">show descendants of a check-in</li>
     <li class="fragment fade-in-then-semi-out">supports operations on multiple repositories (<code>fossil all</code>)</li>
+    <li class="fragment fade-in-then-semi-out">has a 'preserve all history' philosophy</li>
 </ul>
 
 <a href="https://www.fossil-scm.org" class="attribution">https://www.fossil-scm.org</a>
@@ -30,6 +31,7 @@ note:
 * built-in web interface - the Fossil website actually runs on the same web interface
 * **autosync mode** - performs an automatic push after each commit
 * **manual merge mode** - like Git and Hg
+* **preserve all history** - there is no rebase in Fossil. Also: why would it be called 'Fossil'?
 
 ---
 

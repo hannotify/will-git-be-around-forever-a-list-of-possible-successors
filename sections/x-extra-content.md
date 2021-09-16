@@ -63,29 +63,6 @@ Engage the audience in suggesting a few new features or improvements that would 
 
 ---
 
-<!-- #3: Version control by USB Stick. Moved from 2-git.md. -->
-
-
----
-
-<!-- .slide: data-background="img/background/usb-sticks.jpg" data-background-color="black" data-background-opacity="0.3"-->
-
-## Version Control 'By USB Stick'
-
-<https://pxhere.com/en/photo/652221> <!-- .element: class="attribution" -->
-
-note:
-The next big thing could be 'Version Control By USB Stick', for example.
-Haven't you been wondering why some of my slides have had USB sticks in the background?
-It's a great story.
-
-FIXME: dit verhaaltje uitwerken.
-
-I can assure you that we don't need to worry about 'Version Control By USB Stick'. 
-It will not get popular, for obvious reasons.
-
----
-
 <!-- #4: What goes up, must come down. Moved from 1-preface.md -->
 
 <!-- .slide: data-background="img/background/what-goes-up-must-come-down.jpg" --->

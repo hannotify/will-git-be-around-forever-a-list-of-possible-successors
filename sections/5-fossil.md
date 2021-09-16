@@ -42,7 +42,7 @@ note:
 * 'Github in a box' <!-- .element: class="fragment fade-in-then-semi-out" -->
 * Free code hosting at: <!-- .element: class="fragment fade-in-then-semi-out" -->
   * Chisel - <http://chiselapp.com/>
-* Or simply host it yourself using an SQLite database and a web server
+* Or simply host it yourself using an SQLite database and a web server <!-- .element: class="fragment fade-in-then-semi-out" -->
 
 note:
 

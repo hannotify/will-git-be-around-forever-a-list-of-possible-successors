@@ -7,8 +7,9 @@
 note:
 **Time Elapsed:** 1 min.
 
-Now besides doing consultancy work, I also teach a few courses.
-At my company Info Support, we offer a wide range of courses.
+So, fast-forward 14 years again.
+At Info Support, besides doing consultancy work, I also teach a few courses.
+We offer a wide range of courses.
 And they exist mainly to get our junior colleagues up to speed with important concepts or products they'll need for their daily work.
 They address base software development topics such as object-orientation, automated testing, continuous delivery, containerisation and so on. 
 
@@ -140,3 +141,21 @@ If you think about it for just a second, you can come up with lots of examples.
 To me, this proves that in our industry, change is the only constant.
 So no, Git *won't* be around forever.
 It might be around "for now", but eventually there will be a successor.
+
+
+<!-- .slide: data-background="img/background/problem-encountered.jpg" data-background-color="black" data-background-opacity="0.5" --->
+
+## One problem though.
+
+<blockquote class="explanation">
+    We haven't included <em>any</em> new products!
+</blockquote>
+
+<https://www.pexels.com/photo/man-in-black-shirt-and-gray-denim-pants-sitting-on-gray-padded-bench-1134204> <!-- .element: class="attribution" -->
+
+note:
+Yeah, one problem though.
+We haven't included *any* new products.
+This 'first prediction' is based entirely on existing products.
+But a lot can happen in ten years!
+What if a brand-new, feature-packed version control system appears and takes the market by storm?

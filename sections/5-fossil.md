@@ -140,6 +140,49 @@ The problem occurs because Fossil puts every revision into a single file, and wh
 
 ---
 
-## Fossil for Git users
+## Git vs. Fossil
 
-<https://www.fossil-scm.org/home/doc/trunk/www/fossil-v-git.wiki> 
+<table style="font-size: 100%">
+    <thead>
+        <tr>
+            <th/>
+            <th>Git</th>
+            <th>Fossil</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Sample project</strong></td>
+            <td>Linux kernel</td>
+            <td>SQLite</td>
+        </tr>
+        <tr class="fragment">
+            <td><strong>Engagement</strong></td>
+            <td>Global</td>
+            <td>Personal</td>
+        </tr>
+        <tr class="fragment">
+            <td><strong>Workflow</strong></td>
+            <td>Hierarchy</td>
+            <td>Trust</td>
+        </tr>
+        <tr class="fragment">
+            <td><strong>Contributors</strong></td>
+            <td>5,000+</td>
+            <td>4</td>
+        </tr>        
+    </tbody>
+</table>
+
+<https://www.fossil-scm.org/home/doc/trunk/www/fossil-v-git.wiki> <!-- .element class="attribution" -->
+
+note:
+
+* Really makes you think about 'the right tool for the job'
+* Fossil seems more suitable for small-scale, closed-source projects than Git
+
+So why are we all using Git, a version control system that was designed to support a globally-developed open-source project like the Linux kernel?
+Are all projects like that?
+Is your project like the Linux kernel?
+Or does it look more like SQLite?
+Surely something to think about.

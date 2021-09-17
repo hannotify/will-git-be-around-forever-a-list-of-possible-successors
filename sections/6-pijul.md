@@ -91,6 +91,10 @@ It stores snapshots of files and computes the differences when they are needed.
 
 note:
 
+!! put the ThreadLocalRandom implementation in the clipboard before starting the demo !!
+
+`return java.util.concurrent.ThreadLocalRandom.current().nextInt(1, 7);`
+
 ### Up and running
 
     pijul init demo

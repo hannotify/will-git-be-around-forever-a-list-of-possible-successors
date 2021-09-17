@@ -115,9 +115,7 @@ note:
 ### Retrieving descendants of a checkin
 
     fossil branch new feature current
-
     public class Sample {}
-
     fossil add .
     fossil commit -m "change Sample"
     fossil ui
@@ -186,9 +184,3 @@ Are all projects like that?
 Is your project like the Linux kernel?
 Or does it look more like SQLite?
 Surely something to think about.
-
----
-
-# Fossil for Git users
-
-<https://www.fossil-scm.org/home/doc/trunk/www/fossil-v-git.wiki>

@@ -120,21 +120,16 @@ note:
 
     pijul add Sample.java
     pijul record
-
     private static int random() {
         return 1 + new java.util.Random().nextInt(6);
     }
-
     pijul add Sample.java
     pijul record
-
     private static int random() {
         return ThreadLocalRandom.current().nextInt(1, 7);
     }
-
     pijul add Sample.java
     pijul record
-
     pijul unrecord // unrecord all patches and squash them into one
     pijul add .
     pijul record
@@ -194,7 +189,7 @@ So this is what the Pijul maintainers are doing to make Pijul production-ready.
 
 * change draft screen
 
-Which look sa bit like the interactive rebase screen in Git.
+Which looks a bit like the interactive rebase screen in Git.
 
 * documentation is lagging
 

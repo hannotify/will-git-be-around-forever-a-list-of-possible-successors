@@ -322,3 +322,29 @@ So, let's take some existing data and extrapolate it!
         </tr>      
     </tbody>
 </table>
+
+note:
+So, there you have it - Git will stay on top.
+Thanks for attending everyone, until next time.
+
+Just kidding.
+
+---
+
+<!-- .slide: data-background="img/background/problem-encountered.jpg" data-background-color="black" data-background-opacity="0.5" --->
+
+## One problem though.
+
+<blockquote class="explanation">
+    We haven't included <em>any</em> new products!
+</blockquote>
+
+<https://www.pexels.com/photo/man-in-black-shirt-and-gray-denim-pants-sitting-on-gray-padded-bench-1134204> <!-- .element: class="attribution" -->
+
+note:
+Yeah, one problem though.
+We haven't included *any* new products.
+This 'first prediction' is based entirely on existing products.
+But a lot can happen in ten years!
+What if a brand-new, feature-packed version control system appears and takes the market by storm?
+

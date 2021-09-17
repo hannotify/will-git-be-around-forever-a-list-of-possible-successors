@@ -186,3 +186,9 @@ Are all projects like that?
 Is your project like the Linux kernel?
 Or does it look more like SQLite?
 Surely something to think about.
+
+---
+
+# Fossil for Git users
+
+<https://www.fossil-scm.org/home/doc/trunk/www/fossil-v-git.wiki>

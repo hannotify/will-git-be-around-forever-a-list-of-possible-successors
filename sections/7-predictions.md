@@ -198,9 +198,12 @@ note:
 So, this is the final prediction!
 I think Git will gain a few users who now use TFVC.
 (In my Git course I meet a lot of TFVC users who are switching to Git)
+Especially since this is now so easy in Azure DevOps.
 And both Git and Mercurial will lose some users to Pijul, and to a lesser extent: to Fossil.
 
 So Pijul will be the third version control system in 2030!
 But I based this prediction on the current hosting situation.
-Should Github announce in the meantime that they're gonna support Pijul, for example, then Pijul will gain users a lot faster and might even take the #2 spot from Mercurial.
+Should Github or GitLab announce in the meantime that they're gonna support Fossil, for example, then Fossil will gain users a lot faster and might even take the #2 spot from Mercurial.
 
+So this is my prediction when hosting platform keep supporting what they currently support.
+If that changes, obviously these predictions will have to change, too.

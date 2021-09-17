@@ -51,6 +51,13 @@ Its performance is comparable to that of C++.
 
 Bootstrapped means that it is used for its own development.
 
+And the Pijul Nest can be a good alternative to GitHub if you're fed up with them for wanting to own everything anyone has ever done.
+
+---
+
+![fed-up-with-github](img/fed-up-with-github.png "Fed up with Github!")
+![how-about-pijul-nest](img/how-about-pijul-nest.png "How about Pijul Nest?") <!-- .element class="fragment" -->
+
 ---
 
 ## Patch-oriented design
@@ -66,7 +73,13 @@ Bootstrapped means that it is used for its own development.
 
 note:
 In contrast, Git doesn't store any patches.
-It stores snapshots.
+It stores snapshots of files and computes the differences when they are needed.
+
+---
+
+<!-- .slide: data-background="img/snapshot-vs-patch.png" data-background-color="#ccc" data-background-size="contain"-->
+
+<https://www.katacoda.com/ysndr/scenarios/pijul/assets/comparison.png> <!-- .element class="attribution" -->
 
 ---
 
@@ -136,12 +149,69 @@ Zie `misc/MyRandom.java` voor als je de details vergeet.
 
 ## The Bad
 
-* Usability needs to improve 
+<ul>
+    <span class="fragment">
+        <li>Usability needs some work</li>
+        <small><a href="https://mivehind.net/2017/04/09/pijul-first-thoughts">https://mivehind.net/2017/04/09/pijul-first-thoughts</a></small>
+    </span>
+    <span class="fragment">
+        <li>Complete rewrite in progress for v1.0</li>
+        <small><a href="https://pijul.org/posts/2020-11-07-towards-1.0">https://pijul.org/posts/2020-11-07-towards-1.0</a></small>
+    </span>    
+</ul>
 
-<https://mivehind.net/2017/04/09/pijul-first-thoughts>
+note:
+
+So in the demo I used Pijul 0.12, which was clearly labeled as a preview version for research purposes.
+So not production-ready in the slightest.
+
+Now what would you do if you're building a version control system and a bug has to be fixed?
+This turns out to be quite a challenge.
+Version control systems that use itself for its versioning (bootstrapping) are famously hard when dealing with bugs.
+If you're building a compiler, for example, bootstrapping can be done one step at a time, and previous versions are always available to compile your current one.
+But a version control system has the additional problem that the previous versions might not always be easily accessible if there is a bug.
+
+So this is exactly what happened to Pijul.
+A few months after the release of Pijul 0.12, a user reported a defect regarding the unrecording of patches that were previously involved in a conflict.
+After some time a solution was found, but it meant that a new patch format was needed, along with a few new algorithms.
+So, Pijul had to be rewritten from scratch to make it all work, which obviously resulted in a lot of breaking changes.
 
 ---
 
-## Pijul for Git users
+## Pijul towards v1.0
 
-<https://nest.pijul.com/tae/pijul-for-git-users>
+* New change format; 'patches' are now called 'changes' <!-- .element: class="fragment fade-in-then-semi-out" -->
+* 'Branches' are now called 'channels' <!-- .element: class="fragment fade-in-then-semi-out" -->
+* Better support for large files and repositories by compressing changes <!-- .element: class="fragment fade-in-then-semi-out" -->
+* Interactive recording is replaced by a 'change draft screen' <!-- .element: class="fragment fade-in-then-semi-out" -->
+* Version identifiers that don't depend on any order <!-- .element: class="fragment fade-in-then-semi-out" -->
+* Inclusive author names <!-- .element: class="fragment fade-in-then-semi-out" -->
+* Documentation is lagging a bit <!-- .element: class="fragment fade-in-then-semi-out" -->
+
+note:
+
+So this is what the Pijul maintainers are doing to make Pijul production-ready.
+
+* change draft screen
+
+Which look sa bit like the interactive rebase screen in Git.
+
+* documentation is lagging
+
+I've used the Pijul v1.0-alpha for a bit in preparation for this talk and I found that the documentation is lagging a bit.
+It used to be better in v0.12.
+Which is no surprise, because the rewrite is not done yet.
+Moreover, the Pijul maintainers had to deal with the setbacks that were caused by a fire in their data center.
+
+---
+
+<!-- .slide: data-background="img/background/ovh-fire.jpeg" data-background-color="black" data-background-opacity="1.0"-->
+
+<https://www.reuters.com/article/us-france-ovh-fire-idUSKBN2B20NU> <!-- .element class="attribution" -->
+
+note:
+
+Maybe you've heard about it; it was a fire in the OVHcloud data center in Paris, France, that happened in March.
+
+Overall, I think Pijul is quite promising, but it needs some work in its current alpha phase.
+So some of its popularity will be depending on how they will get to beta and stable versions later this year.

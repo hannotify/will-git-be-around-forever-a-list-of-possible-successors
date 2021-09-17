@@ -16,6 +16,7 @@ note:
 
 *Voorbereidingen*:
 
+* Directories `development/fossil` en `development/pijul` leegmaken.
 * Start Rectangle.
 * Verbind Spotlight.
 * Eerste scherm:

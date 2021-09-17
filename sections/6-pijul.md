@@ -5,7 +5,7 @@
 <https://pxhere.com/en/photo/652221>  <!-- .element: class="attribution" -->
 
 note: 
-**Time Elapsed:** 33 min.
+**Time Elapsed:** 40 min.
 
 ---
 
@@ -126,19 +126,19 @@ note:
     pijul add Sample.java
     pijul record
     private static int random() {
-        return ThreadLocalRandom.current().nextInt(1, 7);
+        return java.util.concurrent.ThreadLocalRandom.current().nextInt(1, 7);
     }
     pijul add Sample.java
     pijul record
     pijul unrecord // unrecord all patches and squash them into one
-    pijul add .
+    pijul add Sample.java
     pijul record
 
 Zie `misc/MyRandom.java` voor als je de details vergeet.
 
 ### Nest Demo
 
-<https://nest.pijul.com/pijul_org/pijul>
+Type nest.pijul.com in a new browser tab!
 
 ---
 

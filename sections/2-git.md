@@ -5,7 +5,7 @@
 [https://pxhere.com/en/photo/652221](https://pxhere.com/en/photo/652221)  <!-- .element: class="attribution" -->
 
 note: 
-**Time Elapsed:** 7 min.
+**Time Elapsed:** 9 min.
 
 The question remains: which one will it be?
 Which one will be the successor?

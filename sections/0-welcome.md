@@ -23,6 +23,7 @@ note:
   * Speaker notes
 * Tweede scherm:
   * Slides
+  * IntelliJ IDEA, geopend op pad `/Users/hanno/development/talks/reveal.js-4.1.0/slide-decks/will-git-be-around-forever-slides/java`
 * Test Extend -> Mirror (not needed if there is a screen on the stage)
 * Test Mirror -> Extend
 

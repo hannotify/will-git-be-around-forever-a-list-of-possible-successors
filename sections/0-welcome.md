@@ -1,3 +1,7 @@
+<!-- .slide: data-background="img/background/jcon-title.png" data-background-color="black" data-background-opacity="1.0" data-background-size="contain"-->
+
+---
+
 <h2>Will Git Be Around</h2>
 <h1>Forever?</h1>
 <h4>A List Of Possible Successors</h4>
@@ -8,7 +12,7 @@
         <td style="vertical-align: middle; padding: 0 0 0 0"><a href="https://www.twitter.com/hannotify">@hannotify</a></td>
     </tr>
 </table>
-<img data-src="img/logos/utrecht-jug.png" width="20%" class="no-background"/>
+<img data-src="img/logos/jcon.png" width="15%" class="no-background"/>
 <br/>
 
 note:

@@ -87,6 +87,7 @@ It stores snapshots of files and computes the differences when they are needed.
 
 * Up and running
 * Recording patches
+* Reordering patches
 
 note:
 
@@ -97,8 +98,19 @@ note:
 ### Up and running
 
     pijul init demo
-    touch Sample.java
     pijul status
+
+### Recording patches
+
+    vi Sample.java
+    public class Sample { 
+        public static void main(String... args) {
+            System.out.println(random());
+        }
+        private static int random() {
+            return java.util.concurrent.ThreadLocalRandom.current().nextInt(1, 7);
+        }
+    }
     pijul add Sample.java
     mkdir directory
     pijul add directory
@@ -107,37 +119,31 @@ note:
 
 (Here `y` means yes, `n` means no, `k` means undo and remake last decision, `a` means include this and all remaining patches, `d` means include neither this patch nor the remaining patches and `i` means ignore this file locally (i.e. it is added to .pijul/local/ignore).)
 
-### Generating random numbers
+### Reordering patches
 
-**!!! Roll the die on stage !!!**
-
-    public class Sample { 
-        public static void main(String... args) {
-            System.out.println(random());
-        }
-        private static int random() {
-            // Chosen by fair dice roll; guaranteed to be random.
-            return 4;
-        }
-    }
-
-    pijul add Sample.java
-    pijul record
-    private static int random() {
-        return 1 + new java.util.Random().nextInt(6);
-    }
-    pijul add Sample.java
-    pijul record
-    private static int random() {
-        return java.util.concurrent.ThreadLocalRandom.current().nextInt(1, 7);
-    }
-    pijul add Sample.java
-    pijul record
-    pijul unrecord // unrecord all patches and squash them into one
-    pijul add Sample.java
-    pijul record
-
-Zie `misc/MyRandom.java` voor als je de details vergeet.
+    pijul init beers-and-movies
+    cd beers-and-movies
+    touch README.md
+    pijul add README.md
+    pijul record -m "Initial patch"
+    pijul fork next-week
+    pijul branches
+    pijul checkout master
+    vi movies.txt
+    pijul record -m "Watched a movie"
+    vi beers.txt
+    pijul add beers.txt
+    pijul record -m "Drank a beer"
+    vi movies.txt
+    pijul add movies.txt
+    pijul record -m "Watched another movie"
+    pijul log
+    pijul checkout next-week
+    pijul apply <hash> (beer)
+    ls
+    pijul apply <hash> (another movie)
+    pijul apply <hash> (movie)
+    pijul apply <hash> (another movie)
 
 ---
 

@@ -103,7 +103,8 @@ note:
     fossil new demo.repo
     cd demo
     fossil open ../demo.repo
-    touch Sample.java
+    vi Sample.java
+    public class Sample {}
     fossil add .
     fossil changes
     fossil commit -m "message"
@@ -115,7 +116,15 @@ note:
 ### Retrieving descendants of a checkin
 
     fossil branch new feature current
-    public class Sample {}
+    vi Sample.java
+    // roll the die on stage!!
+    public static void main(String... args) {
+        System.out.println(random());
+    }
+    private static int random() {
+        // Chosen by fair dice roll; guaranteed to be random.
+        return 4;
+    }
     fossil add .
     fossil commit -m "change Sample"
     fossil ui

@@ -5,10 +5,9 @@
 <https://pxhere.com/en/photo/652221> <!-- .element: class="attribution" -->
 
 note: 
-**Time Elapsed:** 26 min.
+**Time Elapsed:** 23 min.
 
-Now we get to the more serious contenders!
-And first up is Fossil.
+So, let's talk about Fossil first.
 
 ---
 
@@ -21,7 +20,7 @@ And first up is Fossil.
     <li class="fragment fade-in-then-semi-out">both autosync and manual merge mode</li>
     <li class="fragment fade-in-then-semi-out">show descendants of a check-in</li>
     <li class="fragment fade-in-then-semi-out">supports operations on multiple repositories (<code>fossil all</code>)</li>
-    <li class="fragment fade-in-then-semi-out">has a 'preserve all history' philosophy</li>
+    <li class="fragment fade-in-then-semi-out">a 'preserve all history' philosophy</li>
 </ul>
 
 <a href="https://www.fossil-scm.org" class="attribution">https://www.fossil-scm.org</a>
@@ -70,15 +69,16 @@ Both native Git and GitHub don't provide this capability.
 ## 'Github in a box'
 
 <ul>
-    <li class="fragment fade-in-then-semi-out">repository UI (<code>fossil ui</code>)</li>
-    <li class="fragment fade-in-then-semi-out">wiki, ticketing &amp; bug tracking</li>
-    <li class="fragment fade-in-then-semi-out">embedded documentation</li>
-    <li class="fragment fade-in-then-semi-out">technical notes</li>
-    <li class="fragment fade-in-then-semi-out">forum</li>
+    <li>repository UI (<code>fossil ui</code>)</li>
+    <li>wiki, ticketing &amp; bug tracking</li>
+    <li>embedded documentation</li>
+    <li>technical notes</li>
+    <li>forum</li>
 </ul>
 
 note:
 And, speaking of Github, Fossil is actually some sort of 'Github in a box'.
+
 A feature-rich web interface is available through the command `fossil ui`.
 So there's no need to use any 3rd party products; after cloning a repo you have a fully-featured developer website available.
 
@@ -120,10 +120,6 @@ note:
     fossil commit -m "change Sample"
     fossil ui
 
-### Close
-
-    fossil close
-
 ---
 
 ## The Bad
@@ -155,6 +151,11 @@ The problem occurs because Fossil puts every revision into a single file, and wh
             <td>SQLite</td>
         </tr>
         <tr class="fragment">
+            <td><strong>Contributors</strong></td>
+            <td>5,000+</td>
+            <td>4</td>
+        </tr>                
+        <tr class="fragment">
             <td><strong>Engagement</strong></td>
             <td>Global</td>
             <td>Personal</td>
@@ -164,11 +165,6 @@ The problem occurs because Fossil puts every revision into a single file, and wh
             <td>Hierarchy</td>
             <td>Trust</td>
         </tr>
-        <tr class="fragment">
-            <td><strong>Contributors</strong></td>
-            <td>5,000+</td>
-            <td>4</td>
-        </tr>        
     </tbody>
 </table>
 

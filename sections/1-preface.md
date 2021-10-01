@@ -17,9 +17,7 @@ They address base software development topics such as object-orientation, automa
 
 And one of the courses I teach is called 'Git for Developers'.
 It's a one-day course where I teach the students how to use Git **as a developer**.
-That means **none** of that GUI stuff; I promote using the command-line as much as possible.
-Because using the command-line **rocks**!
-Besides practical stuff like this, we also discuss the pros and cons of distributed version control systems and how they compare to the earlier version control system, like CVS and Subversion. 
+Among other things, we discuss the pros and cons of distributed version control systems and how they compare to the earlier version control system, like CVS and Subversion. 
 
 ---
 
@@ -77,13 +75,7 @@ So **I** thought the year 2005 really stood out in this graphic.
 Of course, that doesn't necessarily mean everyone thought so.
 In fact, at the end of one particular course day, a student came to me with a question.
 And her question proved that she had noticed an **entirely** different thing than I had.
-Moreover, her 'discovery' actually proved to be a **lot** more interesting than mine.
-
 She came to me after class and said: "Git is great and all that, but what's gonna be the **next** big thing?"
-So I turned around and looked at the chart for a while, thinking "Huh!" 
-"Funny how it seems we can't look any further, after we think we've got it all figured out."
-Because if you look at the chart and you look beyond what you've already seen (the year 2005), then it becomes painfully obvious -- that in version control land, **nothing** seems to have happened after 2006.
-This is one of those things that, once you see it, you can't **unsee** it.
 
 Now I turned to the student and told her everything I knew.
 That I was quite sure that distributed version control systems like Git and Mercurial would be around for a while longer.

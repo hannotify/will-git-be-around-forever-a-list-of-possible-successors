@@ -5,7 +5,7 @@
 [https://pxhere.com/en/photo/652221](https://pxhere.com/en/photo/652221)  <!-- .element: class="attribution" -->
 
 note: 
-**Time Elapsed:** 9 min.
+**Time Elapsed:** 8 min.
 
 The question remains: which one will it be?
 Which one will be the successor?
@@ -42,21 +42,6 @@ Well, as you may already know, these are Git's main features:
   * Like Subversion, Git has 'easy branching'.
   * In the CVS age, developers 'were afraid of branching', so they didn't do it! 
   * Which was a very bad thing in a time where Continuous Delivery did not yet exist like we know it today.
-
----
-
-## Some surprising facts on Git
-
-<blockquote class="fragment">
-    "I'm an egotistical bastard, so I name all my projects after myself. First Linux, now git."
-</blockquote>
-
-<https://www.infoworld.com/article/2669670/after-controversy--torvalds-begins-work-on--git-.html>  <!-- .element: class="attribution" -->
-
-note:
-When Linus Torvalds was asked why he called the new software, "git," British slang meaning "a rotten person," he said:
-[slide] 
-"I'm an egotistical bastard, so I name all my projects after myself. First Linux, now git."
 
 ---
 
@@ -162,7 +147,7 @@ note:
 Let's introduce another one, while we`re at it!
 Your version control system may be supported by a hosting provider, but that doesn't necessarily mean that said hosting provider supports the open-source community.
 Lots of hosting providers primarily offer private repositories.
-Also, not all version control systems focus as much on open-source development as Git does, for example.
+Also, not all version control systems focus as much on supporting open-source development as Git does, for example.
 So, here's prediction variable number three: "Open-source community support."
 
 That's enough about prediction variables, for now.

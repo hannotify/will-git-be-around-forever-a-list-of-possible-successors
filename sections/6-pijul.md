@@ -5,7 +5,7 @@
 <https://pxhere.com/en/photo/652221>  <!-- .element: class="attribution" -->
 
 note: 
-**Time Elapsed:** 40 min.
+**Time Elapsed:** 36 min.
 
 ---
 
@@ -63,7 +63,7 @@ And the Pijul Nest can be a good alternative to GitHub if you're fed up with the
 ## Patch-oriented design
 
 <ul>
-    <li class="fragment fade-in-then-semi-out">A patch is an intuitive atomic unit of work.</li>
+    <li class="fade-in-then-semi-out">A patch is an intuitive atomic unit of work.</li>
     <li class="fragment fade-in-then-semi-out">It focuses on <em>changes</em>, instead of <em>differences between snapshots</em> (i.e. Git commits).</li>
     <li class="fragment fade-in-then-semi-out">Applying or unapplying a patch <em>doesn't change</em> its identity.</li>
     <li class="fragment fade-in-then-semi-out">The end result of applying several patches is always the same, regardless of the order in which they were applied.</li>
@@ -72,7 +72,7 @@ And the Pijul Nest can be a good alternative to GitHub if you're fed up with the
 </ul>
 
 note:
-In contrast, Git doesn't store any patches.
+By contrast, Git doesn't store any patches.
 It stores snapshots of files and computes the differences when they are needed.
 
 ---
@@ -87,7 +87,6 @@ It stores snapshots of files and computes the differences when they are needed.
 
 * Up and running
 * Recording patches
-* Nest demo - <https://nest.pijul.com/pijul_org/pijul>
 
 note:
 
@@ -140,10 +139,6 @@ note:
 
 Zie `misc/MyRandom.java` voor als je de details vergeet.
 
-### Nest Demo
-
-Type nest.pijul.com in a new browser tab!
-
 ---
 
 ## The Bad
@@ -179,12 +174,11 @@ So, Pijul had to be rewritten from scratch to make it all work, which obviously 
 
 ## Pijul towards v1.0
 
-* New change format; 'patches' are now called 'changes' <!-- .element: class="fragment fade-in-then-semi-out" -->
+* New change format; 'patches' are now called 'changes' <!-- .element: class="fade-in-then-semi-out" -->
 * 'Branches' are now called 'channels' <!-- .element: class="fragment fade-in-then-semi-out" -->
 * Better support for large files and repositories by compressing changes <!-- .element: class="fragment fade-in-then-semi-out" -->
 * Interactive recording is replaced by a 'change draft screen' <!-- .element: class="fragment fade-in-then-semi-out" -->
 * Version identifiers that don't depend on any order <!-- .element: class="fragment fade-in-then-semi-out" -->
-* Inclusive author names <!-- .element: class="fragment fade-in-then-semi-out" -->
 * Documentation is lagging a bit <!-- .element: class="fragment fade-in-then-semi-out" -->
 
 note:

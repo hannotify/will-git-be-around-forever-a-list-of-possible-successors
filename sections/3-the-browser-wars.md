@@ -5,12 +5,12 @@
 <https://pxhere.com/en/photo/652221> <!-- .element: class="attribution" -->
 
 note:
-**Time Elapsed:** 18 min.
+**Time Elapsed:** 16 min.
 
 This is exactly what happened during 'The Browser Wars'.
 Multiple times, actually.
 When I was in college I did a talk on 'the browser wars'.
-In this college talk I tried to predict what browser we would be using ten years later in time.
+In this college talk I tried to predict what browser we would use ten years later in time.
 So the talk was actually quite similar to this one.
 Apart from the fact that my slides back then looked **very** different.
 
@@ -22,14 +22,11 @@ note:
 This was actually one of the slides I used.
 It's in Dutch, but obviously that's not the worst thing.
 
-Firstly, notice the date, in the bottom left corner.
-This slide deck was created fourteen years ago, and it shows.
 It's a RETRO slide deck.
 
 I mean, the obnoxious headers and footers.
 Which were repeated on **every** slide. 
-Disastrous!
-Major waste of space.
+Disastrous, major waste of space.
  
 Also: the background gradient. 
 What is up with that?
@@ -37,9 +34,8 @@ Nobody uses that any more.
 
 The page numbers  at the bottom.
 Horrifying stuff!
-I think slide deck designs are a lot like fashion.
-If you would just wait another  fifteen years, they will be popular again.
-Don't you think so?
+Maybe slide deck designs are like fashion.
+If we just wait for another fifteen years, they will be popular again.
 
 Anyway, apart from the fact that this slide causes your eyes to sting, it also shows that the Internet Explorer browser family was VERY dominant in 2005.
 Almost 90% of all Internet users used an IE browser.
@@ -121,6 +117,7 @@ The law suggests that individuals or groups that start out ahead eventually are 
 In the terminology of the law, the head start, which is an advantage at first, subsequently becomes a handicap.
 This phenomenon occurs when a society dedicates itself to certain standards and those standards change. 
 Then it becomes harder for the leading group to adapt.
+
 This is exactly what happened during the browser wars!
 Society demanded tabbed browsing and Microsoft had a hard time adapting to that, which resulted in Firefox and Chrome taking over.
 Just like in sports, it is a lot harder to stay on top, than it is to get there.
@@ -140,10 +137,9 @@ Just like in sports, it is a lot harder to stay on top, than it is to get there.
 note:
 So here's our final prediction variable.
 It is hard to stay on top, hence "the handicap of a head start".
-Eventually the dominant product will be replaced by a new one, like the browser world.
+Eventually the dominant product will be replaced by a new one.
 Netscape was replaced by Internet Explorer.
-Internet Explorer was replaced by Mozilla Firefox
-Mozilla Firefox was replaced by Google Chrome.
+Internet Explorer was replaced by Google Chrome.
 And I can't think of a reason why it wouldn't happen again.
 
-So let's return to the version control world and see which products we need to investigate as aspiring successors of Git!
+So let's return to the version control world now and see which products we need to investigate as aspiring successors of Git!

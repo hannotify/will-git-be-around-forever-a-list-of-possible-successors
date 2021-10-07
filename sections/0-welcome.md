@@ -1,5 +1,23 @@
 <!-- .slide: data-background="img/background/jcon-title.png" data-background-color="black" data-background-opacity="1.0" data-background-size="contain"-->
 
+note:
+
+*Voorbereidingen*:
+
+* Directories `java/fossil` en `java/pijul` leegmaken.
+* Start Rectangle.
+* Verbind Spotlight.
+* Eerste scherm:
+  * Speaker notes
+* Tweede scherm:
+  * Slides
+  * IntelliJ IDEA, geopend op pad `/Users/hanno/development/talks/reveal.js-4.1.0/slide-decks/will-git-be-around-forever-slides/java`
+     * Met 'Project View'
+     * Met iTerm ernaast in Split Screen-configuratie
+     * Met iTerm geopend op pad `/Users/hanno/development/talks/reveal.js-4.1.0/slide-decks/will-git-be-around-forever-slides/java`
+* Test Extend -> Mirror (not needed if there is a screen on the stage)
+* Test Mirror -> Extend
+
 ---
 
 <h2>Will Git Be Around</h2>
@@ -17,19 +35,6 @@
 
 note:
 **Time Elapsed:** 0 min.
-
-*Voorbereidingen*:
-
-* Directories `development/fossil` en `development/pijul` leegmaken.
-* Start Rectangle.
-* Verbind Spotlight.
-* Eerste scherm:
-  * Speaker notes
-* Tweede scherm:
-  * Slides
-  * IntelliJ IDEA, geopend op pad `/Users/hanno/development/talks/reveal.js-4.1.0/slide-decks/will-git-be-around-forever-slides/java`
-* Test Extend -> Mirror (not needed if there is a screen on the stage)
-* Test Mirror -> Extend
 
 Hi, my name is Hanno. 
 I work at Info Support as an IT consultant.

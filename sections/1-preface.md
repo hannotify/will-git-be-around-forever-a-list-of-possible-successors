@@ -5,7 +5,7 @@
 <https://pxhere.com/en/photo/652221> <!-- .element: class="attribution" -->
 
 note:
-**Time Elapsed:** 4 min.
+**Time Elapsed:** 2 min.
 
 So, fast-forward 14 years again.
 I've gained some experience with real Version Control Systems like Subversion and Git.

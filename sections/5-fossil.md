@@ -5,7 +5,7 @@
 <https://pxhere.com/en/photo/652221> <!-- .element: class="attribution" -->
 
 note: 
-**Time Elapsed:** 23 min.
+**Time Elapsed:** 17 min.
 
 So, let's talk about Fossil first.
 
@@ -38,7 +38,6 @@ note:
 
 * Written in C and SQL <!-- .element: class="fragment fade-in-then-semi-out" -->
 * Is the VCS of choice for the SQLite project <!-- .element: class="fragment fade-in-then-semi-out" -->
-* 'Github in a box' <!-- .element: class="fragment fade-in-then-semi-out" -->
 * Free code hosting at: <!-- .element: class="fragment fade-in-then-semi-out" -->
   * Chisel - <http://chiselapp.com/>
 * Or simply host it yourself using an SQLite database and a web server <!-- .element: class="fragment fade-in-then-semi-out" -->

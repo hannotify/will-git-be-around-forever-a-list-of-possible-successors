@@ -5,7 +5,7 @@
 <https://pxhere.com/en/photo/652221>  <!-- .element: class="attribution" -->
 
 note: 
-**Time Elapsed:** 36 min.
+**Time Elapsed:** 27 min.
 
 ---
 
@@ -50,20 +50,16 @@ Rust is one of the faster languages around, because it is a low-level language.
 Its performance is comparable to that of C++.
 
 Bootstrapped means that it is used for its own development.
+Like IntelliJ, they 'eat their own dog food'.
 
-And the Pijul Nest can be a good alternative to GitHub if you're fed up with them for wanting to own everything anyone has ever done.
-
----
-
-![fed-up-with-github](img/fed-up-with-github.png "Fed up with Github!")
-![how-about-pijul-nest](img/how-about-pijul-nest.png "How about Pijul Nest?") <!-- .element class="fragment" -->
+Hosting is available on the Pijul Nest.
 
 ---
 
 ## Patch-oriented design
 
 <ul>
-    <li class="fade-in-then-semi-out">A patch is an intuitive atomic unit of work.</li>
+    <li class="fragment fade-in-then-semi-out">A patch is an intuitive atomic unit of work.</li>
     <li class="fragment fade-in-then-semi-out">It focuses on <em>changes</em>, instead of <em>differences between snapshots</em> (i.e. Git commits).</li>
     <li class="fragment fade-in-then-semi-out">Applying or unapplying a patch <em>doesn't change</em> its identity.</li>
     <li class="fragment fade-in-then-semi-out">The end result of applying several patches is always the same, regardless of the order in which they were applied.</li>
@@ -150,14 +146,8 @@ note:
 ## The Bad
 
 <ul>
-    <span class="fragment">
-        <li>Usability needs some work</li>
-        <small><a href="https://mivehind.net/2017/04/09/pijul-first-thoughts">https://mivehind.net/2017/04/09/pijul-first-thoughts</a></small>
-    </span>
-    <span class="fragment">
-        <li>Complete rewrite in progress for v1.0</li>
-        <small><a href="https://pijul.org/posts/2020-11-07-towards-1.0">https://pijul.org/posts/2020-11-07-towards-1.0</a></small>
-    </span>    
+    <li>Complete rewrite in progress for v1.0</li>
+    <small><a href="https://pijul.org/posts/2020-11-07-towards-1.0">https://pijul.org/posts/2020-11-07-towards-1.0</a></small>
 </ul>
 
 note:
@@ -180,11 +170,11 @@ So, Pijul had to be rewritten from scratch to make it all work, which obviously 
 
 ## Pijul towards v1.0
 
-* New change format; 'patches' are now called 'changes' <!-- .element: class="fade-in-then-semi-out" -->
+* New change format; 'patches' are now called 'changes' <!-- .element: class="fragment fade-in-then-semi-out" -->
+* Apply dependent changes automatically <!-- .element: class="fragment fade-in-then-semi-out" -->
 * 'Branches' are now called 'channels' <!-- .element: class="fragment fade-in-then-semi-out" -->
 * Better support for large files and repositories by compressing changes <!-- .element: class="fragment fade-in-then-semi-out" -->
 * Interactive recording is replaced by a 'change draft screen' <!-- .element: class="fragment fade-in-then-semi-out" -->
-* Version identifiers that don't depend on any order <!-- .element: class="fragment fade-in-then-semi-out" -->
 * Documentation is lagging a bit <!-- .element: class="fragment fade-in-then-semi-out" -->
 
 note:
@@ -200,17 +190,6 @@ Which looks a bit like the interactive rebase screen in Git.
 I've used the Pijul v1.0-alpha for a bit in preparation for this talk and I found that the documentation is lagging a bit.
 It used to be better in v0.12.
 Which is no surprise, because the rewrite is not done yet.
-Moreover, the Pijul maintainers had to deal with the setbacks that were caused by a fire in their data center.
-
----
-
-<!-- .slide: data-background="img/background/ovh-fire.jpeg" data-background-color="black" data-background-opacity="1.0"-->
-
-<https://www.reuters.com/article/us-france-ovh-fire-idUSKBN2B20NU> <!-- .element class="attribution" -->
-
-note:
-
-Maybe you've heard about it; it was a fire in the OVHcloud data center in Paris, France, that happened in March.
 
 Overall, I think Pijul is quite promising, but it needs some work in its current alpha phase.
 So some of its popularity will be depending on how they will get to beta and stable versions later this year.

@@ -223,7 +223,7 @@ So, let's take some existing data and extrapolate it!
         <tr>
             <th/>
             <th>2010</th>
-            <th>2020</th>
+            <th>2021</th>
         </tr>
     </thead>
     <tbody>
@@ -270,8 +270,8 @@ So, let's take some existing data and extrapolate it!
         <tr>
             <th/>
             <th>2010</th>
-            <th>2020</th>
-            <th>2030</th>
+            <th>2021</th>
+            <th>2032</th>
         </tr>
     </thead>
     <tbody>

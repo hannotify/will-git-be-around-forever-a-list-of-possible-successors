@@ -16,19 +16,17 @@ note:
 
 *Voorbereidingen*:
 
-* Directories `java/fossil` en `java/pijul` leegmaken.
-* Start Rectangle.
+* (Directories `java/fossil` en `java/pijul` leegmaken.)
 * Verbind Spotlight.
 * Eerste scherm:
   * Speaker notes
+  * Terminal met `mirror` erin
 * Tweede scherm:
   * Slides
-  * IntelliJ IDEA, geopend op pad `/Users/hanno/development/talks/reveal.js-4.1.0/slide-decks/will-git-be-around-forever-slides/java`
-     * Met 'Project View'
-     * Met iTerm ernaast in Split Screen-configuratie
-     * Met iTerm geopend op pad `/Users/hanno/development/talks/reveal.js-4.1.0/slide-decks/will-git-be-around-forever-slides/java`
-* Test Extend -> Mirror (not needed if there is a screen on the stage)
-* Test Mirror -> Extend
+  * VSCode, geopend op pad `/Users/hanno/development/talks/reveal.js-4.1.0/slide-decks/will-git-be-around-forever-slides/demo`
+  * Terminal ernaast in Split Screen-configuratie
+    * Tabje voor fossil
+    * Tabje voor pijul - verbonden met Docker-container 
 
 Hi, my name is Hanno. 
 I work at Info Support as an IT consultant.

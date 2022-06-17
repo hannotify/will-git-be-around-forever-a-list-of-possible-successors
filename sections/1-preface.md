@@ -31,7 +31,7 @@ And it displays which version control systems have emerged until now, and when t
 It also tries to put the publication date of each version control system in perspective by comparing them to the most modern phone known at that time.
 
 So, for example, Subversion relates to the Nokia 3210. (point)
-Which are both *undestructable*.
+Which are both *indestructible*.
 And CVS relates to the thing with the power plug.
 Both are obviously **ancient**!
 
@@ -55,10 +55,13 @@ So, does anyone happen to know why things happened like this?
 
 note:
 Well, BitKeeper happened.
-BitKeeper went from an open-source license to a proprietary license, just like **that**.
-The open-source world - Linus Torvalds in front - was not amused.
-Mr. Torvalds had been using BitKeeper for the Linux kernel, but was now suddenly in need of a new version control system!
+BitKeeper always was a proprietary piece of software, so a paid product.
+But Linux got a special deal.
+The deal is simple, the Linux community could use Bitkeeper for free in exchange for some metadata and an agreement for Linux contributors not to work on competing version control systems. 
+No other distributed version control systems existed at the time.
+Eventually however, in March 2005, Bitkeeper informs teh Linux Kernel Development Team that they will have to start to pay to continue using Bitkeeper.
 
+The open-source world - Linus Torvalds in front - was not amused.
 And what do you do when the only distributed version control system is no longer freely available?
 Well, you create a new one, of course!
 So in the aftermath of BitKeeper's licensing change, a lot of similar products were developed in a short amount of time.

@@ -118,7 +118,7 @@ Being the dominant products, Git and Hg suffer the most from the "handicap of a 
     <thead>
         <tr>
             <th/>
-            <th>2030</th>
+            <th>2032</th>
         </tr>
     </thead>
     <tbody>
@@ -151,8 +151,8 @@ Being the dominant products, Git and Hg suffer the most from the "handicap of a 
     <thead>
         <tr>
             <th/>
-            <th><del>2030</del></th>
-            <th>2030</th>
+            <th><del>2032</del></th>
+            <th>2032</th>
         </tr>
     </thead>
     <tbody>
@@ -201,7 +201,7 @@ I think Git will gain a few users who now use TFVC.
 Especially since this is now so easy in Azure DevOps.
 And both Git and Mercurial will lose some users to Pijul, and to a lesser extent: to Fossil.
 
-So Pijul might be the third version control system in 2030!
+So Pijul might be the third version control system in 2032!
 But I based this prediction on the current hosting situation.
 Should Github or GitLab announce in the meantime that they're gonna support Fossil, for example, then Fossil will gain users a lot faster and might even take the #2 spot from Mercurial.
 

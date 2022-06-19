@@ -187,19 +187,19 @@ So, let's take some existing data and extrapolate it!
     <tbody>
         <tr>
             <th align="right">Subversion</th>
-            <td align="right">43%</td>
+            <td align="right">44%</td>
         </tr>
         <tr>
             <th align="right">Git</th>
-            <td align="right">19%</td>
+            <td align="right">25%</td>
         </tr>
         <tr>
             <th align="right">Mercurial</th>
-            <td align="right">16%</td>
+            <td align="right">19%</td>
         </tr>  
         <tr>
             <th align="right">TFVC</th>
-            <td align="right">6%</td>
+            <td align="right">7%</td>
         </tr>
         <tr>
             <th align="right">CVS</th>
@@ -229,22 +229,22 @@ So, let's take some existing data and extrapolate it!
     <tbody>
         <tr>
             <th align="right">Subversion</th>
-            <td align="right">43%</td>
+            <td align="right">44%</td>
             <td align="right">8%</td>
         </tr>
         <tr>
             <th align="right">Git</th>
-            <td align="right">19%</td>
+            <td align="right">25%</td>
             <td align="right">73%</td>
         </tr>
         <tr>
             <th align="right">Mercurial</th>
-            <td align="right">16%</td>
+            <td align="right">19%</td>
             <td align="right">12%</td>
         </tr>  
         <tr>
             <th align="right">TFVC</th>
-            <td align="right">6%</td>
+            <td align="right">7%</td>
             <td align="right">7%</td>
         </tr>
         <tr>
@@ -277,25 +277,25 @@ So, let's take some existing data and extrapolate it!
     <tbody>
         <tr>
             <th align="right">Subversion</th>
-            <td align="right">43%</td>
+            <td align="right">44%</td>
             <td align="right">8%</td>
             <td align="right">4%</td>
         </tr>
         <tr>
             <th align="right">Git</th>
-            <td align="right">19%</td>
+            <td align="right">25%</td>
             <td align="right">73%</td>
             <td align="right">80%</td>
         </tr>
         <tr>
             <th align="right">Mercurial</th>
-            <td align="right">16%</td>
+            <td align="right">19%</td>
             <td align="right">12%</td>
             <td align="right">9%</td>
         </tr>  
         <tr>
             <th align="right">TFVC</th>
-            <td align="right">6%</td>
+            <td align="right">7%</td>
             <td align="right">7%</td>
             <td align="right">7%</td>
         </tr>

@@ -6,8 +6,7 @@ RUN apt-get install -y make libsodium-dev libclang-dev pkg-config libssl-dev lib
 RUN cargo install pijul --version "~1.0.0-beta"
 RUN export PATH="\$PATH:$HOME/.cargo/bin/"
 
+# install vim
+RUN apt-get install -y vim
+
 RUN mkdir /development
-
-
-# TODO:
-# * [ ] test drive the pijul demo in the `development` directory

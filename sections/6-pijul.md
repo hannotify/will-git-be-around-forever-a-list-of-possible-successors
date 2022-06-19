@@ -87,33 +87,23 @@ It stores snapshots of files and computes the differences when they are needed.
 
 note:
 
-!! put the ThreadLocalRandom implementation in the clipboard before starting the demo !!
-
-`return java.util.concurrent.ThreadLocalRandom.current().nextInt(1, 7);`
-
 ### Up and running
 
     pijul init demo
-    pijul status
 
 ### Recording patches
 
-    vi Sample.java
-    public class Sample { 
-        public static void main(String... args) {
-            System.out.println(random());
-        }
-        private static int random() {
-            return java.util.concurrent.ThreadLocalRandom.current().nextInt(1, 7);
-        }
-    }
-    pijul add Sample.java
+    vi README.md
+    > This repo contains beers and movies that are important to me.
+    pijul add Readme.md
+    pijul record -m "Initial patch"
+
+    #Identities
+    pijul key generate hanno
+
     mkdir directory
     pijul add directory
-    pijul status
     pijul record
-
-(Here `y` means yes, `n` means no, `k` means undo and remake last decision, `a` means include this and all remaining patches, `d` means include neither this patch nor the remaining patches and `i` means ignore this file locally (i.e. it is added to .pijul/local/ignore).)
 
 ### Reordering patches
 
@@ -123,73 +113,52 @@ note:
     pijul add README.md
     pijul record -m "Initial patch"
     pijul fork next-week
-    pijul branches
-    pijul checkout master
+    pijul channel
+    pijul channel switch next-week
+    pijul channel switch main
     vi movies.txt
+    pijul add movies.txt
     pijul record -m "Watched a movie"
     vi beers.txt
     pijul add beers.txt
     pijul record -m "Drank a beer"
     vi movies.txt
-    pijul add movies.txt
+    pijul add * 
     pijul record -m "Watched another movie"
     pijul log
+    // copy the hashes somewhere
     pijul checkout next-week
     pijul apply <hash> (beer)
     ls
+    pijul log
     pijul apply <hash> (another movie)
-    pijul apply <hash> (movie)
-    pijul apply <hash> (another movie)
+    // notice the dependent patch!
+    ls
+    pijul log
+    pijul unrecord --reset <hash> (another movie)
+    pijul unrecord --reset <hash> (movie)
+    pijul unrecord --reset <hash> (another movie)
 
 ---
 
-## The Bad
+## Pijul's current status
 
 <ul>
-    <li>Complete rewrite in progress for v1.0</li>
-    <small><a href="https://pijul.org/posts/2020-11-07-towards-1.0">https://pijul.org/posts/2020-11-07-towards-1.0</a></small>
+    <li>v1.0-beta</li>
+    <small><a href="https://pijul.org/posts/2022-01-08-beta">https://pijul.org/posts/2022-01-08-beta</a></small>
 </ul>
 
 note:
 
-So in the demo I used Pijul 0.12, which was clearly labeled as a preview version for research purposes.
-So not production-ready in the slightest.
+Previous version of the talk I used v0.12, which was clearly labeled as a preview version for research purposes.
+v1.0 uses a complete rewrite of the patch format, amongst other things.
 
-Now what would you do if you're building a version control system and a bug has to be fixed?
-This turns out to be quite a challenge.
-Version control systems that use itself for its versioning (bootstrapping) are famously hard when dealing with bugs.
-If you're building a compiler, for example, bootstrapping can be done one step at a time, and previous versions are always available to compile your current one.
-But a version control system has the additional problem that the previous versions might not always be easily accessible if there is a bug.
-
-So this is exactly what happened to Pijul.
 A few months after the release of Pijul 0.12, a user reported a defect regarding the unrecording of patches that were previously involved in a conflict.
 After some time a solution was found, but it meant that a new patch format was needed, along with a few new algorithms.
 So, Pijul had to be rewritten from scratch to make it all work, which obviously resulted in a lot of breaking changes.
 
----
+It is now feature-complete and it will be backwards-compatible from now on.
+However, it is still in beta.
 
-## Pijul towards v1.0
-
-* New change format; 'patches' are now called 'changes' <!-- .element: class="fragment fade-in-then-semi-out" -->
-* Apply dependent changes automatically <!-- .element: class="fragment fade-in-then-semi-out" -->
-* 'Branches' are now called 'channels' <!-- .element: class="fragment fade-in-then-semi-out" -->
-* Better support for large files and repositories by compressing changes <!-- .element: class="fragment fade-in-then-semi-out" -->
-* Interactive recording is replaced by a 'change draft screen' <!-- .element: class="fragment fade-in-then-semi-out" -->
-* Documentation is lagging a bit <!-- .element: class="fragment fade-in-then-semi-out" -->
-
-note:
-
-So this is what the Pijul maintainers are doing to make Pijul production-ready.
-
-* change draft screen
-
-Which looks a bit like the interactive rebase screen in Git.
-
-* documentation is lagging
-
-I've used the Pijul v1.0-alpha for a bit in preparation for this talk and I found that the documentation is lagging a bit.
-It used to be better in v0.12.
-Which is no surprise, because the rewrite is not done yet.
-
-Overall, I think Pijul is quite promising, but it needs some work in its current alpha phase.
-So some of its popularity will be depending on how they will get to beta and stable versions later this year.
+Overall, I think Pijul is quite promising, but it needs some work in its current beta phase.
+So some of its popularity will be depending on how they will get stable versions later this year.

@@ -102,11 +102,13 @@ note:
     fossil new demo.repo
     cd demo
     fossil open ../demo.repo
-    vi Sample.java
-    public class Sample {}
+        dotnet new console -o .
+        
+        touch Sample.java
+        public class Sample {}
     fossil add .
     fossil changes
-    fossil commit -m "message"
+    fossil commit -m "Initial commit"
 
 ### Using the web interface
 
@@ -115,6 +117,9 @@ note:
 ### Retrieving descendants of a checkin
 
     fossil branch new feature current
+    
+    /* JAVA */
+
     vi Sample.java
     // roll the die on stage!!
     public static void main(String... args) {
@@ -124,8 +129,31 @@ note:
         // Chosen by fair dice roll; guaranteed to be random.
         return 4;
     }
+
+    /* C-sharp */
+    Console.WriteLine(Random());
+
+    static int Random() {
+        // chosen by fair dice roll; guaranteed to be random
+        return 2;
+    }
+
     fossil add .
-    fossil commit -m "change Sample"
+    fossil commit -m "Implement random"
+    fossil ui
+
+    /* C-sharp */
+    static int BetterRandom() {
+        return new Random().Next(1, 6);
+    }
+
+    /* Java */
+    private static int randomThreadLocalRandom() {
+        return ThreadLocalRandom.current().nextInt(1, 7);
+    }
+
+    fossil add .
+    fossil commit -m "Implement a better random"
     fossil ui
 
 ---

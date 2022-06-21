@@ -30,7 +30,7 @@ This is actually one of the course slides.
 And it displays which version control systems have emerged until now, and when they became available.
 It also tries to put the publication date of each version control system in perspective by comparing them to the most modern phone known at that time.
 
-So, for example, Subversion relates to the Nokia 3210. (point)
+So, for example, Subversion relates to the Nokia 3310. (point)
 Which are both *indestructible*.
 And CVS relates to the thing with the power plug.
 Both are obviously **ancient**!

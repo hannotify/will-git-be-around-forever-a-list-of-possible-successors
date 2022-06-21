@@ -16,17 +16,19 @@ note:
 
 *Voorbereidingen*:
 
-* (Directories `java/fossil` en `java/pijul` leegmaken.)
 * Verbind Spotlight.
+* Leg dobbelsteen klaar
 * Eerste scherm:
   * Speaker notes
-  * Terminal met `mirror` erin
+  * VSCode, met alle editors dicht
+  * Terminal:
+    * Tab met `mirror`
+    * Tab met de slides draaiend
+    * Tab voor fossil
+    * Tab voor pijul - vorbonden met Docker-container
 * Tweede scherm:
   * Slides
-  * VSCode, geopend op pad `/Users/hanno/development/talks/reveal.js-4.1.0/slide-decks/will-git-be-around-forever-slides/demo`
-  * Terminal ernaast in Split Screen-configuratie
-    * Tabje voor fossil
-    * Tabje voor pijul - verbonden met Docker-container 
+  * Nieuwe tab voor Fossil UI
 
 Hi, my name is Hanno. 
 I work at Info Support as an IT consultant.

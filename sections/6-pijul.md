@@ -73,7 +73,7 @@ It stores snapshots of files and computes the differences when they are needed.
 
 ---
 
-<!-- .slide: data-background="img/snapshot-vs-patch.png" data-background-color="#ccc" data-background-size="contain"-->
+<!-- .slide: data-background="img/snapshot-vs-patch.png" data-background-color="#555" data-background-size="contain"-->
 
 <https://www.katacoda.com/ysndr/scenarios/pijul/assets/comparison.png> <!-- .element class="attribution" -->
 
@@ -126,8 +126,8 @@ note:
     pijul add * 
     pijul record -m "Watched another movie"
     pijul log
-    // copy the hashes somewhere
-    pijul checkout next-week
+    // copy the hashes somewhere, or duplicate the terminal tab
+    pijul channel switch next-week
     pijul apply <hash> (beer)
     ls
     pijul log
@@ -135,7 +135,7 @@ note:
     // notice the dependent patch!
     ls
     pijul log
-    pijul unrecord --reset <hash> (another movie)
+
     pijul unrecord --reset <hash> (movie)
     pijul unrecord --reset <hash> (another movie)
 

@@ -43,8 +43,8 @@ I work at Info Support as an IT consultant.
 
 note:
 
-Now I have been a Java developer for over 14 years.
-And at my first job, about 14 years ago, we did a revolutionary thing regarding version control.
+Now I have been a Java developer for almost 15 years.
+And at my first job, about 15 years ago, we did a revolutionary thing regarding version control.
 I was really eager to learn it, because at college we did version control by sending each other emails with zip files in it.
 Surely my employer would teach me something more sophisticated?
 

@@ -37,7 +37,7 @@ Horrifying stuff!
 Maybe slide deck designs are like fashion.
 If we just wait for another fifteen years, they will be popular again.
 
-Anyway, apart from the fact that this slide causes your eyes to sting, it also shows that the Internet Explorer browser family was VERY dominant in 2005.
+Anyway, apart from being ugly, this slide also shows that the Internet Explorer browser family was VERY dominant in 2005.
 Almost 90% of all Internet users used an IE browser.
 Now in this college talk I predicted three things, of which two **actually really happened**.
 These were my predictions:
@@ -89,7 +89,7 @@ OK, technically that did take 11 years, not 10.
 <https://tenor.com/view/youright-right-point-gif-9467383> <!-- .element: class="attribution" -->
 
 note:
-Still, I was right! 
+Still, I was right!
 Sort of.
 I correctly predicted that Internet Explorer would be surpassed by a new browser.
 
@@ -138,8 +138,7 @@ note:
 So here's our final prediction variable.
 It is hard to stay on top, hence "the handicap of a head start".
 Eventually the dominant product will be replaced by a new one.
-Netscape was replaced by Internet Explorer.
-Internet Explorer was replaced by Google Chrome.
+Netscape was replaced by Internet Explorer, which was replaced by Google Chrome.
 And I can't think of a reason why it wouldn't happen again.
 
 So let's return to the version control world now and see which products we need to investigate as aspiring successors of Git!

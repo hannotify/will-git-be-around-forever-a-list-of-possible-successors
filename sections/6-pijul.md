@@ -64,7 +64,7 @@ Hosting is available on the Pijul Nest.
     <li class="fragment fade-in-then-semi-out">Applying or unapplying a patch <em>doesn't change</em> its identity.</li>
     <li class="fragment fade-in-then-semi-out">The end result of applying several patches is always the same, regardless of the order in which they were applied.</li>
     <li class="fragment fade-in-then-semi-out">Pijul keeps track of 'dependent patches'</li>
-    <li class="fragment fade-in-then-semi-out">No merges or rebases; applying a patch is like <code>git cherry-pick</code>.</li>
+    <li class="fragment fade-in-then-semi-out">No rebases, and merges are hardly needed; applying a patch is like <code>git cherry-pick</code>.</li>
 </ul>
 
 note:
@@ -88,6 +88,9 @@ It stores snapshots of files and computes the differences when they are needed.
 note:
 
 ### Up and running
+
+See Trello card [Demo's "Successor of Git"](https://trello.com/c/gfvXNMKg/96-demos-successor-of-git)
+
 
     pijul init demo
 
@@ -136,6 +139,8 @@ note:
     ls
     pijul log
 
+    -- FINAL PART IS OPTIONAL --
+
     pijul unrecord --reset <hash> (movie)
     pijul unrecord --reset <hash> (another movie)
 
@@ -150,14 +155,7 @@ note:
 
 note:
 
-Previous version of the talk I used v0.12, which was clearly labeled as a preview version for research purposes.
-v1.0 uses a complete rewrite of the patch format, amongst other things.
-
-A few months after the release of Pijul 0.12, a user reported a defect regarding the unrecording of patches that were previously involved in a conflict.
-After some time a solution was found, but it meant that a new patch format was needed, along with a few new algorithms.
-So, Pijul had to be rewritten from scratch to make it all work, which obviously resulted in a lot of breaking changes.
-
-It is now feature-complete and it will be backwards-compatible from now on.
+Pijul is now feature-complete and it will be backwards-compatible from now on.
 However, it is still in beta.
 
 Overall, I think Pijul is quite promising, but it needs some work in its current beta phase.

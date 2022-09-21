@@ -16,7 +16,7 @@ note:
 
 *Voorbereidingen*:
 
-* Verbind Spotlight.
+* Verbind Spotlight met de Logitech-software.
 * Leg dobbelsteen klaar
 * Eerste scherm:
   * Speaker notes
@@ -25,13 +25,19 @@ note:
     * Tab met `mirror`
     * Tab met de slides draaiend
     * Tab voor fossil
-    * Tab voor pijul - vorbonden met Docker-container
+    * Tab voor pijul - verbonden met Docker-container
 * Tweede scherm:
   * Slides
   * Nieuwe tab voor Fossil UI
 
 Hi, my name is Hanno. 
 I work at Info Support as an IT consultant.
+Now I have been a Java developer for almost 15 years.
+So backend. But whether we work in backend or frontend, we all need version control!
+
+Quick show of hands - who of you is currently using Git?
+And who uses a different version control system?
+(and who doesn't like these handraising questions?)
 
 ---
 
@@ -42,9 +48,7 @@ I work at Info Support as an IT consultant.
 <https://pxhere.com/en/photo/652221> <!-- .element: class="attribution" -->
 
 note:
-
-Now I have been a Java developer for almost 15 years.
-And at my first job, about 15 years ago, we did a revolutionary thing regarding version control.
+At my first job, about 15 years ago, we did a revolutionary thing regarding version control.
 I was really eager to learn it, because at college we did version control by sending each other emails with zip files in it.
 Surely my employer would teach me something more sophisticated?
 

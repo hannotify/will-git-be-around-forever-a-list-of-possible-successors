@@ -5,7 +5,7 @@
 <https://pxhere.com/en/photo/652221> <!-- .element: class="attribution" -->
 
 note: 
-**Time Elapsed:** 17 min.
+**Time Elapsed:** 18 min.
 
 So, let's talk about Fossil first.
 
@@ -95,69 +95,11 @@ This makes Fossil:
 
 note:
 
-### Up and running
-
-    cd ~/development/fossil
-    mkdir demo
-    fossil new demo.repo
-    cd demo
-    fossil open ../demo.repo
-        ---c-sharp--
-        dotnet new console -o .
-        ---java-----
-        touch Sample.java
-        public class Sample {}
-        ------------
-    fossil add .
-    fossil changes
-    fossil commit -m "Initial commit"
-
-### Using the web interface
-
-    fossil ui
-
-### Retrieving descendants of a checkin
-
-    fossil branch new feature current 
-    ---c-sharp--
-    Console.WriteLine(Random());
-    static int Random() {
-        // chosen by fair dice roll; guaranteed to be random
-        return 2;
-    }
-    ---java-----
-    vi Sample.java
-    // roll the die on stage!!
-    public static void main(String... args) {
-        System.out.println(random());
-    }
-    private static int random() {
-        // Chosen by fair dice roll; guaranteed to be random.
-        return 4;
-    }
-    ------------
-    fossil add .
-    fossil commit -m "Implement random"
-    fossil ui
-    ---c-sharp--
-    static int BetterRandom() {
-        return new Random().Next(1, 6);
-    }
-    ---java-----
-    private static int randomThreadLocalRandom() {
-        return java.util.concurrent.ThreadLocalRandom.current().nextInt(1, 7);
-    }
-    ------------
-    fossil add .
-    fossil commit -m "Implement a better random"
-    fossil ui
-
----
+See Trello card [Demo's "Successor of Git"](https://trello.com/c/gfvXNMKg/96-demos-successor-of-git)
 
 ## The Bad
 
 * Dealing with large files 
-* Dealing with large commits
 
 <https://www.omiyagames.com/blog/2014/02/15/farewell-fossil-version-control>
 

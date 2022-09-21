@@ -5,7 +5,7 @@
 [https://pxhere.com/en/photo/652221](https://pxhere.com/en/photo/652221)  <!-- .element: class="attribution" -->
 
 note: 
-**Time Elapsed:** 6 min.
+**Time Elapsed:** 8 min.
 
 The question remains: which one will it be?
 Which one will be the successor?
@@ -16,21 +16,21 @@ And throughout this talk, we will discover several ideas that can be useful to o
 I call these ideas 'prediction variables'.
 At the end of the talk, we will use these 'variables' to make the final prediction.
 
-And I think we can discover them quickly by gathering information on the 'current big thing'.
-And how 'the current big thing' became 'the big thing' in the first place.
+And I think we can discover these variables quickly by gathering information on the 'current big thing'.
+And how it became 'the big thing' in the first place.
 So, why *did* Git become so popular?
 
 ---
 
 ## Main features of Git
 
-* Distributed <!-- .element: class="fragment fade-in-then-semi-out" -->
-* Free &amp; open-source <!-- .element: class="fragment fade-in-then-semi-out" -->
-* Fast <!-- .element: class="fragment fade-in-then-semi-out" -->
-* Optimized for branching <!-- .element: class="fragment fade-in-then-semi-out" -->
+* Distributed
+* Free &amp; open-source
+* Fast
+* Optimized for branching
 
 note:
-Well, as you may already know, these are Git's main features:
+Quick recap of Git's main features:
 
 * **Distributed**
   * Like BitKeeper. Commit often, push once.
@@ -114,6 +114,7 @@ And lastly: TFS is now Azure DevOps Server, and the version control system part 
 note:
 
 You can still pick it when you create a repository in Azure DevOps.
+But of course most people choose Git here.
 
 ---
 
@@ -144,16 +145,13 @@ Which is why I think "Hosting platform support" should be our second 'prediction
 <https://www.pexels.com/photo/photo-displays-person-holding-ball-with-reflection-of-horizon-940880> <!-- .element: class="attribution" -->
 
 note:
-Let's introduce another one, while we`re at it!
-Your version control system may be supported by a hosting provider, but that doesn't necessarily mean that said hosting provider supports the open-source community.
-Lots of hosting providers primarily offer private repositories.
-Also, not all version control systems focus as much on supporting open-source development as Git does, for example.
+Let's introduce another one, while we're at it!
+Because not all version control systems focus as much on supporting open-source development as Git does.
 So, here's prediction variable number three: "Open-source community support."
 
 That's enough about prediction variables, for now.
 Let's try and make a first prediction.
-Which at this early stage can only be done by using one approach:
-"Extrapolate from incomplete data"
+Which at this early stage can only be done by using the following approach:
 
 ---
 
@@ -162,10 +160,8 @@ Which at this early stage can only be done by using one approach:
 <https://bingeprints.com/products/there-are-two-types-of-people-those-who-can-extrapolate-from-incomplete-data-mug-funny-statistics-math-coffee-cup-1> <!-- .element: class="attribution" -->
 
 note:
-After all, we all know there are only two types of people in the world.
-1. Those who can extrapolate from incomplete data.
-
-So, let's take some existing data and extrapolate it!
+"Extrapolate from incomplete data"
+So, let's do that!
 
 ---
 

@@ -5,19 +5,16 @@
 <https://pxhere.com/en/photo/652221> <!-- .element: class="attribution" -->
 
 note:
-**Time Elapsed:** 2 min.
+**Time Elapsed:** 3 min.
 
 So, fast-forward 15 years again.
 I've gained some experience with real Version Control Systems like Subversion and Git.
+And I also teach a few courses at Info Support, from time to time.
+Our courses address basic software development topics such as object-orientation, automated testing, continuous delivery, containerisation and so on. 
 
-Now at Info Support, besides doing consultancy work, I also teach a few courses.
-We offer a wide range of courses.
-And they exist mainly to get our junior colleagues up to speed with important concepts or products they'll need for their daily work.
-They address base software development topics such as object-orientation, automated testing, continuous delivery, containerisation and so on. 
-
-And one of the courses I teach is called 'Git for Developers'.
+One of these courses is called 'Git for Developers'.
 It's a one-day course where I teach the students how to use Git **as a developer**.
-Among other things, we discuss the pros and cons of distributed version control systems and how they compare to the earlier version control system, like CVS and Subversion. 
+We discuss the pros and cons of distributed version control systems and how they compare to the earlier version control system, like CVS and Subversion. 
 
 ---
 
@@ -54,14 +51,10 @@ So, does anyone happen to know why things happened like this?
 <http://web.archive.org/web/20050408062838/http://www.bitkeeper.com/press/2005-04-05.html> <!-- .element: class="attribution" -->
 
 note:
-Well, BitKeeper happened.
-BitKeeper always was a proprietary piece of software, so a paid product.
-But Linux got a special deal.
-The deal is simple, the Linux community could use Bitkeeper for free in exchange for some metadata and an agreement for Linux contributors not to work on competing version control systems. 
-No other distributed version control systems existed at the time.
-Eventually however, in March 2005, Bitkeeper informs teh Linux Kernel Development Team that they will have to start to pay to continue using Bitkeeper.
+* BitKeeper changed its licensing model for Open Source users
+* In a nutshell: the Linux community could no longer use BitKeeper for free
 
-The open-source world - Linus Torvalds in front - was not amused.
+The open-source world - with Mr. Linus Torvalds in front - was not amused.
 And what do you do when the only distributed version control system is no longer freely available?
 Well, you create a new one, of course!
 So in the aftermath of BitKeeper's licensing change, a lot of similar products were developed in a short amount of time.
@@ -74,28 +67,27 @@ Including Mr. Torvalds' own rendition of distributed version control, which late
 <http://blog.plasticscm.com/2010/11/version-control-timeline.html> <!-- .element: class="attribution" -->
 
 note:
-So **I** thought the year 2005 really stood out in this graphic.
-Of course, that doesn't necessarily mean everyone thought so.
-In fact, at the end of one particular course day, a student came to me with a question.
-And her question proved that she had noticed an **entirely** different thing than I had.
-She came to me after class and said: "Git is great and all that, but what's gonna be the **next** big thing?"
+* The year 2005 caught my attention.
+* But one of my students had noticed something entire different in this graphic.
 
-Now I turned to the student and told her everything I knew.
-That I was quite sure that distributed version control systems like Git and Mercurial would be around for a while longer.
+At the end of one particular course day, this student came to me with a question.
+And she said: "Git is great and all that, but what's gonna be the **next** big thing?"
+"It looks like nothing has happend in Version Control world for over ten years!"
+
+I told her: 
+
+* we're quite sure that distributed version control systems like Git and Mercurial will be around for much longer.
+
 But of course this wasn't a proper answer at all!
 Because **I didn't know** what was gonna be the next big thing.
 
-Now afterwards, I really felt bad about not being able to answer my student's question directly.
 I had effectively told her that "Git will probably be around forever", even if I didn't phrase it exactly like that.
+That didn't sit right with me.
 So I decided to research the matter a bit further.
-And what started out as finding the answer to a simple question turned into an investigation.
-And the investigation turned into a conference talk.
-Which is the one you're attending right now! 
+And the research got out of hand and eventually turned into this conference talk.
 
-So, welcome to you all! (*open arms*)
+So, thank you for attending it, you are most welcome! (*open arms*)
 And let's see if we can find the answer to the student's question together, shall we?
-And after we find out, I'll make sure that she gets the answer as soon as possible.
-OK? I promise.
 
 ---
 

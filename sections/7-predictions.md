@@ -5,7 +5,7 @@
 <https://pxhere.com/en/photo/652221>  <!-- .element: class="attribution" -->
 
 note: 
-**Time Elapsed:** 42 min.
+**Time Elapsed:** 40 min.
 
 Well, the wait is finally over, it's prediction time!
 About time, right?
@@ -16,10 +16,10 @@ Let's compile a list of the prediction variables that we've assembled.
 
 ## Prediction variables
 
-* Killer features. <!-- .element: class="fragment fade-in-then-semi-out" -->
-* Hosting platform support. <!-- .element: class="fragment fade-in-then-semi-out" -->
-* Open-source community support. <!-- .element: class="fragment fade-in-then-semi-out" -->
-* The handicap of a head start. <!-- .element: class="fragment fade-in-then-semi-out" -->
+* Killer features. 
+* Hosting platform support. 
+* Open-source community support. 
+* The handicap of a head start. 
 
 note:
 Looks like we've gathered four prediction variables so far:

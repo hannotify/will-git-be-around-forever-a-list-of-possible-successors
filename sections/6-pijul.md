@@ -58,24 +58,74 @@ Hosting is available on the Pijul Nest.
 
 ## Patch-oriented design
 
+
 <ul>
     <li class="fragment fade-in-then-semi-out">A patch is an intuitive atomic unit of work.</li>
     <li class="fragment fade-in-then-semi-out">It focuses on <em>changes</em>, instead of <em>differences between snapshots</em> (i.e. Git commits).</li>
     <li class="fragment fade-in-then-semi-out">Applying or unapplying a patch <em>doesn't change</em> its identity.</li>
     <li class="fragment fade-in-then-semi-out">The end result of applying several patches is always the same, regardless of the order in which they were applied.</li>
     <li class="fragment fade-in-then-semi-out">Pijul keeps track of 'dependent patches'</li>
-    <li class="fragment fade-in-then-semi-out">No rebases, and merges are hardly needed; applying a patch is like <code>git cherry-pick</code>.</li>
+    <li class="fragment fade-in-then-semi-out">Rebase and merge don't exist, applying a patch (and its dependencies) is like <code>git cherry-pick</code>.</li>
 </ul>
 
 note:
+Let's zoom in on this "patch-oriented design".
+
+[walk through the bullet list]
+
+[on **identity**]
 By contrast, Git doesn't store any patches.
 It stores snapshots of files and computes the differences when they are needed.
+In Git each snapshot has its own identity. 
+
+[on **order**]
+Changes in Pijul can be applied in any order. This is great for cherry-picking: Pijul knows the changes that need to come along, and maintains the identity of the change after the cherry-pick. No need to manually find the commits to revert or pick.
+
+[on **rebase** and **merges**]
+One particular goal of Pijul is to model conflicts as normal states of collaboration, so that conflicts are resolved by normal changes, valid even for the same conflicts in any other context.
+
+It is important to note that conflicts in Pijul always happen between changes, for example we might say that “change A conflicts with change B”. A conflict resolution is always a change. 
+
+One of the main features of Pijul is that its internal representation of repositories fully models conflicts. Patches can even be applied to a conflicting repository, leaving the conflict resolution for later.
 
 ---
 
 <!-- .slide: data-background="img/snapshot-vs-patch.png" data-background-color="#555" data-background-size="contain"-->
 
 <https://www.katacoda.com/ysndr/scenarios/pijul/assets/comparison.png> <!-- .element class="attribution" -->
+
+---
+
+## If commits were bank transactions
+
+<table>
+        <tr>
+            <th/>
+            <th>snapshot</th>
+            <th>patch</th>
+        </tr>
+        <tr class="fragment">
+            <th align="right">initial balance</th>
+            <td align="right"><code>100</code></td>
+            <td align="right"><code>+100</code></td>
+        </tr>  
+        <tr class="fragment">
+            <th align="right">salary</th>
+            <td align="right"><code>400</code></td>
+            <td align="right"><code>+300</code></td>
+        </tr>
+        <tr class="fragment">
+            <th align="right">heating</th>
+            <td align="right"><code>0</code></td>
+            <td align="right"><code>-400</code></td>
+        </tr>
+</table>
+
+
+note:
+
+Snapshots store account balance, patches store deltas.
+Which means patch order doesn't matter for the final result.
 
 ---
 

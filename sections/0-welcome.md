@@ -37,7 +37,7 @@ So backend. But whether we work in backend or frontend, we all need version cont
 
 Quick show of hands - who of you is currently using Git?
 And who uses a different version control system?
-(and who doesn't like these handraising questions?)
+(and who doesn't like these stupid handraising questions?)
 
 ---
 

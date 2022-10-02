@@ -97,6 +97,8 @@ note:
 
 See Trello card [Demo's "Successor of Git"](https://trello.com/c/gfvXNMKg/96-demos-successor-of-git)
 
+---
+
 ## The Bad
 
 * Dealing with large files 

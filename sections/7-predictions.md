@@ -5,7 +5,7 @@
 <https://pxhere.com/en/photo/652221>  <!-- .element: class="attribution" -->
 
 note: 
-**Time Elapsed:** 40 min.
+**Time Elapsed:** 26 min.
 
 Well, the wait is finally over, it's prediction time!
 About time, right?

@@ -8,7 +8,7 @@
         <td style="vertical-align: middle; padding: 0 0 0 0"><a href="https://www.twitter.com/hannotify">@hannotify</a></td>
     </tr>
 </table>
-<img data-src="img/logos/frontmania.png" width="25%" class="no-background"/>
+<img data-src="img/logos/devoxx.png" width="45%" class="no-background"/>
 <br/>
 
 note:
@@ -20,30 +20,40 @@ note:
 * Leg dobbelsteen klaar
 * Eerste scherm:
   * Speaker notes
-  * VSCode, met alle editors dicht
+  * VSCode, voor Random.java
   * Terminal:
     * Tab met `mirror`
     * Tab met de slides draaiend
-    * Tab voor fossil
+    * Tab voor fossil, met working-dir `/Users/hanno/development/talks/reveal.js/slide-decks/tools-in-action-will-git-be-around-forever`
     * Tab voor pijul - verbonden met Docker-container
 * Tweede scherm:
   * Slides
   * Nieuwe tab voor Fossil UI
 
 Hi, my name is Hanno. 
-I work at Info Support as an IT consultant.
+From the Netherlands, and I work at Info Support as an IT consultant.
+Now when it comes to version control, I've come a looong way.
+When I was in college, back in 2006, I participated in 'Version Control by Email'.
+
+(...)
+
+And at my first Software Development job, we did 'Version Control by USB Stick'.
+
+(...)
 
 ---
+
+<!-- .slide: data-background="img/background/usb-sticks.jpg" data-background-color="black" data-background-opacity="0.3"-->
 
 # Teaching a course on Git
 
 <https://pxhere.com/en/photo/652221> <!-- .element: class="attribution" -->
 
 note:
-Besides that, I also teach a few courses at Info Support, from time to time.
-One of these courses is called 'Git for Developers'.
-It's a one-day course where I teach the students how to use Git **as a developer**.
-We discuss the pros and cons of distributed version control systems and how they compare to the earlier version control system, like CVS and Subversion. 
+Thank goodness it's 15 years later now, because I've gained proper experience with Subversion and Git.
+I even teach a "Git" course at Info Support.
+It's a one-day course where I teach our interns and juniors how to use Git **as a developer**.
+We discuss the pros and cons of distributed version control and how it compare to earlier version control systems, like CVS and Subversion. 
 
 ---
 
@@ -53,15 +63,15 @@ We discuss the pros and cons of distributed version control systems and how they
 
 note:
 This is actually one of the course slides.
-And it displays which version control systems have emerged until now, and when they became available.
-It also tries to put the publication date of each version control system in perspective by comparing them to the most modern phone known at that time.
+Displays which version control systems have emerged until now, and their publication date.
+By comparing the publication dates to the most modern phone known at the time, you get a sense of how old these systems are.
 
 So, for example, Subversion relates to the Nokia 3310. (point)
 Which are both *indestructible*.
 And CVS relates to the thing with the power plug.
 Both are obviously **ancient**!
 
-At the end of one particular course day, this student came to me with a question.
+At the end of one particular course day, a student came to me with a question.
 And she said: "Git is great and all that, but what's gonna be the **next** big thing?"
 "It looks like nothing has happend in Version Control world for over ten years!"
 
@@ -91,18 +101,15 @@ And let's see if we can find the answer to the student's question together, shal
 note: 
 **Time Elapsed:** 2 min.
 
-The question remains: which one will it be?
-Which one will be the successor?
+To answer the question, we have to discover what factors are influencing the popularity of a version control system.
+So let's take Git as an example.
+Why do you think Git became so popular?
 
-Now in finding the answer to this question, we obviously have to make a prediction.
-We have to predict which version control system will be popular in, say, ten years.
-And throughout this talk, we will discover several ideas that can be useful to our prediction. 
-I call these ideas 'prediction variables'.
-At the end of the talk, we will use these 'variables' to make the final prediction.
+---
 
-And I think we can discover these variables quickly by gathering information on the 'current big thing'.
-And how it became 'the big thing' in the first place.
-So, why *did* Git become so popular?
+<!-- .slide: data-background-color="#f9f9f9" data-background="img/background/vcs-popularity-graph.png" data-background-size="60%" --->
+
+<https://blog.gitprime.com/git-didnt-beat-svn-github-did> <!-- .element: class="attribution" -->
 
 ---
 
@@ -111,36 +118,49 @@ So, why *did* Git become so popular?
 * Killer features
 * Hosting platform support
 * Open-source community support
-* The handicap of the head start
 
 notes:
 
-TODO
+**Killer features**
+
+* Free to use (not like BitKeeper)
+* Fast; everyday operations take less than a second (unlike Darcs or Subversion)
+* Easy branching (unlike CVS)
+
+**Hosting platform support**
+
+* As of 2022, there are 18 websites that offer public Git repositories. (wikipedia)
+
+**Open-source community support**
+
+* Git has been the driving force behind global open-source development; with contributors spread across the globe
 
 ---
-
-<!-- .slide: data-background="img/background/implementation-decision.jpg" data-background-color="black" data-background-opacity="0.5"-->
 
 ## Prediction variables
 
-* Killer features
-* Hosting platform support
-* Open-source community support
-* The handicap of the head start
+<ul>
+    <li>Killer features
+    <li>Hosting platform support
+    <li>Open-source community support
+    <li class="fragment">The handicap of the head start
+</ul>
 
 notes:
 
-TODO
+We can use these Git features as 'prediction variables': factors that will influence our prediction.
+And I would like to add another one:
+
+**The handicap of the head start**
+
+* Meaning: the top product will have the hardest time staying on top.
+* Just think about what happened to Subversion.
+* Or what happened to Internet Explorer.
+* Or your favourite football team.
 
 ---
 
-<!-- .slide: data-background-color="#f9f9f9" data-background="img/background/vcs-popularity-graph.png" data-background-size="60%" --->
-
-<https://blog.gitprime.com/git-didnt-beat-svn-github-did> <!-- .element: class="attribution" -->
-
---- 
-
-## Getting To A Proper Prediction
+## Putting the graph data into a table
 
 <table>
     <thead>
@@ -159,7 +179,7 @@ TODO
         <tr>
             <th align="right">Git</th>
             <td align="right">25%</td>
-            <td align="right">73%</td>
+            <td align="right">74%</td>
         </tr>
         <tr>
             <th align="right">Mercurial</th>
@@ -169,7 +189,7 @@ TODO
         <tr>
             <th align="right">TFVC</th>
             <td align="right">7%</td>
-            <td align="right">7%</td>
+            <td align="right">6%</td>
         </tr>
         <tr>
             <th align="right">CVS</th>
@@ -179,22 +199,24 @@ TODO
     </tbody>
 </table>
 
+note:
+Let's put the graph data into a table.
+
 ---
 
 <!-- .slide: data-background="img/background/problem-encountered.jpg" data-background-color="black" data-background-opacity="0.5" --->
 
-## But first!
+## Don't forget!
 
 <blockquote class="explanation">
-    Let's include some new products!
+    Include some new products!
 </blockquote>
 
 <https://www.pexels.com/photo/man-in-black-shirt-and-gray-denim-pants-sitting-on-gray-padded-bench-1134204> <!-- .element: class="attribution" -->
 
 note:
-Yeah, one problem though.
-We haven't included *any* new products.
-This 'first prediction' is based entirely on existing products.
-But a lot can happen in ten years!
+And we shouldn't forget to include a few new products.
+Because a lot can happen in ten years!
 What if a brand-new, feature-packed version control system appears and takes the market by storm?
 
+In the rest of this talk I'll add two newer version control systems to this table: Fossil and Pijul.

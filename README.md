@@ -24,6 +24,19 @@ As presented at:
 | Predictions | 26:00 | 4:00 |
 | Wrap-up | 30:00 | 0:00 |
 
+
+#### TODO
+
+* ~~Devoxx css~~
+* ~~Check format of slides~~
+* ~~Random.java oefenen (ipv Random.js) en verwerk in Trello.~~
+* ~~Schrijf het 4-minuten-intro aan elkaar met speaker notes~~
+* ~~Zitten er nog genoeg domme grappen in?~~
+* Neem het hele verhaal even door, inclusief 't nieuwe intro. *Does it still make sense in 30 minutes?*
+* Timebox het nieuwe intro
+* PDF export of slides
+* Push de PDF naar Pijul Nest
+
 ### 45 min.
 
 | Section | Target time | Duration |

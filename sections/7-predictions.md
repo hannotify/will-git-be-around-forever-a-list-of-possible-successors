@@ -93,53 +93,62 @@ Fossil just adds 'show descendants' and an integrated developer website to the m
 [slide]
 
 Hosting capabilities for Git are superb. 
-Wikipedia lists 19 different hosting websites that support Git.
-Mercurial has 9 websites.
+Wikipedia lists 18 different hosting websites that support Git.
+Mercurial has 7 websites.
 TFVC only has 1 - which is Azure DevOps.
 Fossil and Pijul both have one, but with the potential to grow.
 
 [slide]
 
-Git and Hg have proven that that contribute massively to open-source development.
+Git and Hg have proven that they contribute massively to open-source development.
 TFVC just doesn't.
 I'm not too impressed with Fossil on this one.
 With their 'Github-in-a-box' and 'you don't need a dedicated hosting platform', they tend to tailor their product to small teams that are physically at the same location (and not spread out across the world). 
 This is not the best support that open-source development can have.
-And Pijul shows potential with the Pijul Nest. 
+Pijul shows potential with the Pijul Nest. 
 But the Nest obviously needs to become a lot more popular in the future.
 
 [slide]
 
 Being the dominant products, Git and Hg suffer the most from the "handicap of a head start".
 
+
 ---
 
-<table>
+<!-- .slide: data-auto-animate -->
+
+<table data-id="predictions-animation">
     <thead>
         <tr>
             <th/>
-            <th>2032</th>
+            <th>2010</th>
+            <th>2021</th>
         </tr>
     </thead>
     <tbody>
         <tr>
+            <th align="right">Subversion</th>
+            <td align="right">44%</td>
+            <td align="right">8%</td>
+        </tr>
+        <tr>
             <th align="right">Git</th>
-            <td align="right">80%</td>
+            <td align="right">25%</td>
+            <td align="right">74%</td>
         </tr>
         <tr>
             <th align="right">Mercurial</th>
-            <td align="right">9%</td>
+            <td align="right">19%</td>
+            <td align="right">12%</td>
         </tr>  
         <tr>
             <th align="right">TFVC</th>
             <td align="right">7%</td>
+            <td align="right">6%</td>
         </tr>
         <tr>
-            <th align="right">Subversion</th>
-            <td align="right">4%</td>
-        </tr>     
-        <tr>
             <th align="right">CVS</th>
+            <td align="right">5%</td>
             <td align="right">&lt;1%</td>
         </tr>      
     </tbody>
@@ -147,48 +156,117 @@ Being the dominant products, Git and Hg suffer the most from the "handicap of a 
 
 ---
 
-<table>
+<!-- .slide: data-auto-animate -->
+
+<table data-id="predictions-animation">
     <thead>
         <tr>
             <th/>
-            <th><del>2032</del></th>
+            <th>2010</th>
+            <th>2021</th>
+            <th>2032</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th align="right">Subversion</th>
+            <td align="right">44%</td>
+            <td align="right">8%</td>
+            <td align="right">3%</td>
+        </tr>    
+        <tr>
+            <th align="right">Git</th>
+            <td align="right">25%</td>
+            <td align="right">74%</td>
+            <td align="right">77%</td>
+        </tr>
+        <tr>
+            <th align="right">Mercurial</th>
+            <td align="right">19%</td>
+            <td align="right">12%</td>
+            <td align="right">8%</td>            
+        </tr>
+        <tr>
+            <th align="right">TFVC</th>
+            <td align="right">7%</td>
+            <td align="right">6%</td>
+            <td align="right">3%</td>
+        </tr>
+        <tr>
+            <th align="right">CVS</th>
+            <td align="right">5%</td>
+            <td align="right">&lt;1%</td>
+            <td align="right">&lt;1%</td>
+        </tr>          
+        <tr>
+            <th align="right">Pijul</th>
+            <td align="right"></td>
+            <td align="right">&lt;1%</td>
+            <td align="right">6%</td>            
+        </tr>   
+        <tr>
+            <th align="right">Fossil</th>
+            <td align="right">&lt;1%</td>
+            <td align="right">&lt;1%</td>
+            <td align="right">3%</td>            
+        </tr>                 
+    </tbody>
+</table>
+
+---
+
+<!-- .slide: data-auto-animate -->
+
+<table data-id="predictions-animation">
+    <thead>
+        <tr>
+            <th/>
+            <th>2010</th>
+            <th>2021</th>
             <th>2032</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <th align="right">Git</th>
-            <td align="right"><del>80%</del></td>
+            <td align="right">25%</td>
+            <td align="right">74%</td>
             <td align="right">77%</td>
         </tr>
         <tr>
             <th align="right">Mercurial</th>
-            <td align="right"><del>9%</del></td>
-            <td align="right">8%</td>
+            <td align="right">19%</td>
+            <td align="right">12%</td>
+            <td align="right">8%</td>            
         </tr>
-          <tr>
+        <tr>
             <th align="right">Pijul</th>
             <td align="right"></td>
-            <td align="right">5%</td>
-        </tr>      
-        <tr>
-            <th align="right">TFVC</th>
-            <td align="right"><del>7%</del></td>
-            <td align="right">4%</td>
-        </tr>
-        <tr>
-            <th align="right">Subversion</th>
-            <td align="right"><del>4%</del></td>
-            <td align="right">4%</td>
-        </tr>  
+            <td align="right">&lt;1%</td>
+            <td align="right">6%</td>            
+        </tr>   
         <tr>
             <th align="right">Fossil</th>
-            <td align="right"></td>
-            <td align="right">2%</td>
-        </tr>           
+            <td align="right">&lt;1%</td>
+            <td align="right">&lt;1%</td>
+            <td align="right">3%</td>            
+        </tr>             
+        <tr>
+            <th align="right">Subversion</th>
+            <td align="right">44%</td>
+            <td align="right">8%</td>
+            <td align="right">3%</td>
+        </tr>
+        <tr>
+            <th align="right">TFVC</th>
+            <td align="right">7%</td>
+            <td align="right">6%</td>
+            <td align="right">3%</td>
+        </tr>
         <tr>
             <th align="right">CVS</th>
-            <td align="right"><del>&lt;1%</del></td>
+            <td align="right">5%</td>
+            <td align="right">&lt;1%</td>
             <td align="right">&lt;1%</td>
         </tr>      
     </tbody>

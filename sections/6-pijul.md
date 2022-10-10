@@ -7,6 +7,8 @@
 note: 
 **Time Elapsed:** 13 min.
 
+Time to dive into Pijul.
+
 ---
 
 <!-- .slide: data-background="img/background/pijul.jpg" data-background-color="black" data-background-opacity="0.8"-->

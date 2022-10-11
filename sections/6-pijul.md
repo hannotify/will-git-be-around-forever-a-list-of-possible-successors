@@ -84,11 +84,9 @@ In Git each snapshot has its own identity.
 Changes in Pijul can be applied in any order. This is great for cherry-picking: Pijul knows the changes that need to come along, and maintains the identity of the change after the cherry-pick. No need to manually find the commits to revert or pick.
 
 [on **rebase** and **merges**]
-One particular goal of Pijul is to model conflicts as normal states of collaboration, so that conflicts are resolved by normal changes, valid even for the same conflicts in any other context.
-
-It is important to note that conflicts in Pijul always happen between changes, for example we might say that “change A conflicts with change B”. A conflict resolution is always a change. 
-
-One of the main features of Pijul is that its internal representation of repositories fully models conflicts. Patches can even be applied to a conflicting repository, leaving the conflict resolution for later.
+Conflicts in Pijul are modeled as normal states of collaboration.
+Conflicts are resolved by regular changes, which are valid for the same conflicts in any other context.
+Patches can even be applied to a conflicting repository, leaving the conflict resolution for later.
 
 ---
 

@@ -7,10 +7,7 @@
 note: 
 **Time Elapsed:** 26 min.
 
-Well, the wait is finally over, it's prediction time!
-About time, right?
-
-Let's compile a list of the prediction variables that we've assembled. 
+Well, it seems like it's prediction time!
 
 ---
 
@@ -22,12 +19,14 @@ Let's compile a list of the prediction variables that we've assembled.
 * The handicap of a head start. 
 
 note:
-Looks like we've gathered four prediction variables so far:
+These were our four prediction variables:
 
 * **Killer features.**
 * **Hosting platform support.** 
 * **Open-source community support.**
 * **The handicap of a head start.**
+
+Now that we've seen a bit of Fossil and Pijul, let's score them according to these variables.
 
 ---
 
@@ -95,13 +94,13 @@ Fossil just adds 'show descendants' and an integrated developer website to the m
 Hosting capabilities for Git are superb. 
 Wikipedia lists 18 different hosting websites that support Git.
 Mercurial has 7 websites.
-TFVC only has 1 - which is Azure DevOps.
+Team Foundation only has 1 - which is Azure DevOps.
 Fossil and Pijul both have one, but with the potential to grow.
 
 [slide]
 
 Git and Hg have proven that they contribute massively to open-source development.
-TFVC just doesn't.
+Team Foundation just doesn't.
 I'm not too impressed with Fossil on this one.
 With their 'Github-in-a-box' and 'you don't need a dedicated hosting platform', they tend to tailor their product to small teams that are physically at the same location (and not spread out across the world). 
 This is not the best support that open-source development can have.
@@ -111,7 +110,6 @@ But the Nest obviously needs to become a lot more popular in the future.
 [slide]
 
 Being the dominant products, Git and Hg suffer the most from the "handicap of a head start".
-
 
 ---
 

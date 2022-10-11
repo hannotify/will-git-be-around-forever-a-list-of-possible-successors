@@ -5,7 +5,7 @@
 <https://pxhere.com/en/photo/652221> <!-- .element: class="attribution" -->
 
 note: 
-**Time Elapsed:** 4 min.
+**Time Elapsed:** 5 min.
 
 Let's talk about Fossil first.
 

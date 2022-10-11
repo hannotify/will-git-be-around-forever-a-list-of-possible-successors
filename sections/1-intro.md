@@ -29,15 +29,22 @@ note:
 * Tweede scherm:
   * Slides
   * Nieuwe tab voor Fossil UI
+* Reset de timer in de speaker notes
 
 Hi, my name is Hanno. 
 From the Netherlands, and I work at Info Support as an IT consultant.
+My Twitter handle is @hannotify; I Tweet about stuff that I think it's interesting, so for example new features in Java, or lyrics to existing pop songs that are actually about software development (imo). 
+Or unusual things that I come across in my projects. 
+Or about version control, of course.
+If you like that stuff, feel free to give me a follow!
+
 Now when it comes to version control, I've come a looong way.
 When I was in college, back in 2006, I participated in 'Version Control by Email'.
 
 (...)
 
-And at my first Software Development job, we did 'Version Control by USB Stick'.
+When I started my first Software Development job, we did 'Version Control by USB Stick'.
+Eventually we switch to using... CVS. Very modern.
 
 (...)
 
@@ -149,7 +156,7 @@ notes:
 notes:
 
 We can use these Git features as 'prediction variables': factors that will influence our prediction.
-And I would like to add another one:
+And I would like to add another one: (slide)
 
 **The handicap of the head start**
 

@@ -27,15 +27,12 @@ As presented at:
 
 #### TODO
 
-* ~~Devoxx css~~
-* ~~Check format of slides~~
-* ~~Random.java oefenen (ipv Random.js) en verwerk in Trello.~~
-* ~~Schrijf het 4-minuten-intro aan elkaar met speaker notes~~
-* ~~Zitten er nog genoeg domme grappen in?~~
-* Neem het hele verhaal even door, inclusief 't nieuwe intro. *Does it still make sense in 30 minutes?*
-* Timebox het nieuwe intro
-* PDF export of slides
-* Push de PDF naar Pijul Nest
+* ~~PDF export van de slides~~
+* ~~Push de PDF naar Pijul Nest~~
+* Tweet
+* Zet een tag op de repo
+* Talk
+* Tweet slide deck (link SlideShare: https://www.slideshare.net/HannoEmbregts/will-git-be-around-forever-a-list-of-possible-successors-from-devoxx-2022)
 
 ### 45 min.
 

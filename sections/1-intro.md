@@ -29,6 +29,7 @@ note:
 * Tweede scherm:
   * Slides
   * Nieuwe tab voor Fossil UI
+* Telefoon met de demostappen erop
 * Reset de timer in de speaker notes
 
 Hi, my name is Hanno. 

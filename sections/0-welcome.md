@@ -20,12 +20,12 @@ note:
 * Leg dobbelsteen klaar
 * Eerste scherm:
   * Speaker notes
-  * VSCode, met alle editors dicht
+  * VSCode, maar met alle editors dicht
   * Terminal:
     * Tab met `mirror`
     * Tab met de slides draaiend
     * Tab voor fossil
-    * Tab voor pijul - verbonden met Docker-container
+    * Tab voor pijul - verbonden met Docker-container via bash
 * Tweede scherm:
   * Slides
   * Nieuwe tab voor Fossil UI
@@ -33,7 +33,7 @@ note:
 Hi, my name is Hanno. 
 I work at Info Support as an IT consultant.
 Now I have been a Java developer for almost 15 years.
-So backend. But whether we work in backend or frontend, we all need version control!
+I know, I know, backend, ew, right? But whether we work in backend or frontend, we all need version control!
 
 Quick show of hands - who of you is currently using Git?
 And who uses a different version control system?

@@ -19,20 +19,12 @@ As presented at:
 | Section | Target time | Duration |
 |---|---:|---:|
 | Intro | 0:00 | 4:00 |
-| Fossil | 4:00 | 9:00 |
-| Pijul | 13:00 | 13:00 |
-| Predictions | 26:00 | 4:00 |
+| Fossil (theory) | 4:00 | 6:00 |
+| Fossil (demo) | 10:00 | 5:00 |
+| Pijul (theory) | 15:00 | 4:30 |
+| Pijul (demo) | 20:30 | 5:00 |
+| Predictions | 25:30 | 4:30 |
 | Wrap-up | 30:00 | 0:00 |
-
-
-#### TODO
-
-* ~~PDF export van de slides~~
-* ~~Push de PDF naar Pijul Nest~~
-* Tweet
-* Zet een tag op de repo
-* Talk
-* Tweet slide deck (link SlideShare: https://www.slideshare.net/HannoEmbregts/will-git-be-around-forever-a-list-of-possible-successors-from-devoxx-2022)
 
 ### 45 min.
 

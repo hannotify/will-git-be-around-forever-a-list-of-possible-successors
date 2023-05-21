@@ -27,7 +27,6 @@ Time to dive into Pijul.
 * distributed version control <!-- .element: class="fragment fade-in-then-semi-out" -->
 * simple, because of its basis on a sound theory of patches <!-- .element: class="fragment fade-in-then-semi-out" -->
 * fast, because it aims to fix the Darcs performance issues <!-- .element: class="fragment fade-in-then-semi-out" -->
-* interactive recording <!-- .element: class="fragment fade-in-then-semi-out" -->
 
 <https://www.pijul.com> <!-- element: class="attribution" -->
 
@@ -42,7 +41,6 @@ It was also in the VCS popularity graph that I showed you earlier.
 
 <ul>
     <li class="fragment fade-in-then-semi-out">written in Rust
-    <li class="fragment fade-in-then-semi-out">bootstrapped since April 2017
     <li class="fragment fade-in-then-semi-out">free code hosting at 
     <a href="https://nest.pijul.com">https://nest.pijul.com</a> 
 </ul>
@@ -50,9 +48,6 @@ It was also in the VCS popularity graph that I showed you earlier.
 note:
 Rust is one of the faster languages around, because it is a low-level language.
 Its performance is comparable to that of C++.
-
-Bootstrapped means that it is used for its own development.
-Like IntelliJ, they 'eat their own dog food'.
 
 Hosting is available on the Pijul Nest.
 
@@ -87,12 +82,6 @@ Changes in Pijul can be applied in any order. This is great for cherry-picking: 
 Conflicts in Pijul are modeled as normal states of collaboration.
 Conflicts are resolved by regular changes, which are valid for the same conflicts in any other context.
 Patches can even be applied to a conflicting repository, leaving the conflict resolution for later.
-
----
-
-<!-- .slide: data-background="img/snapshot-vs-patch.png" data-background-color="#555" data-background-size="contain"-->
-
-<https://www.katacoda.com/ysndr/scenarios/pijul/assets/comparison.png> <!-- .element class="attribution" -->
 
 ---
 

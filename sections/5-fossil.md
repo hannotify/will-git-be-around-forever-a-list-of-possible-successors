@@ -15,10 +15,7 @@ Let's talk about Fossil first.
 
 <ul>
     <li class="fragment fade-in-then-semi-out">distributed version control</li>
-    <li class="fragment fade-in-then-semi-out">integrated bug tracking, wiki, forum and technotes</li>
-    <li class="fragment fade-in-then-semi-out">built-in web interface</li>
     <li class="fragment fade-in-then-semi-out">both autosync and manual merge mode</li>
-    <li class="fragment fade-in-then-semi-out">show descendants of a check-in</li>
     <li class="fragment fade-in-then-semi-out">supports operations on multiple repositories (<code>fossil all</code>)</li>
     <li class="fragment fade-in-then-semi-out">a 'preserve all history' philosophy</li>
 </ul>
@@ -26,11 +23,6 @@ Let's talk about Fossil first.
 <a href="https://www.fossil-scm.org" class="attribution">https://www.fossil-scm.org</a>
 
 note:
-* integrated project management (bug tracking, wiki, forum and technotes) - 
-  * 'Github in a box'
-  * A feature-rich web interface is available through the command `fossil ui`.
-  * So there's no need to use any 3rd party products; after cloning a repo you have a fully-featured developer website available.
-* built-in web interface - the Fossil website actually runs on the same web interface
 * **autosync mode** - performs an automatic push after each commit
 * **manual merge mode** - like Git and Hg
 * **preserve all history** - there is no rebase in Fossil. Also: why would it be called 'Fossil'?

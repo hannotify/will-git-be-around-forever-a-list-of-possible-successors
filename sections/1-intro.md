@@ -8,6 +8,7 @@
         <td style="vertical-align: middle; padding: 0 0 0 0"><a href="https://www.twitter.com/hannotify">@hannotify</a></td>
     </tr>
 </table>
+<img data-src="img/logos/java-community-logo.png" width="10%" class="no-background" style="margin-right: 2em">
 <img data-src="img/logos/devoxx-pl.png" width="40%" class="no-background"/>
 <br/>
 
@@ -34,12 +35,12 @@ note:
 
 Hi, my name is Hanno. 
 From the Netherlands, and I work at Info Support as an IT consultant.
-My Twitter handle is @hannotify; I Tweet about stuff that I think it's interesting, so for example new features in Java, or lyrics to existing pop songs that are actually about software development (imo). 
-Or unusual things that I come across in my projects. 
-Or about version control, of course.
-If you like that stuff, feel free to give me a follow!
+Recently I've received the Oracle ACE Associate award in the 'Java' category.
+I am @hannotify at Twitter or Mastodon, I post about things I like.
+Which is Java Development, Version Control and making music.
+If you like that stuff, by all means give me a follow!
 
-Now when it comes to version control, I've come a looong way.
+Now when it comes to version control, I've come a long way.
 When I was in college, back in 2006, I participated in 'Version Control by Email'.
 
 (...)

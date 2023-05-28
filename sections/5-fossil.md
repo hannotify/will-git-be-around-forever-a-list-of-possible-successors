@@ -14,13 +14,13 @@ Let's talk about Fossil first.
 ## Features that Fossil promises
 
 <ul>
-    <li class="fragment fade-in-then-semi-out">distributed version control</li>
+    <li>distributed version control</li>
     <li class="fragment fade-in-then-semi-out">both autosync and manual merge mode</li>
     <li class="fragment fade-in-then-semi-out">supports operations on multiple repositories (<code>fossil all</code>)</li>
     <li class="fragment fade-in-then-semi-out">a 'preserve all history' philosophy</li>
 </ul>
 
-<a href="https://www.fossil-scm.org" class="attribution">https://www.fossil-scm.org</a>
+[fossil-scm.com](https://www.fossil-scm.org)
 
 note:
 * **autosync mode** - performs an automatic push after each commit
@@ -31,7 +31,7 @@ note:
 
 ## Quick facts
 
-* Written in C and SQL <!-- .element: class="fragment fade-in-then-semi-out" -->
+* Written in C and SQL
 * Is the VCS of choice for the SQLite project <!-- .element: class="fragment fade-in-then-semi-out" -->
 * Free code hosting at: <!-- .element: class="fragment fade-in-then-semi-out" -->
   * Chisel - <http://chiselapp.com/>

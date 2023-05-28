@@ -24,11 +24,11 @@ Time to dive into Pijul.
 
 ## Features that Pijul promises
 
-* distributed version control <!-- .element: class="fragment fade-in-then-semi-out" -->
+* distributed version control
 * simple, because of its basis on a sound theory of patches <!-- .element: class="fragment fade-in-then-semi-out" -->
 * fast, because it aims to fix the Darcs performance issues <!-- .element: class="fragment fade-in-then-semi-out" -->
 
-<https://www.pijul.com> <!-- element: class="attribution" -->
+[pijul.com](https://www.pijul.com)
 
 note:
 Darcs is a version control system from 2003 that is also patch-based.
@@ -42,7 +42,7 @@ It was also in the VCS popularity graph that I showed you earlier.
 <ul>
     <li class="fragment fade-in-then-semi-out">written in Rust
     <li class="fragment fade-in-then-semi-out">free code hosting at 
-    <a href="https://nest.pijul.com">https://nest.pijul.com</a> 
+    <a href="https://nest.pijul.com">nest.pijul.com</a> 
 </ul>
 
 note:
@@ -185,17 +185,21 @@ See Trello card [Demo's "Successor of Git"](https://trello.com/c/gfvXNMKg/96-dem
 
 ---
 
-## Pijul's current status
+## Git vs. Pijul
 
-<ul>
-    <li>v1.0-beta</li>
-    <small><a href="https://pijul.org/posts/2022-01-08-beta">https://pijul.org/posts/2022-01-08-beta</a></small>
-</ul>
-
-note:
-
-Pijul is now feature-complete and it will be backwards-compatible from now on.
-However, it is still in beta.
-
-Overall, I think Pijul is quite promising, but it needs some work in its current beta phase.
-So some of its popularity will be depending on how they will get stable versions later this year.
+<table style="font-size: 100%">
+    <thead>
+        <tr>
+            <th/>
+            <th>Git</th>
+            <th>Pijul</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Unit of storage</strong></td>
+            <td>Snapshots</td>
+            <td>Patches</td>
+        </tr>
+    </tbody>
+</table>

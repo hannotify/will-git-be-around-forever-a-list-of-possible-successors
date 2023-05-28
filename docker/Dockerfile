@@ -9,4 +9,8 @@ RUN export PATH="\$PATH:$HOME/.cargo/bin/"
 # install vim
 RUN apt-get install -y vim
 
+# set timezone
+ENV TZ="Europe/Amsterdam"
+
 RUN mkdir /development
+

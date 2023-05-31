@@ -5,7 +5,7 @@
 <https://pxhere.com/en/photo/652221>  <!-- .element: class="attribution" -->
 
 note: 
-**Time Elapsed:** 13 min.
+**Time Elapsed:** `12:30`.
 
 Time to dive into Pijul.
 
@@ -24,13 +24,14 @@ Time to dive into Pijul.
 
 ## Features that Pijul promises
 
-* distributed version control
 * simple, because of its basis on a sound theory of patches <!-- .element: class="fragment fade-in-then-semi-out" -->
 * fast, because it aims to fix the Darcs performance issues <!-- .element: class="fragment fade-in-then-semi-out" -->
 
 [pijul.com](https://www.pijul.com)
 
 note:
+* again, distributed
+
 Darcs is a version control system from 2003 that is also patch-based.
 However it didn't gain much popularity due to the fact that it was very slow.
 It was also in the VCS popularity graph that I showed you earlier.
@@ -57,7 +58,7 @@ Hosting is available on the Pijul Nest.
 
 
 <ul>
-    <li class="fragment fade-in-then-semi-out">A patch is an intuitive atomic unit of work.</li>
+    <li class="fragment fade-in-then-semi-out">A <strong>patch</strong> is an intuitive atomic unit of work.</li>
     <li class="fragment fade-in-then-semi-out">It focuses on <em>changes</em>, instead of <em>differences between snapshots</em> (i.e. Git commits).</li>
     <li class="fragment fade-in-then-semi-out">Applying or unapplying a patch <em>doesn't change</em> its identity.</li>
     <li class="fragment fade-in-then-semi-out">The end result of applying several patches is always the same, regardless of the order in which they were applied.</li>
@@ -126,10 +127,11 @@ Which means patch order doesn't matter for the final result.
 
 note:
 
+**Time Elapsed:** `17:00`.
+
 ### Up and running
 
 See Trello card [Demo's "Successor of Git"](https://trello.com/c/gfvXNMKg/96-demos-successor-of-git)
-
 
     pijul init demo
 

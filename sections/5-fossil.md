@@ -5,7 +5,7 @@
 <https://pxhere.com/en/photo/652221> <!-- .element: class="attribution" -->
 
 note: 
-**Time Elapsed:** 5 min.
+**Time Elapsed:** `6:00`.
 
 Let's talk about Fossil first.
 
@@ -14,7 +14,6 @@ Let's talk about Fossil first.
 ## Features that Fossil promises
 
 <ul>
-    <li>distributed version control</li>
     <li class="fragment fade-in-then-semi-out">both autosync and manual merge mode</li>
     <li class="fragment fade-in-then-semi-out">supports operations on multiple repositories (<code>fossil all</code>)</li>
     <li class="fragment fade-in-then-semi-out">a 'preserve all history' philosophy</li>
@@ -23,6 +22,7 @@ Let's talk about Fossil first.
 [fossil-scm.com](https://www.fossil-scm.org)
 
 note:
+* distributed
 * **autosync mode** - performs an automatic push after each commit
 * **manual merge mode** - like Git and Hg
 * **preserve all history** - there is no rebase in Fossil. Also: why would it be called 'Fossil'?
@@ -31,7 +31,7 @@ note:
 
 ## Quick facts
 
-* Written in C and SQL
+* Written in C and SQL <!-- .element: class="fragment fade-in-then-semi-out" -->
 * Is the VCS of choice for the SQLite project <!-- .element: class="fragment fade-in-then-semi-out" -->
 * Free code hosting at: <!-- .element: class="fragment fade-in-then-semi-out" -->
   * Chisel - <http://chiselapp.com/>
@@ -67,6 +67,7 @@ Both native Git and GitHub don't provide this capability.
 * Retrieving descendants of a checkin
 
 note:
+**Time Elapsed:** `8:00`.
 
 See Trello card [Demo's "Successor of Git"](https://trello.com/c/gfvXNMKg/96-demos-successor-of-git)
 

@@ -15,7 +15,7 @@
 <br/>
 
 note:
-**Time Elapsed:** 0 min.
+**Time Elapsed:** `0:00`.
 
 *Voorbereidingen*:
 
@@ -110,7 +110,7 @@ And let's see if we can find the answer to the student's question together, shal
 [https://pxhere.com/en/photo/652221](https://pxhere.com/en/photo/652221)  <!-- .element: class="attribution" -->
 
 note: 
-**Time Elapsed:** 2 min.
+**Time Elapsed:** `3:30`.
 
 To answer the question, we have to discover what factors are influencing the popularity of a version control system.
 So let's take Git as an example.
@@ -154,13 +154,21 @@ notes:
     <li>Killer features
     <li>Hosting platform support
     <li>Open-source community support
+    <li class="fragment">IDE support
     <li class="fragment">The handicap of the head start
 </ul>
 
 notes:
 
 We can use these Git features as 'prediction variables': factors that will influence our prediction.
-And I would like to add another one: (slide)
+And I would like to add two more: (slide)
+
+**IDE support**
+
+* I love Git's integration into IDE's like IntelliJ IDEA or VSCode.
+* So a successor must have a certain amount of support in this area to be able to rise to fame.
+
+(slide)
 
 **The handicap of the head start**
 
@@ -230,4 +238,4 @@ And we shouldn't forget to include a few new products.
 Because a lot can happen in ten years!
 What if a brand-new, feature-packed version control system appears and takes the market by storm?
 
-In the rest of this talk I'll add two newer version control systems to this table: Fossil and Pijul.
+In the rest of this talk I'll add 3 newer version control systems to this table: Fossil, Pijul & Sapling.

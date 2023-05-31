@@ -16,15 +16,17 @@ As presented at:
 
 ### 30 min.
 
-| Section | Target time | Duration |
-|---|---:|---:|
-| Intro | 0:00 | 4:00 |
-| Fossil (theory) | 4:00 | 6:00 |
-| Fossil (demo) | 10:00 | 5:00 |
-| Pijul (theory) | 15:00 | 4:30 |
-| Pijul (demo) | 20:30 | 5:00 |
-| Predictions | 25:30 | 4:30 |
-| Wrap-up | 30:00 | 0:00 |
+`00:00` Introduction
+`03:30` Why did Git become so popular?
+`06:00` Fossil (theory)
+`08:00` Fossil (demo)
+`12:30` Pijul (theory)
+`17:00` Pijul (demo)
+`21:30` Sapling (theory)
+`23:30` Sapling (demo)
+`27:00` Predictions
+`29:30` Wrap-up
+`30:15` Talk ends
 
 ### 45 min.
 

@@ -88,7 +88,7 @@ note:
         <tr>
             <td><strong>Staging area</strong></td>
             <td>Yes</td>
-            <td>No <small>(but can be simulated)</small></td>
+            <td>Not for changes <small>(but can be simulated)</small></td>
         </tr>                
         <tr>
             <td><strong>Pull behaviour from remote</strong></td>

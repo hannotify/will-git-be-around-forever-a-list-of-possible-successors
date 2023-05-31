@@ -27,8 +27,9 @@ note:
   * Terminal:
     * Tab met `mirror`
     * Tab met de slides draaiend
-    * Tab voor fossil, met working-dir `/Users/hanno/development/talks/reveal.js/slide-decks/tools-in-action-will-git-be-around-forever`
+    * Tab voor fossil, met working-dir `/Users/hanno/development/talks/reveal.js/slide-decks/will-git-be-around-forever`
     * Tab voor pijul - verbonden met Docker-container
+    * Tab voor sapling, met working-dir `/Users/hanno/development/talks/reveal.js/slide-decks/will-git-be-around-forever`
 * Tweede scherm:
   * Slides
   * Nieuwe tab voor Fossil UI

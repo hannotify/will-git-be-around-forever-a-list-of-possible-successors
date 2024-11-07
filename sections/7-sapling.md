@@ -61,7 +61,10 @@ Sapling commands generally do a single thing.
 
 ## Quick demo
 
-TODO
+* Up and running
+* Creating commits
+* Web UI
+* Submitting PRs
 
 note:
 

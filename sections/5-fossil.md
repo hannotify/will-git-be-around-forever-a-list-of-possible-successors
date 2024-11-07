@@ -64,7 +64,6 @@ Both native Git and GitHub don't provide this capability.
 
 * Up and running
 * Using the web interface (`fossil ui`)
-* Retrieving descendants of a checkin
 
 note:
 **Time Elapsed:** `8:00`.

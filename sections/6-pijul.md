@@ -123,7 +123,6 @@ Which means patch order doesn't matter for the final result.
 
 * Up and running
 * Recording patches
-* Reordering patches
 
 note:
 

@@ -27,18 +27,19 @@ note:
   * Terminal:
     * Tab met `mirror`
     * Tab met de slides draaiend
-    * Tab voor fossil, met working-dir `/Users/hanno/development/talks/reveal.js/slide-decks/will-git-be-around-forever`
+    * Tab voor fossil, met working-dir `/Users/hanno/development/fossil`
     * Tab voor pijul - verbonden met Docker-container
-    * Tab voor sapling, met working-dir `/Users/hanno/development/talks/reveal.js/slide-decks/will-git-be-around-forever`
+    * Tab voor sapling (zelfde als fossil)
 * Tweede scherm:
   * Slides
   * Nieuwe tab voor Fossil UI
+  * https://github.com/hannotify/articles/pulls
 * Telefoon met de demostappen erop
 * Reset de timer in de speaker notes
 
 Hi, my name is Hanno. 
 From the Netherlands, and I work at Info Support as an IT consultant.
-Recently I've received the Oracle ACE Associate award in the 'Java' category.
+Recently I've received the Oracle ACE Pro award in the 'Java' category.
 I am @hannotify at Twitter or Mastodon, I post about things I like.
 Which is Java Development, Version Control and making music.
 If you like that stuff, by all means give me a follow!

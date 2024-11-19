@@ -16,6 +16,47 @@ As presented at:
 
 ## Program & target times
 
+### Program
+
+#### Introduction
+
+* Prop: USB stick
+* Story: Version Control by USB Stick
+* Story: Version Control by Email
+  * screenshot with e-mails "new version" "newer version" "no really the real new version"
+  * de Linux kernel-mensen schijnen ook een tijdje patches via e-mail naar elkaar te hebben gestuurd. Leuk om dit feitje weer aan het verhaal van het begin te koppelen.
+* Story: Teaching a Course on Git
+* VCS's vs. mobile phones
+* Story: The Decoy Car
+* Little joke somewhere in-between: this talk is about Really Old Stuff
+* Why is this talk about Git and not about sustainability?
+  * the logo's are so much alike! 
+
+#### Why did Git become so popular?
+
+#### Fossil
+
+* Theory
+* Demo: rolling a die
+* Git vs. Fossil
+
+#### Pijul
+
+* Theory
+* Demo: watching movies
+* Git vs. Pijul
+
+#### Sapling
+
+* Theory
+* Demo
+* Git vs. Sapling
+
+#### Other tools
+
+* Jujutsu
+* git-branchless
+
 ### 30 min.
 
 `00:00` Introduction
@@ -32,14 +73,16 @@ As presented at:
 
 ### 45 min.
 
-| Section | Target time | Duration |
-|---|---:|---:|
-| Welcome | 0:00 | 3:00 |
-| Preface | 3:00 | 5:00 |
-| Git | 8:00 | 5:00 |
-| The browser wars | 13:00 | 4:00 |
-| New kids on the block | 17:00 | 1:00 |
-| Fossil | 18:00 | 9:00 |
-| Pijul | 27:00 | 13:00 |
-| Predictions | 40:00 | 5:00 |
-| Wrap-up | 45:00 | 0:00 |
+`00:00` Introduction
+`05:00` Why did Git become so popular?
+`10:00` Fossil (theory)
+`13:00` Fossil (demo)
+`18:00` Pijul (theory)
+`25:00` Pijul (demo)
+`30:00` Sapling (theory)
+`33:00` Sapling (demo)
+`38:00` Other tools (Jujutsu, git-branchless)
+`45:00` Predictions
+`48:00` Takeaways
+`50:00` Q&A
+`60:00` Talk ends

@@ -4,14 +4,17 @@
 
 <table>
     <tr>
-        <td style="vertical-align: middle;" width="35.3%">Hanno Embregts</td>
-        <td style="text-align: left; vertical-align: middle; padding: 0 0 0 0"><img width="14%" data-src="img/logos/ace-associate-spade.png" class="no-background" style="margin-top: 30px"/></td>
-        <td style="text-align: right;"><img width="25%" data-src="img/icons/twitter-white.png" class="no-background" style="margin-top: 35px"/></td>
+        <td style="text-align: right; vertical-align: middle;" width="36%">Hanno Embregts</td>
+        <td style="text-align: left; padding: 0 0 0 0; vertical-align: middle;">
+            <img width="16%" data-src="img/logos/ace-pro-spade.png" class="no-background" style="margin-top: 30px; vertical-align: middle;"/>
+            <img width="20%" data-src="img/logos/java-champion.png" class="no-background" style="margin-top: 30px; vertical-align: middle;"/>
+        </td>
+        <td style="vertical-align: middle; text-align: right;"><img width="35%" data-src="img/icons/twitter-white.png" class="no-background" style="margin-top: 35px"/></td>
         <td style="vertical-align: middle; padding: 0 0 0 0"><a href="https://www.twitter.com/hannotify">@hannotify</a></td>
     </tr>
 </table>
-<img data-src="img/logos/java-community-logo.png" width="10%" class="no-background" style="margin-right: 2em">
-<img data-src="img/logos/devoxx-pl.png" width="40%" class="no-background"/>
+<img data-src="img/logos/info-support.png" width="30%" class="no-background" style="vertical-align: middle; margin-right: 2em">
+<img data-src="img/logos/snic-sustainabilit.svg" width="35%" style="vertical-align: middle" class="no-background"/>
 <br/>
 
 note:

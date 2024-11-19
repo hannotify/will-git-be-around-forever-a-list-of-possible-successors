@@ -11,6 +11,8 @@ As presented at:
 * Future Tech 2022
 * FrontMania 2022
 * Devoxx Belgium 2022
+* Devoxx Poland 2023
+* SNiC SustainabilIT 2024
 
 ## Program & target times
 

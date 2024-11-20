@@ -117,4 +117,22 @@ So why are we all using Git, a version control system that was designed to suppo
 Are all projects like that?
 Is your project like the Linux kernel?
 Or does it look more like SQLite?
+
+---
+
+<!-- .slide: data-background="img/background/question-your-defaults.jpg" data-background-color="black" data-background-opacity="0.65" --->
+
+## Question Your Defaults <!-- .element: class="stroke" -->
+
+<blockquote class="explanation">
+    A tool being 'comfortable' or 'familiar' to you is not the best reason to prefer it over the alternatives.
+</blockquote>
+
+<https://pxhere.com/en/photo/812420> <!-- .element: class="attribution" -->
+
+note:
+Sure, Git might be familiar to you.
+It might feel like a comfortable, safe and well-supported option.
+But is it always the best choice?
+It can be, but you definitely need better reasons than 'comfortable' or 'familiar'.
 Surely something to think about.

@@ -26,12 +26,21 @@ note:
         <br /><small><a
                 href="https://sapling-scm.com/docs/introduction/differences-git">https://sapling-scm.com/docs/introduction/differences-git</a></small>
     </li>
+
 </ul>
 
 note:
 
 If you want to read a bit more on the subject, here are some great articles that I read during
 the preparation of this talk.
+
+---
+
+### Or if you prefer 'listening' 🎧
+
+<iframe style="border-radius:12px" data-src="https://open.spotify.com/embed/episode/1ooraq28L8LByoMunMjc2o?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<https://foojay.io/today/foojay-podcast-26/>
 
 ---
 
@@ -42,3 +51,11 @@ the preparation of this talk.
     <li class="fragment">Git's snapshotting might be too technical for the average user. <strong>So try Pijul for a change!</strong></li>
     <li class="fragment">I want to try a new VCS but I still need to use GitHub. <strong>Try Sapling for a change!</strong></li>
 </ul>
+
+---
+
+## ...and visit our booth!
+
+<img data-src="img/info-support-stand.jpeg" width="40%" class="no-background"><br/>
+<img data-src="img/logos/info-support.png" width="42%" class="no-background">
+

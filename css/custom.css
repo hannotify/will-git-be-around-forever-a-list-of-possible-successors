@@ -1,0 +1,38 @@
+.email-inbox {
+    font-size: 50%;
+    font-family: "Helvetica";
+
+    td {
+        padding: 0.9em 0.5em !important;
+    }
+
+    .sender {
+        width: 20em;
+    }
+
+    .subject {
+        max-width: 30em;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .subject .excerpt {
+        color: gray;
+    }
+
+    .date {
+        min-width: 4em;
+    }
+}
+
+.logo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+
+    .logo img {
+        max-width: 5em;
+        max-height: 4em;
+    }
+}

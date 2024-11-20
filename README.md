@@ -26,13 +26,18 @@ As presented at:
   * screenshot with e-mails "new version" "newer version" "no really the real new version"
   * de Linux kernel-mensen schijnen ook een tijdje patches via e-mail naar elkaar te hebben gestuurd. Leuk om dit feitje weer aan het verhaal van het begin te koppelen.
 * Story: Teaching a Course on Git
+* Theme of this talk: Familiar things.
 * VCS's vs. mobile phones
 * Story: The Decoy Car
-* Little joke somewhere in-between: this talk is about Really Old Stuff
+* Little joke somewhere in-between: this talk is about Really Old Stuff - aka 'familiar things'
 * Why is this talk about Git and not about sustainability?
-  * the logo's are so much alike! 
+  * the logo's are so much alike!
 
 #### Why did Git become so popular?
+
+* And where's the room for improvement?
+  * dangitgit.com
+  * https://git-man-page-generator.lokaltog.net
 
 #### Fossil
 

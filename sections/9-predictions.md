@@ -233,7 +233,7 @@ note:
             <th align="right">Git</th>
             <td align="right">25%</td>
             <td align="right">74%</td>
-            <td align="right">77%</td>
+            <td align="right">78%</td>
         </tr>
         <tr>
             <th align="right">Mercurial</th>
@@ -257,7 +257,7 @@ note:
             <th align="right">Fossil</th>
             <td align="right">&lt;1%</td>
             <td align="right">&lt;1%</td>
-            <td align="right">2%</td>            
+            <td align="right">1%</td>            
         </tr>           
         <tr style="background-color: #555">
             <th align="right">Pijul</th>
@@ -289,52 +289,117 @@ note:
     </thead>
     <tbody>
         <tr>
+            <th align="right">Subversion</th>
+            <td align="right">44%</td>
+            <td align="right">8%</td>
+            <td align="right">3% ⤵️</td>
+        </tr>    
+        <tr>
             <th align="right">Git</th>
             <td align="right">25%</td>
             <td align="right">74%</td>
-            <td align="right">77%</td>
+            <td align="right">78% ↗️</td>
         </tr>
         <tr>
             <th align="right">Mercurial</th>
             <td align="right">19%</td>
             <td align="right">12%</td>
-            <td align="right">8%</td>            
+            <td align="right">8% ↘️</td>            
         </tr>
-        <tr style="background-color: #555">
-            <th align="right">Pijul</th>
-            <td align="right"></td>
-            <td align="right">&lt;1%</td>
-            <td align="right">5%</td>            
-        </tr>
-        <tr style="background-color: #555">
-            <th align="right">Sapling</th>
-            <td align="right"></td>
-            <td align="right">&lt;1%</td>
-            <td align="right">3%</td>            
-        </tr>            
-        <tr>
-            <th align="right">Subversion</th>
-            <td align="right">44%</td>
-            <td align="right">8%</td>
-            <td align="right">3%</td>
-        </tr>    
-        <tr style="background-color: #555">
-            <th align="right">Fossil</th>
-            <td align="right">&lt;1%</td>
-            <td align="right">&lt;1%</td>
-            <td align="right">2%</td>            
-        </tr>           
         <tr>
             <th align="right">TFVC</th>
             <td align="right">7%</td>
             <td align="right">6%</td>
-            <td align="right">2%</td>
+            <td align="right">2% ⤵️</td>
         </tr>
         <tr>
             <th align="right">CVS</th>
             <td align="right">5%</td>
             <td align="right">&lt;1%</td>
+            <td align="right">&lt;1% 🔚</td>
+        </tr>   
+        <tr style="background-color: #555">
+            <th align="right">Fossil</th>
             <td align="right">&lt;1%</td>
+            <td align="right">&lt;1%</td>
+            <td align="right">1% ↗️</td>            
+        </tr>           
+        <tr style="background-color: #555">
+            <th align="right">Pijul</th>
+            <td align="right"></td>
+            <td align="right">&lt;1%</td>
+            <td align="right">5% ↗️</td>            
+        </tr>
+        <tr style="background-color: #555">
+            <th align="right">Sapling</th>
+            <td align="right"></td>
+            <td align="right">&lt;1%</td>
+            <td align="right">3% ↗️</td>            
+        </tr>            
+    </tbody>
+</table>
+
+---
+
+<!-- .slide: data-auto-animate -->
+
+<table data-id="predictions-animation">
+    <thead>
+        <tr>
+            <th/>
+            <th>2010</th>
+            <th>2021</th>
+            <th>2033</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th align="right">Git</th>
+            <td align="right">25%</td>
+            <td align="right">74%</td>
+            <td align="right">78% ↗️</td>
+        </tr>
+        <tr>
+            <th align="right">Mercurial</th>
+            <td align="right">19%</td>
+            <td align="right">12%</td>
+            <td align="right">8% ↘️</td>            
+        </tr>
+        <tr style="background-color: #555">
+            <th align="right">Pijul</th>
+            <td align="right"></td>
+            <td align="right">&lt;1%</td>
+            <td align="right">5% ↗️</td>            
+        </tr>
+        <tr style="background-color: #555">
+            <th align="right">Sapling</th>
+            <td align="right"></td>
+            <td align="right">&lt;1%</td>
+            <td align="right">3% ↗️</td>            
+        </tr>            
+        <tr>
+            <th align="right">Subversion</th>
+            <td align="right">44%</td>
+            <td align="right">8%</td>
+            <td align="right">3% ⤵️</td>
+        </tr>    
+        <tr>
+            <th align="right">TFVC</th>
+            <td align="right">7%</td>
+            <td align="right">6%</td>
+            <td align="right">2% ⤵️</td>
+        </tr>
+        <tr style="background-color: #555">
+            <th align="right">Fossil</th>
+            <td align="right">&lt;1%</td>
+            <td align="right">&lt;1%</td>
+            <td align="right">1% ↗️</td>            
+        </tr>           
+        <tr>
+            <th align="right">CVS</th>
+            <td align="right">5%</td>
+            <td align="right">&lt;1%</td>
+            <td align="right">&lt;1% 🔚</td>
         </tr>   
     </tbody>
 </table>
@@ -344,7 +409,7 @@ Some observations on the final prediction!
 
 1. Imo Git will gain a few users who now use TFVC.
 
-> In my Git course I meet a lot of TFVC users who are switching to Git)
+> In my Git course I meet a lot of TFVC users who are switching to Git.
 > Switching is very easy in Azure DevOps nowadays.
 
 2. I'm afraid none of the 'newer' VCS's "tick all the boxes".

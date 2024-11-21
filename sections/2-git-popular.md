@@ -7,7 +7,7 @@
 <https://pxhere.com/en/photo/652221> <!-- .element: class="attribution" -->
 
 note:
-**Time Elapsed:** `3:30`.
+**Time Elapsed:** `5:00`.
 
 Quick show of hands - who of you is currently using Git?
 Anyone uses a different version control system?
@@ -18,6 +18,7 @@ Because there's a lot to like about Git:
 * easy branching
 * distributed nature (open-source development, work offline)
 * fast
+* popular, so a lot of help is available if you're struggling
 * and, in contrast to BitKeeper: free to use!
 
 ---
@@ -228,7 +229,7 @@ And I would like to add two more: (slide)
         <tr>
             <th/>
             <th>2010</th>
-            <th>2021</th>
+            <th>2022</th>
         </tr>
     </thead>
     <tbody>
@@ -283,7 +284,7 @@ What if a brand-new, feature-packed version control system appears and takes the
 ---
 
 <div class="logo-grid">
-    <div class="logo fragment"><figure><img src="img/logos/fossil-icon.png"><figcaption>Fossil</figcaption></figure></div>
+    <div class="logo"><figure><img src="img/logos/fossil-icon.png"><figcaption>Fossil</figcaption></figure></div>
     <div class="logo"><figure><img src="img/logos/pijul.png"><figcaption>Pijul</figcaption></figure></div>
     <div class="logo"><figure><img src="img/logos/sapling.png"><figcaption>Sapling</figcaption></figure></div>
 </div>

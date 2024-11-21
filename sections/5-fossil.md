@@ -5,7 +5,7 @@
 <https://pxhere.com/en/photo/652221> <!-- .element: class="attribution" -->
 
 note: 
-**Time Elapsed:** `6:00`.
+**Time Elapsed:** `12:00`.
 
 Let's talk about Fossil first.
 
@@ -66,7 +66,7 @@ Both native Git and GitHub don't provide this capability.
 * Using the web interface (`fossil ui`)
 
 note:
-**Time Elapsed:** `8:00`.
+**Time Elapsed:** `15:00`.
 
 See Trello card [Demo's "Successor of Git"](https://trello.com/c/gfvXNMKg/96-demos-successor-of-git)
 
@@ -125,14 +125,14 @@ Or does it look more like SQLite?
 ## Question Your Defaults <!-- .element: class="stroke" -->
 
 <blockquote class="explanation">
-    A tool being 'comfortable' or 'familiar' to you is not the best reason to prefer it over the alternatives.
+    Let's pick this tool, because it's familiar to us. Besides, everyone uses it!
 </blockquote>
 
 <https://pxhere.com/en/photo/812420> <!-- .element: class="attribution" -->
 
 note:
 Sure, Git might be familiar to you.
-It might feel like a comfortable, safe and well-supported option.
+It might feel like a comfortable, safe, popular and well-supported option.
 But is it always the best choice?
-It can be, but you definitely need better reasons than 'comfortable' or 'familiar'.
-Surely something to think about.
+Well it can be, but you definitely need better reasons than 'familiar' or 'popular'.
+Something to think about.

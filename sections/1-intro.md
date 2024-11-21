@@ -70,6 +70,7 @@ docker build --tag 'pijul' .
 
 note:
 When I started my first Software Development job, we did 'Version Control by USB Stick'.
+[tell the story, including the 'integration laptop' which was an Exchange resource in Outlook with its own calendar]
 Eventually we switched to... CVS. Very modern.
 
 ---
@@ -137,7 +138,7 @@ Eventually we switched to... CVS. Very modern.
 
 note:
 Although things could be worse, because THIS is also something I have dabbled with in the past. (not at work though)
-Let's call it 'Version Control by email'.
+Let's call it (slide x8) 'Version Control by email'.
 
 ---
 
@@ -182,15 +183,19 @@ It has to do with BitKeeper.
 * [demo `git send-email --help`)
 * So that's "Version Control by Email" all over again!
 
-Anyway, to a few of my students, something else entirely had caught their attention.
+Anyway, to a few of my students, on this slide something entirely different had caught their attention.
 Something that I didn't even notice while I'd prepared the course.
+
+That's nothing to be embarrassed about.
+Sometimes we just miss stuff that is right in front of us.
 
 ---
 
 <!-- .slide: data-background="img/background/red-car-brand-new-front.jpg" data-background-color="black" data-background-opacity="1.0" data-background-size="contain" -->
 
 note:
-This phenomenon can happen to every single one of us.
+Like that time I got a brand-new electric car.
+
 (tell the story 'The Decoy Car', and mention sustainability!)
 
 ---
@@ -208,9 +213,9 @@ This phenomenon can happen to every single one of us.
 <http://blog.plasticscm.com/2010/11/version-control-timeline.html> <!-- .element: class="attribution" -->
 
 note:
-Back to my Git course. What had caught the attention of my students in this timeline picture?
+Back to my Git course. What was right in front of us according to my students in this timeline picture?
 
-At the end of one particular course day, a student came to me with a question.
+Well, at the end of one particular course day, a student came to me with a question.
 And she said: "Git is great and all that, but what's gonna be the **next** big thing?"
 "It looks like nothing has happened in Version Control world for over ten years!"
 
@@ -228,16 +233,33 @@ And the research got out of hand and eventually turned into this conference talk
 
 ---
 
+### So this talk will be about
+
+* sustainability <!-- .element: class="fragment fade-in-then-semi-out" -->
+* familiar things <!-- .element: class="fragment fade-in-then-semi-out" -->
+* Git <!-- .element: class="fragment fade-in-then-semi-out" -->
+
+note:
+
+**sustainability**, for a bit
+
+It'll be about **familiar things**, that we keep using but we don't really know why
+
+Like the USB-stick, and like...
+
+**Git**, the version control system.
+
+---
+
 <!-- .slide: data-background-color="white" data-transition="none" -->
 
 <img data-src="img/logos/snic-sustainabilit.svg" width="60%" style="vertical-align: middle" class="no-background fragment"/>
 <img data-src="img/logos/git.png" width="30%" style="vertical-align: middle" class="no-background fragment"/>
 
 note:
-So, this talk will mainly be about Git, and about how long it will stick around.
-What does that have to do with sustainability, you ask?
-Don't worry, I'll get to that part.
-For now, let's just say I came here to talk about Git because the event logo (slide) and the Git logo (slide) are so alike.
+
+Actually, the event logo (slide) was what gave me the idea to talk about Git in the first place (slide).
+And if you don't see why, this will probably help: (slide)
 
 ---
 

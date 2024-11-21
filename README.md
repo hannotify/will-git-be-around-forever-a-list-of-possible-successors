@@ -16,51 +16,20 @@ As presented at:
 
 ## Program & target times
 
-### Program
+### Introduction
 
-#### Introduction
-
-* Prop: USB stick
-* Story: Version Control by USB Stick
-* Story: Version Control by Email
-  * screenshot with e-mails "new version" "newer version" "no really the real new version"
-  * de Linux kernel-mensen schijnen ook een tijdje patches via e-mail naar elkaar te hebben gestuurd. Leuk om dit feitje weer aan het verhaal van het begin te koppelen.
-* Story: Teaching a Course on Git
+* ~~Prop: USB stick~~
+* ~~Story: Version Control by USB Stick~~
+* ~~Story: Version Control by Email~~
+  * ~~screenshot with e-mails "new version" "newer version" "no really the real new version"~~
+  * ~~de Linux kernel-mensen schijnen ook een tijdje patches via e-mail naar elkaar te hebben gestuurd. Leuk om dit feitje weer aan het verhaal van het begin te koppelen.~~
+* ~~Story: Teaching a Course on Git~~
 * Theme of this talk: Familiar things.
-* VCS's vs. mobile phones
-* Story: The Decoy Car
-* Little joke somewhere in-between: this talk is about Really Old Stuff - aka 'familiar things'
-* Why is this talk about Git and not about sustainability?
-  * the logo's are so much alike!
-
-#### Why did Git become so popular?
-
-* And where's the room for improvement?
-  * dangitgit.com
-  * https://git-man-page-generator.lokaltog.net
-
-#### Fossil
-
-* Theory
-* Demo: rolling a die
-* Git vs. Fossil
-
-#### Pijul
-
-* Theory
-* Demo: watching movies
-* Git vs. Pijul
-
-#### Sapling
-
-* Theory
-* Demo
-* Git vs. Sapling
-
-#### Other tools
-
-* Jujutsu
-* git-branchless
+* ~~VCS's vs. mobile phones~~
+* ~~Story: The Decoy Car~~
+* ~~Little joke somewhere in-between: this talk is about Really Old Stuff - aka 'familiar things'~~
+* ~~Why is this talk about Git and not about sustainability?~~
+  * ~~the logo's are so much alike!~~
 
 ### 30 min.
 
@@ -80,14 +49,14 @@ As presented at:
 
 `00:00` Introduction
 `05:00` Why did Git become so popular?
-`10:00` Fossil (theory)
-`13:00` Fossil (demo)
-`18:00` Pijul (theory)
-`25:00` Pijul (demo)
-`30:00` Sapling (theory)
-`33:00` Sapling (demo)
-`38:00` Other tools (Jujutsu, git-branchless)
-`45:00` Predictions
+`12:00` Fossil (theory)
+`15:00` Fossil (demo)
+`20:00` Pijul (theory)
+`27:00` Pijul (demo)
+`32:00` Sapling (theory)
+`35:00` Sapling (demo)
+`40:00` Predictions
+`44:00` Other tools (Jujutsu, git-branchless)
 `48:00` Takeaways
-`50:00` Q&A
+`51:00` Q&A
 `60:00` Talk ends

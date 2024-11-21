@@ -6,7 +6,7 @@
 
 note:
 
-**Time Elapsed:** `21:30`.
+**Time Elapsed:** `32:00`.
 
 ---
 
@@ -51,7 +51,7 @@ Caveat: to really make use of this you also need the virtual file system and Sap
 
 **local branches are optional**
 You can create 'stacks' of commits, but you don't have to add a label to it.
-Of course you can, but it's not mandatory.
+You can, but it's not mandatory.
 
 **commands do one thing**
 Git has commands like `checkout`, `reset` that can do different things based on how you use them.
@@ -68,7 +68,7 @@ Sapling commands generally do a single thing.
 
 note:
 
-**Time Elapsed:** `23:30`.
+**Time Elapsed:** `35:00`.
 
 ---
 

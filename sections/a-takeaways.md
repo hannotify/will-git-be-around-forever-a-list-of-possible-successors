@@ -1,12 +1,66 @@
+<!-- .slide: data-background="img/background/usb-sticks.jpg" data-background-color="black" data-background-opacity="0.3"-->
+
+# Wrap-up <!-- .element class="stroke" -->
+
+<https://pxhere.com/en/photo/652221>  <!-- .element: class="attribution" -->
+
+note:
+**Time Elapsed:** `48:00`.
+
+Let's wrap up the talk by leaving you with the takeaways and a few additional resources.
+
+---
+
+## Takeaways
+
+1. Question your defaults  <!-- .element: class="fragment" -->
+2. Try something else for a change  <!-- .element: class="fragment" -->
+
+note:
+
+**Question your defaults**
+
+Don't choose a tool just because it's familiar or because "everyone does it".
+
+**Try something else for a change**
+
+---
+
+## What should I try?
+
+<ul>
+    <li class="fragment fade-in-then-semi-out">A lot of projects are nothing like the Linux kernel. <strong>So try Fossil for a change!</strong></li>
+    <li class="fragment fade-in-then-semi-out">Git's snapshotting might be too technical for the average user. <strong>So try Pijul for a change!</strong></li>
+    <li class="fragment fade-in-then-semi-out">I want to try a new VCS but I still need to use GitHub. <strong>Try Sapling or Jujutsu for a change!</strong></li>
+    <li class="fragment fade-in-then-semi-out">I'm bound to Git, but I wouldn't mind better usability. <strong>Try <code>git-branchless</code> for a change!</strong></li>
+</ul>
+
+---
+
+## Takeaways
+
+1. Question your defaults
+2. Try something else for a change
+3. Newer is not always better <!-- .element: class="fragment" -->
+4. Whatever tool you pick, make sure you master it <!-- .element: class="fragment" -->
+
+note:
+
+**Newer is not always better**
+
+Pick a stable tool, that doesn't have any foreseeable breaking changes in its future.
+
+**Whatever tool you pick, make sure you master it**
+
+This is the more sustainable way. And it'll help you decide whether to stick with the tool or not when a new VCS is released.
+
+---
+
 <!-- .slide: data-background="img/background/further-reading.jpg" data-background-color="black" data-background-opacity="0.3"-->
 
 # Further reading <!-- .element class="stroke" -->
 
 <https://www.pexels.com/photo/white-teddy-bear-reading-book-33196>  <!-- .element: class="attribution" -->
-
-note:
-
-**Time Elapsed:** `xx:xx`.
 
 ---
 
@@ -26,7 +80,6 @@ note:
         <br /><small><a
                 href="https://sapling-scm.com/docs/introduction/differences-git">https://sapling-scm.com/docs/introduction/differences-git</a></small>
     </li>
-
 </ul>
 
 note:
@@ -42,20 +95,7 @@ the preparation of this talk.
 
 <https://foojay.io/today/foojay-podcast-26/>
 
----
-
-## Now what?
-
-<ul>
-    <li class="fragment">A lot of projects are nothing like the Linux kernel. <strong>So try Fossil for a change!</strong></li>
-    <li class="fragment">Git's snapshotting might be too technical for the average user. <strong>So try Pijul for a change!</strong></li>
-    <li class="fragment">I want to try a new VCS but I still need to use GitHub. <strong>Try Sapling for a change!</strong></li>
-</ul>
-
----
-
-## ...and visit our booth!
-
-<img data-src="img/info-support-stand.jpeg" width="40%" class="no-background"><br/>
-<img data-src="img/logos/info-support.png" width="42%" class="no-background">
-
+note:
+Podcast with the author of Pijul. It includes a good story on Pijul's vision for the future.
+Basically they don't want to become the next Git by taking market share from them.
+They want to grow outside of the IT world, for example in legislation when bills are amended.

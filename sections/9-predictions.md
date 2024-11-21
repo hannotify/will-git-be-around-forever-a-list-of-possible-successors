@@ -5,7 +5,7 @@
 <https://pxhere.com/en/photo/652221>  <!-- .element: class="attribution" -->
 
 note: 
-**Time Elapsed:** `27:00`.
+**Time Elapsed:** `40:00`.
 
 Looks like it's prediction time!
 
@@ -177,7 +177,7 @@ note:
         <tr>
             <th/>
             <th>2010</th>
-            <th>2021</th>
+            <th>2022</th>
         </tr>
     </thead>
     <tbody>
@@ -218,8 +218,8 @@ note:
         <tr>
             <th/>
             <th>2010</th>
-            <th>2021</th>
-            <th>2033</th>
+            <th>2022</th>
+            <th>2034</th>
         </tr>
     </thead>
     <tbody>
@@ -283,8 +283,8 @@ note:
         <tr>
             <th/>
             <th>2010</th>
-            <th>2021</th>
-            <th>2033</th>
+            <th>2022</th>
+            <th>2034</th>
         </tr>
     </thead>
     <tbody>
@@ -348,8 +348,8 @@ note:
         <tr>
             <th/>
             <th>2010</th>
-            <th>2021</th>
-            <th>2033</th>
+            <th>2022</th>
+            <th>2034</th>
         </tr>
     </thead>
     <tbody>

@@ -123,6 +123,7 @@ Which means patch order doesn't matter for the final result.
 
 * Up and running
 * Recording patches
+* Apply patch (and dependent patches)
 
 note:
 

@@ -23,30 +23,6 @@ Because there's a lot to like about Git:
 
 ---
 
-## Reasons for Git's popularity
-
-* Killer features
-* Hosting platform support
-* Open-source community support
-
-notes:
-
-**Killer features**
-
-* Free to use (not like BitKeeper)
-* Fast; everyday operations take less than a second (unlike Darcs or Subversion)
-* Easy branching (unlike CVS)
-
-**Hosting platform support**
-
-* As of 2024, there are 19 websites that offer public Git repositories. (wikipedia)
-
-**Open-source community support**
-
-* Git has been the driving force behind global open-source development; with contributors spread across the globe
-
----
-
 ## But do we like everything about it?
 
 note:
@@ -128,7 +104,7 @@ note:
 
 ---
 
-## Sustainability in Version Control world
+## And what about sustainability?
 
 <ul>
     <li class="fragment fade-in-then-semi-out">bandwidth usage by <code>clone</code>, <code>push</code> and <code>pull</code></li>
@@ -175,19 +151,45 @@ note:
 <https://pxhere.com/en/photo/704019> <!-- .element: class="attribution" -->
 
 note:
-When you first start to use a tool, it's awful. You find all of the problems that it has
-So next time you need to use something like that, you look for something else.
-The new thing seems better, because you just aren’t aware of all its problems.
+And master your tools.
+To use Git in a more sustainable way, you need to get to know this tool inside and out.
+So you don't need as many carbon-emitting search sessions.
 
-Instead, give yourself the time to _really_ learn the tools you use, and _master_ them.
-The paradox is that you should probably be using the tool that you hate the most.
-Why? You hate it because you know the most about it.
+OK, so we've seen some pros and cons about Git, and how to mitigate the cons that have to do with sustainability.
+Let's switch gears now and talk about how Git became popular in the first place.
+Because we can use that knowledge to predict how successful competing version control system will be.
 
 ---
 
 <!-- .slide: data-background-color="#f9f9f9" data-background="img/background/vcs-popularity-graph.png" data-background-size="60%" --->
 
 <https://blog.gitprime.com/git-didnt-beat-svn-github-did> <!-- .element: class="attribution" -->
+
+---
+
+## Reasons for Git's popularity
+
+* Killer features
+* Hosting platform support
+* Open-source community support
+
+notes:
+
+**Killer features**
+
+(features that distinguish it from its competitors)
+
+* Free to use (not like BitKeeper)
+* Fast; everyday operations take less than a second (unlike Darcs or Subversion)
+* Easy branching (unlike CVS)
+
+**Hosting platform support**
+
+* As of 2024, there are 19 websites that offer public Git repositories. (wikipedia)
+
+**Open-source community support**
+
+* Git has been the driving force behind global open-source development; with contributors spread across the globe
 
 ---
 

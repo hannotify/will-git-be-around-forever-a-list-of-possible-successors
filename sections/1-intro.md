@@ -9,11 +9,11 @@
             <img width="16%" data-src="img/logos/ace-pro-spade.png" class="no-background" style="margin-top: 30px; vertical-align: middle;"/>
             <img width="20%" data-src="img/logos/java-champion.png" class="no-background" style="margin-top: 30px; vertical-align: middle;"/>
         </td>
-        <td style="vertical-align: middle; text-align: right;"><img width="35%" data-src="img/icons/twitter-white.png" class="no-background" style="margin-top: 35px"/></td>
-        <td style="vertical-align: middle; padding: 0 0 0 0"><a href="https://www.twitter.com/hannotify">@hannotify</a></td>
+        <td style="vertical-align: middle; text-align: right;"><img width="35%" data-src="img/icons/bluesky.png" class="no-background" style="margin-top: 35px"/></td>
+        <td style="vertical-align: middle; padding: 0 0 0 0"><a href="https://bsky.app/profile/hanno.codes">@hanno.codes</a></td>
     </tr>
 </table>
-<img data-src="img/logos/info-support.png" width="30%" class="no-background" style="vertical-align: middle; margin-right: 2em">
+<img data-src="img/logos/info-support.png" width="25%" class="no-background" style="vertical-align: middle; margin-right: 2em">
 <img data-src="img/logos/snic-sustainabilit.svg" width="35%" style="vertical-align: middle" class="no-background"/>
 <br/>
 
@@ -31,18 +31,20 @@ note:
   * Terminal:
     * Tab met `mirror`
     * Tab met de slides draaiend
-    * Tab voor fossil, met working-dir `/Users/hanno/Code/fossil`
+    * Tab voor fossil, met working-dir `/Users/hanno/Code/version-control/fossil`
     * Tab voor pijul - verbonden met Docker-container (`docker run -it pijul`)
       * If this fails, then build and tag the image first.
 ```bash
 cd ~/Code/talks/slide-decks/will-git-be-around-forever/docker`
 docker build --tag 'pijul' .
 ```
+    * Tab voor sapling, met working-dir `/Users/hanno/Code/version-control/sapling`
 * Tweede scherm:
   * Slides
+  * 
   * Nieuwe tab voor Fossil UI (http://localhost:8080/timeline?c=current)
   * Tab voor de Sapling demo (https://github.com/hannotify/articles/pulls)
-* Telefoon met de demostappen erop (https://trello.com/c/WT8ILiTd/109-demos-tools-in-action-successor-of-git)
+* Telefoon met de demostappen erop (Apple Notes)
 * Reset de timer in de speaker notes
 
 *Talk start*:
@@ -56,7 +58,7 @@ docker build --tag 'pijul' .
 * [eject USB stick, and put it someplace else]
 * (about 5 seconds later) "What?!"
 * "This is how we did things back then!"
-* "It's easy, it's familiar and it works most of the time."
+* "It's easy, it's familiar and it works! Well, most of the time."
 * "Come on, can I get some love for USB sticks?"
 * "No no! Let's be serious for a minute."
 * "Can I please see a show of hands: who has used a USB stick at least once in the past year?"
@@ -69,7 +71,8 @@ docker build --tag 'pijul' .
 # Version Control by USB stick <!-- .element class="stroke" -->
 
 note:
-When I started my first Software Development job, we did 'Version Control by USB Stick'.
+When I started my first Software Development job, USB sticks played a vital part in our version control strategy.
+Because there we did 'Version Control by USB Stick'.
 [tell the story, including the 'integration laptop' which was an Exchange resource in Outlook with its own calendar]
 Eventually we switched to... CVS. Very modern.
 
@@ -177,17 +180,34 @@ It has to do with BitKeeper.
 
 * BitKeeper: distributed version control
 * Used to maintain the Linux kernel
-* Started charging licensing costs to open-source projects
-* So they developed their own VCS
+
+---
+
+<!-- .slide: data-background="img/background/bitkeeper-goes-commercial.png" data-background-size="contain" data-background-color="#707070" -->
+
+note:
+
+* But in 2005, Bitkeeper started charging licensing costs to open-source projects
+* So the Linkux kernel team developed their own VCS: `git`
 * (which also supports sending patches via email, by the way)
 * [demo `git send-email --help`)
 * So that's "Version Control by Email" all over again!
+
+---
+
+<!-- .slide: data-background="img/background/version-control-timeline.png" data-background-size="contain" data-background-color="white" -->
+
+<http://blog.plasticscm.com/2010/11/version-control-timeline.html> <!-- .element: class="attribution" -->
+
+note:
 
 Anyway, to a few of my students, on this slide something entirely different had caught their attention.
 Something that I didn't even notice while I'd prepared the course.
 
 That's nothing to be embarrassed about.
 Sometimes we just miss stuff that is right in front of us.
+
+
 
 ---
 
@@ -206,6 +226,9 @@ Like that time I got a brand-new electric car.
 
 <!-- .slide: data-background="img/background/two-red-cars.jpeg" data-background-color="black" data-background-opacity="1.0" data-background-size="contain" -->
 
+note: 
+[mention the other car as 'the decoy car']
+
 ---
 
 <!-- .slide: data-background="img/background/version-control-timeline.png" data-background-size="contain" data-background-color="white" -->
@@ -213,12 +236,14 @@ Like that time I got a brand-new electric car.
 <http://blog.plasticscm.com/2010/11/version-control-timeline.html> <!-- .element: class="attribution" -->
 
 note:
-Back to my Git course. What was right in front of us according to my students in this timeline picture?
+Back to the Git course I was teaching. Just like the decoy car, what was right in front of us, according to my students in this timeline picture?
 
-Well, at the end of one particular course day, a student came to me with a question.
+Recall that I had focused on the events of the year 2005, but instead my students were drawn to the 'gap' that followed.
+One of them came to me with a question about that 'gap'.
 And she said: "Git is great and all that, but what's gonna be the **next** big thing?"
 "It looks like nothing has happened in Version Control world for over ten years!"
 
+And that was a very good question.
 I told her: 
 
 * we're quite sure that distributed version control systems like Git and Mercurial will be around for much longer.
@@ -235,19 +260,15 @@ And the research got out of hand and eventually turned into this conference talk
 
 ### So this talk will be about
 
-* sustainability <!-- .element: class="fragment fade-in-then-semi-out" -->
-* familiar things <!-- .element: class="fragment fade-in-then-semi-out" -->
 * Git <!-- .element: class="fragment fade-in-then-semi-out" -->
+* familiar things <!-- .element: class="fragment fade-in-then-semi-out" -->
+* sustainability <!-- .element: class="fragment fade-in-then-semi-out" -->
 
 note:
 
-**sustainability**, for a bit
-
-It'll be about **familiar things**, that we keep using but we don't really know why
-
-Like the USB-stick, and like...
-
-**Git**, the version control system.
+* **Git**, the version control system, how it became popular and a few alternatives to Git that already exist.
+* It'll be about **familiar things**, things that we keep using but we've forgotten why exactly. (like the USB-stick at the start of the talk)
+* And of course it'll be about **sustainability**, the theme that brought us here together today.
 
 ---
 

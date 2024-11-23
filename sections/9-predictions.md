@@ -92,8 +92,8 @@ Now that we've seen a bit of Fossil, Pijul & Sapling, let's score them according
         </tr>    
         <tr class="fragment">
             <th/>
-            <th align="center"><code>+2</code></td>
-            <th align="center"><code>+2</code></td>
+            <th align="center"><code>+3</code></td>
+            <th align="center"><code>+3</code></td>
             <th align="center"><code>-4</code></td>
             <th align="center"><code>0</code></td>
             <th align="center"><code>+2</code></td>
@@ -119,13 +119,13 @@ note:
 
 *Winner*: Git. Support is superb.
 
-> Wikipedia lists 18 different hosting websites that support Git.
+> Wikipedia lists 19 different hosting websites that support Git.
 
 *Loser*: TFVC
 
 > Azure DevOps
 
-*OK*: Hg, Fossil, Pijul, Sapling.
+*OK*: Fossil, Pijul, Sapling.
 
 > Mercurial has 7 websites.
 > Fossil and Pijul both have one, but with the potential to grow.

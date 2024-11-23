@@ -21,10 +21,12 @@ Let's talk about Fossil first.
 
 [fossil-scm.com](https://www.fossil-scm.org)
 
+![Fossil logo](img/logos/fossil.png) <!-- .element: class="no-background" width="12%" -->
+
 note:
 * distributed
 * **autosync mode** - performs an automatic push after each commit
-* **manual merge mode** - like Git and Hg
+  * **manual merge mode** - like Git and Hg
 * **preserve all history** - there is no rebase in Fossil. Also: why would it be called 'Fossil'?
 
 ---
@@ -50,8 +52,6 @@ So any hosting space provider could do the job.
 
 * a repository is stored in a single SQLite database file 
 * contains relations between check-ins to be able to produce both ancestors and descendants of a check-in
-
-![Fossil logo](img/logos/fossil.png) <!-- .element: class="no-background" width="12%" -->
 
 note:
 In Git a single commit knows only who its ancestor is.
@@ -122,10 +122,10 @@ Or does it look more like SQLite?
 
 <!-- .slide: data-background="img/background/question-your-defaults.jpg" data-background-color="black" data-background-opacity="0.65" --->
 
-## Question Your Defaults <!-- .element: class="stroke" -->
+## Question your defaults <!-- .element: class="stroke" -->
 
 <blockquote class="explanation">
-    Let's pick this tool, because it's familiar to us. Besides, everyone uses it!
+    Let's pick this tool, because it's really familiar to us. Besides, everyone uses it!
 </blockquote>
 
 <https://pxhere.com/en/photo/812420> <!-- .element: class="attribution" -->

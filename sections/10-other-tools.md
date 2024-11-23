@@ -20,11 +20,11 @@ Here are two newer tools that I found interesting.
 
 A new, experimental version control system that features:
 
-* the ability to use the Git or Mercurial format as a storage layer
-* anonymous branching
-* automatic recording of file changes
-* undo feature
-* advanced automatic conflict resolution
+* the ability to use the Git or Mercurial format as a storage layer <!-- .element: class="fragment fade-in-then-semi-out" -->
+* anonymous branching <!-- .element: class="fragment fade-in-then-semi-out" -->
+* automatic recording of file changes <!-- .element: class="fragment fade-in-then-semi-out" -->
+* undo feature <!-- .element: class="fragment fade-in-then-semi-out" -->
+* advanced automatic conflict resolution <!-- .element: class="fragment fade-in-then-semi-out" -->
 
 [github.com/martinvonz/jj](https://github.com/martinvonz/jj)
 

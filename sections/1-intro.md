@@ -39,11 +39,16 @@ cd ~/Code/talks/slide-decks/will-git-be-around-forever/docker`
 docker build --tag 'pijul' .
 ```
     * Tab voor sapling, met working-dir `/Users/hanno/Code/version-control/sapling`
-* Tweede scherm:
+* Tweede scherm (Ecosia):
   * Slides
-  * 
-  * Nieuwe tab voor Fossil UI (http://localhost:8080/timeline?c=current)
-  * Tab voor de Sapling demo (https://github.com/hannotify/articles/pulls)
+* Derde scherm (Safari):
+  * https://dangitgit.com
+  * https://git-man-page-generator.lokaltog.net
+  * https://www.janavirgin.com/CO2/
+  * https://ecosia.com
+  * https://oceanhero.today
+  * Fossil UI (http://localhost:8080/timeline?c=current)
+  * Pull Request created with Sapling (https://github.com/hannotify/articles/pulls)
 * Telefoon met de demostappen erop (Apple Notes)
 * Reset de timer in de speaker notes
 

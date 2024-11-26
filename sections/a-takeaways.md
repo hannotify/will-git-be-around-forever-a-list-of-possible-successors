@@ -5,7 +5,7 @@
 <https://pxhere.com/en/photo/652221>  <!-- .element: class="attribution" -->
 
 note:
-**Time Elapsed:** `48:00`.
+**Time Elapsed:** `49:00`.
 
 Let's wrap up the talk by leaving you with the takeaways and a few additional resources.
 

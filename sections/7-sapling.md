@@ -6,7 +6,7 @@
 
 note:
 
-**Time Elapsed:** `32:00`.
+**Time Elapsed:** `35:00`.
 
 ---
 
@@ -72,7 +72,7 @@ So it's geared to the situation at Meta
 
 note:
 
-**Time Elapsed:** `35:00`.
+**Time Elapsed:** `37:00`.
 
 ---
 

@@ -7,7 +7,7 @@
 <https://pxhere.com/en/photo/652221> <!-- .element: class="attribution" -->
 
 note:
-**Time Elapsed:** `5:00`.
+**Time Elapsed:** `9:00`.
 
 Quick show of hands - who of you is currently using Git?
 Anyone uses a different version control system?

@@ -56,14 +56,16 @@ docker build --tag 'pijul' .
 
 **Time Elapsed:** `0:00`.
 
-* [pretend to grab USB stick and copy some files]
-* (about 10 seconds later) "Oh, don't mind me. Just copying some files here."
-* (about 5 seconds later) "Just a few resources I need in order to do this talk."
-* (about 5 seconds later) "There, all done."
-* [eject USB stick, and put it someplace else]
-* (about 5 seconds later) "What?!"
-* "This is how we did things back then!"
+* [show cassette tape to audience]
+* "I have a question for you."
+* "Who knows what this is?"
+* (...)
+* "This is how we listened to audio back then!"
 * "It's easy, it's familiar and it works! Well, most of the time."
+* "Who has used one of these in the past year?"
+* "Right, no one. So the cassette tape had a good run, but it has been replaced by better alternatives."
+* --
+* "I've brought something else" [usb stick]
 * "Come on, can I get some love for USB sticks?"
 * "No no! Let's be serious for a minute."
 * "Can I please see a show of hands: who has used a USB stick at least once in the past year?"

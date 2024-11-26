@@ -48,15 +48,15 @@ As presented at:
 ### 45 min.
 
 `00:00` Introduction
-`05:00` Why did Git become so popular?
-`12:00` Fossil (theory)
-`15:00` Fossil (demo)
-`20:00` Pijul (theory)
-`27:00` Pijul (demo)
-`32:00` Sapling (theory)
-`35:00` Sapling (demo)
-`40:00` Predictions
-`44:00` Other tools (Jujutsu, git-branchless)
-`48:00` Takeaways
-`51:00` Q&A
+`09:00` Why did Git become so popular?
+`19:00` Fossil (theory)
+`22:00` Fossil (demo)
+`26:00` Pijul (theory)
+`32:00` Pijul (demo)
+`35:00` Sapling (theory)
+`37:00` Sapling (demo)
+`41:00` Predictions
+`46:00` Other tools (Jujutsu, git-branchless)
+`49:00` Takeaways
+`50:30` Q&A
 `60:00` Talk ends

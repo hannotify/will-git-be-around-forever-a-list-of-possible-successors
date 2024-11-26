@@ -5,7 +5,7 @@
 <https://pxhere.com/en/photo/652221>  <!-- .element: class="attribution" -->
 
 note: 
-**Time Elapsed:** `20:00`.
+**Time Elapsed:** `26:00`.
 
 Time to dive into Pijul.
 
@@ -127,7 +127,7 @@ Which means patch order doesn't matter for the final result.
 
 note:
 
-**Time Elapsed:** `27:00`.
+**Time Elapsed:** `32:00`.
 
 ### Up and running
 

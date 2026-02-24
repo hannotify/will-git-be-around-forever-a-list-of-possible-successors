@@ -13,8 +13,8 @@
         <td style="vertical-align: middle; padding: 0 0 0 0"><a href="https://bsky.app/profile/hanno.codes">@hanno.codes</a></td>
     </tr>
 </table>
-<img data-src="img/logos/info-support.png" width="25%" class="no-background" style="vertical-align: middle; margin-right: 2em">
-<img data-src="img/logos/snic-sustainabilit.svg" width="35%" style="vertical-align: middle" class="no-background"/>
+<img data-src="img/logos/info-support.png" width="30%" class="no-background" style="vertical-align: middle; margin-right: 2em">
+<img data-src="img/logos/brabantjug.avif" width="25%" style="vertical-align: middle" class="no-background"/>
 <br/>
 
 note:

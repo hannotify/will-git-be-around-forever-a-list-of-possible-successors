@@ -13,6 +13,7 @@ As presented at:
 * Devoxx Belgium 2022
 * Devoxx Poland 2023
 * SNiC SustainabilIT 2024
+* BrabantJUG, March 2026
 
 ## Program & target times
 
@@ -46,6 +47,22 @@ As presented at:
 `30:15` Talk ends
 
 ### 45 min.
+
+`00:00` Introduction
+`07:00` Why did Git become so popular?
+`16:00` Fossil (theory)
+`19:00` Fossil (demo)
+`23:00` Pijul (theory)
+`27:30` Pijul (demo)
+`30:30` Sapling (theory)
+`32:30` Sapling (demo)
+`36:30` Predictions
+`41:00` Other tools (Jujutsu, git-branchless)
+`44:00` Takeaways
+`46:30` Q&A
+`50:00` Talk ends
+
+### 60 min.
 
 `00:00` Introduction
 `09:00` Why did Git become so popular?

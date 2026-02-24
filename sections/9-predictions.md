@@ -5,7 +5,7 @@
 <https://pxhere.com/en/photo/652221>  <!-- .element: class="attribution" -->
 
 note: 
-**Time Elapsed:** `41:00`.
+**Time Elapsed:** `36:30`.
 
 Looks like it's prediction time!
 

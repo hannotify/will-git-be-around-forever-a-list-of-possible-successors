@@ -85,10 +85,10 @@ Eventually we switched to... CVS. Very modern.
 
 ---
 
-### Version Control by email <!-- .element class="fragment" data-fragment-index="8"-->
+### Version Control by email <!-- .element class="fragment" data-fragment-index="9"-->
 
 <table class="email-inbox">
-  <tr class="fragment" data-fragment-index="7">
+  <tr class="fragment" data-fragment-index="8">
     <td class="checkbox">☐</td>
     <td class="star">★</td>
     <td class="sender">Hanno E.</td>
@@ -96,7 +96,7 @@ Eventually we switched to... CVS. Very modern.
     <td class="attachment">📎</td>
     <td class="date">Mar 10</td>
   </tr>
-  <tr class="fragment" data-fragment-index="6">
+  <tr class="fragment" data-fragment-index="7">
     <td class="checkbox">☐</td>
     <td class="star">☆</td>
     <td class="sender">Hanno E.</td>
@@ -104,19 +104,27 @@ Eventually we switched to... CVS. Very modern.
     <td class="attachment">📎</td>
     <td class="date">Mar 09</td>
   </tr>
+  <tr class="fragment" data-fragment-index="6">
+    <td class="checkbox">☐</td>
+    <td class="star">☆</td>
+    <td class="sender">Hanno E.</td>
+    <td class="subject">newer version so much better<span class="excerpt"> - ngl, it's dope, lol</span></td>
+    <td class="attachment">📎</td>
+    <td class="date">Mar 09</td>
+  </tr>
   <tr class="fragment" data-fragment-index="5">
     <td class="checkbox">☐</td>
     <td class="star">☆</td>
     <td class="sender">Hanno E.</td>
-    <td class="subject">newer version so much better<span class="excerpt"> - ngl, it's dope</span></td>
+    <td class="subject">even better version<span class="excerpt"> - you know what to do</span></td>
     <td class="attachment">📎</td>
-    <td class="date">Mar 09</td>
+    <td class="date">Mar 08</td>
   </tr>
   <tr class="fragment" data-fragment-index="4">
     <td class="checkbox">☐</td>
     <td class="star">☆</td>
     <td class="sender">Hanno E.</td>
-    <td class="subject">even better version<span class="excerpt"> - you know what to do</span></td>
+    <td class="subject">better final version with attachment!<span class="excerpt"> - sorry, forgot to attach the actual presentation</span></td>
     <td class="attachment">📎</td>
     <td class="date">Mar 08</td>
   </tr>
@@ -125,7 +133,7 @@ Eventually we switched to... CVS. Very modern.
     <td class="star">☆</td>
     <td class="sender">Hanno E.</td>
     <td class="subject">better final version<span class="excerpt"> - All, see attachment. - H</span></td>
-    <td class="attachment">📎</td>
+    <td class="attachment"></td>
     <td class="date">Mar 08</td>
   </tr>
   <tr class="fragment" data-fragment-index="2">
@@ -140,7 +148,7 @@ Eventually we switched to... CVS. Very modern.
     <td class="checkbox">☐</td>
     <td class="star">☆</td>
     <td class="sender">Hanno E.</td>
-    <td class="subject">presentation<span class="excerpt"> - Dear project members, I have attached the presentation file that we prepared </span></td>
+    <td class="subject">Presentation<span class="excerpt"> - Dear project members, I have attached the presentation file that we prepared </span></td>
     <td class="attachment">📎</td>
     <td class="date">Mar 08</td>
   </tr>
@@ -148,7 +156,7 @@ Eventually we switched to... CVS. Very modern.
 
 note:
 Although things could be worse, because THIS is also something I have dabbled with in the past. (not at work though)
-Let's call it (slide x8) 'Version Control by email'.
+Let's call it (slide x9) 'Version Control by email'.
 
 ---
 
@@ -275,23 +283,16 @@ note:
 
 * **Git**, the version control system, how it became popular and a few alternatives to Git that already exist.
 * It'll be about **familiar things**, things that we keep using but we've forgotten why exactly. (like the USB-stick at the start of the talk)
-* And of course it'll be about **sustainability**, the theme that brought us here together today.
+* And I'll briefly touch upon **sustainability**, more on that later.
 
 ---
 
 <!-- .slide: data-background-color="white" data-transition="none" -->
 
-<img data-src="img/logos/snic-sustainabilit.svg" width="60%" style="vertical-align: middle" class="no-background fragment"/>
-<img data-src="img/logos/git.png" width="30%" style="vertical-align: middle" class="no-background fragment"/>
+<img data-src="img/logos/brabantjug-white.avif" width="60%" style="vertical-align: middle" class="no-background fragment"/>
+<img data-src="img/logos/git-red.png" width="30%" style="vertical-align: middle" class="no-background fragment"/>
 
 note:
 
-Actually, the event logo (slide) was what gave me the idea to talk about Git in the first place (slide).
-And if you don't see why, this will probably help: (slide)
+Actually, the BrabantJUG logo (slide) was what gave me the idea to talk about Git in the first place (slide).
 
----
-
-<!-- .slide: data-background-color="white" data-transition="none" -->
-
-<img data-src="img/logos/snic-sustainabilit.svg" width="60%" style="vertical-align: middle" class="no-background"/>
-<img data-src="img/logos/git.png" width="30%" style="vertical-align: middle; transform: rotate(315deg);" class="no-background"/>

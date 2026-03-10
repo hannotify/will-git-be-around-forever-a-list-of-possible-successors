@@ -19,7 +19,7 @@ Let's talk about Fossil first.
     <li class="fragment fade-in-then-semi-out">a 'preserve all history' philosophy</li>
 </ul>
 
-[fossil-scm.com](https://www.fossil-scm.org)
+<a href="https://fossil-scm.com/">fossil-scm.com</a>
 
 ![Fossil logo](img/logos/fossil.png) <!-- .element: class="no-background" width="12%" -->
 

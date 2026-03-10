@@ -43,7 +43,7 @@ note:
 note:
 
 **developed and used at Meta**
-Started 10 years ago as an effort to make Meta’s monorepo scale, because existing VCS's couldn't manage the monorepo efficiently. 
+Started in 2013 as an effort to make Meta’s monorepo scale, because existing VCS's couldn't manage the monorepo efficiently. 
 Along the way Meta saw opportunities to also improve UX, so that their new engineers could understand their repos faster.
 
 **able to handle very large repos**

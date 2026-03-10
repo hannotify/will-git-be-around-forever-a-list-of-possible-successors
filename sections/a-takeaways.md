@@ -99,3 +99,15 @@ note:
 Podcast with the author of Pijul. It includes a good story on Pijul's vision for the future.
 Basically they don't want to become the next Git by taking market share from them.
 They want to grow outside of the IT world, for example in legislation when bills are amended.
+
+---
+
+<img data-src="img/logos/jspring.png" width="25%" class="no-background">
+<p>
+June 4, 2026<br/>
+Utrecht, The Netherlands
+</p>
+<br/>
+<small>CfP is open until the end of March!<br/>
+(<a href="https://sessionize.com/jspring26">sessionize.com/jspring26</a>)<br/><br/>
+Tickets at <a href="https://www.jspring.nl/">jspring.nl</a></small>

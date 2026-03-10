@@ -231,7 +231,7 @@ And I would like to add two more: (slide)
         <tr>
             <th/>
             <th>2010</th>
-            <th>2022</th>
+            <th>today</th>
         </tr>
     </thead>
     <tbody>

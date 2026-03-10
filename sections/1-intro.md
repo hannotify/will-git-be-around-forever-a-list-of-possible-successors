@@ -8,13 +8,14 @@
         <td style="text-align: left; padding: 0 0 0 0; vertical-align: middle;">
             <img width="16%" data-src="img/logos/ace-pro-spade.png" class="no-background" style="margin-top: 30px; vertical-align: middle;"/>
             <img width="20%" data-src="img/logos/java-champion.png" class="no-background" style="margin-top: 30px; vertical-align: middle;"/>
+            <img width="15%" data-src="img/logos/nljug.png" class="no-background" style="margin-top: 30px; vertical-align: middle;"/>
         </td>
-        <td style="vertical-align: middle; text-align: right;"><img width="35%" data-src="img/icons/bluesky.png" class="no-background" style="margin-top: 35px"/></td>
+        <td style="vertical-align: middle; text-align: right;"><img width="90%" data-src="img/icons/bluesky.png" class="no-background" style="margin-top: 35px"/></td>
         <td style="vertical-align: middle; padding: 0 0 0 0"><a href="https://bsky.app/profile/hanno.codes">@hanno.codes</a></td>
     </tr>
 </table>
 <img data-src="img/logos/info-support.png" width="30%" class="no-background" style="vertical-align: middle; margin-right: 2em">
-<img data-src="img/logos/brabantjug.avif" width="25%" style="vertical-align: middle" class="no-background"/>
+<img data-src="img/logos/javaland.png" width="25%" style="vertical-align: middle" class="no-background"/>
 <br/>
 
 note:
@@ -27,19 +28,18 @@ note:
 * Verbind met internet
 * Eerste scherm:
   * Speaker notes
-  * IntelliJ IDEA, voor Random.java
+  * IntelliJ IDEA, met working-dir `/Users/hanno/Code/version-control/fossil`, voor Random.java
   * Terminal:
-    * Tab met `mirror`
     * Tab met de slides draaiend
     * Tab voor fossil, met working-dir `/Users/hanno/Code/version-control/fossil`
     * Tab voor pijul - verbonden met Docker-container (`docker run -it pijul`)
-      * If this fails, then build and tag the image first.
+      * If this fails, then build and tag the image first:
 ```bash
 cd ~/Code/talks/slide-decks/will-git-be-around-forever/docker`
 docker build --tag 'pijul' .
 ```
     * Tab voor sapling, met working-dir `/Users/hanno/Code/version-control/sapling`
-* Tweede scherm (Ecosia):
+* Tweede scherm (Safari):
   * Slides
 * Derde scherm (Safari):
   * https://dangitgit.com
@@ -56,15 +56,31 @@ docker build --tag 'pijul' .
 
 **Time Elapsed:** `0:00`.
 
+---
+
+<!-- .slide: data-background="img/background/cassette-tape.jpg" data-background-color="black" data-background-opacity="1.0"-->
+
+<https://pxhere.com/en/photo/1259188> <!-- .element: class="attribution" -->
+
+note:
+
 * [show cassette tape to audience]
 * "I have a question for you."
 * "Who knows what this is?"
-* (...)
+* (...) (auf Deutsch: eine Audiokassette)
 * "This is how we listened to audio back then!"
 * "It's easy, it's familiar and it works! Well, most of the time."
 * "Who has used one of these in the past year?"
 * "Right, no one. So the cassette tape had a good run, but it has been replaced by better alternatives."
-* --
+
+---
+
+<!-- .slide: data-background="img/background/usb-sticks.jpg" data-background-color="black" data-background-opacity="1.0"-->
+
+<https://pxhere.com/en/photo/652221> <!-- .element: class="attribution" -->
+
+note:
+
 * "I've brought something else" [usb stick]
 * "Come on, can I get some love for USB sticks?"
 * "No no! Let's be serious for a minute."
@@ -76,6 +92,8 @@ docker build --tag 'pijul' .
 <!-- .slide: data-background="img/background/usb-sticks.jpg" data-background-color="black" data-background-opacity="0.3"-->
 
 # Version Control by USB stick <!-- .element class="stroke" -->
+
+<https://pxhere.com/en/photo/652221> <!-- .element: class="attribution" -->
 
 note:
 When I started my first Software Development job, USB sticks played a vital part in our version control strategy.
@@ -124,7 +142,7 @@ Eventually we switched to... CVS. Very modern.
     <td class="checkbox">☐</td>
     <td class="star">☆</td>
     <td class="sender">Hanno E.</td>
-    <td class="subject">better final version with attachment!<span class="excerpt"> - sorry, forgot to attach the actual presentation</span></td>
+    <td class="subject">better final version with attachment!<span class="excerpt"> - sorry, forgot the attachment!</span></td>
     <td class="attachment">📎</td>
     <td class="date">Mar 08</td>
   </tr>
@@ -167,7 +185,7 @@ Let's call it (slide x9) 'Version Control by email'.
 <https://pxhere.com/en/photo/652221> <!-- .element: class="attribution" -->
 
 note:
-Thank goodness it's 17 years later now, because I've gained proper experience with Subversion and Git.
+Thank goodness it's almost 20 years later now, because I've gained proper experience with Subversion and Git.
 I even teach a "Git" course at Info Support.
 It's a one-day course where I teach our interns and juniors how to use Git **as a developer**.
 We discuss the pros and cons of distributed version control and how it compares to earlier version control systems, like CVS and Subversion. 
@@ -220,7 +238,7 @@ Anyway, to a few of my students, on this slide something entirely different had 
 Something that I didn't even notice while I'd prepared the course.
 
 That's nothing to be embarrassed about.
-Sometimes we just miss stuff that is right in front of us.
+Sometimes we can just miss stuff that is right in front of us.
 
 
 
@@ -231,7 +249,7 @@ Sometimes we just miss stuff that is right in front of us.
 note:
 Like that time I got a brand-new electric car.
 
-(tell the story 'The Decoy Car', and mention sustainability!)
+(tell the story 'The Decoy Car', and mention that I was in love with it like a honeymoon phase, also mention sustainability!)
 
 ---
 
@@ -284,15 +302,4 @@ note:
 * **Git**, the version control system, how it became popular and a few alternatives to Git that already exist.
 * It'll be about **familiar things**, things that we keep using but we've forgotten why exactly. (like the USB-stick at the start of the talk)
 * And I'll briefly touch upon **sustainability**, more on that later.
-
----
-
-<!-- .slide: data-background-color="white" data-transition="none" -->
-
-<img data-src="img/logos/brabantjug-white.avif" width="60%" style="vertical-align: middle" class="no-background fragment"/>
-<img data-src="img/logos/git-red.png" width="30%" style="vertical-align: middle" class="no-background fragment"/>
-
-note:
-
-Actually, the BrabantJUG logo (slide) was what gave me the idea to talk about Git in the first place (slide).
 

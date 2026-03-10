@@ -13,6 +13,7 @@ As presented at:
 * Devoxx Belgium 2022
 * Devoxx Poland 2023
 * SNiC SustainabilIT 2024
+* JavaLand 2026
 * BrabantJUG, March 2026
 
 ## Program & target times

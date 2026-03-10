@@ -177,7 +177,7 @@ note:
         <tr>
             <th/>
             <th>2010</th>
-            <th>2022</th>
+            <th>today</th>
         </tr>
     </thead>
     <tbody>
@@ -218,8 +218,8 @@ note:
         <tr>
             <th/>
             <th>2010</th>
-            <th>2022</th>
-            <th>2034</th>
+            <th>today</th>
+            <th>10y from now</th>
         </tr>
     </thead>
     <tbody>
@@ -283,8 +283,8 @@ note:
         <tr>
             <th/>
             <th>2010</th>
-            <th>2022</th>
-            <th>2034</th>
+            <th>today</th>
+            <th>10y from now</th>
         </tr>
     </thead>
     <tbody>
@@ -348,8 +348,8 @@ note:
         <tr>
             <th/>
             <th>2010</th>
-            <th>2022</th>
-            <th>2034</th>
+            <th>today</th>
+            <th>10y from now</th>
         </tr>
     </thead>
     <tbody>

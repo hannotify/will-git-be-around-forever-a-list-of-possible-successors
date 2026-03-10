@@ -29,7 +29,7 @@ A new, experimental version control system that features:
 [github.com/martinvonz/jj](https://github.com/martinvonz/jj)
 
 note:
-Jujutsu is v0.23 and isn't yet feature-complete.
+Jujutsu is v0.39 and not yet feature-complete.
 Its documentation states it will probably face a few breaking changes in the future.
 
 ---

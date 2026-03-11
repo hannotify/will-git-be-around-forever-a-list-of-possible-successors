@@ -15,7 +15,7 @@
     </tr>
 </table>
 <img data-src="img/logos/info-support.png" width="30%" class="no-background" style="vertical-align: middle; margin-right: 2em">
-<img data-src="img/logos/javaland.png" width="25%" style="vertical-align: middle" class="no-background"/>
+<img data-src="img/logos/brabantjug.avif" width="25%" style="vertical-align: middle" class="no-background"/>
 <br/>
 
 note:
@@ -75,7 +75,7 @@ note:
 
 ---
 
-<!-- .slide: data-background="img/background/usb-sticks.jpg" data-background-color="black" data-background-opacity="1.0"-->
+<!-- .slide: data-background="img/background/usb-sticks.jpg" data-background-color="black" data-background-opacity="0.3"-->
 
 <https://pxhere.com/en/photo/652221> <!-- .element: class="attribution" -->
 
@@ -302,4 +302,15 @@ note:
 * **Git**, the version control system, how it became popular and a few alternatives to Git that already exist.
 * It'll be about **familiar things**, things that we keep using but we've forgotten why exactly. (like the USB-stick at the start of the talk)
 * And I'll briefly touch upon **sustainability**, more on that later.
+
+---
+
+<!-- .slide: data-background-color="white" data-transition="none" -->
+
+<img data-src="img/logos/brabantjug-white.avif" width="60%" style="vertical-align: middle" class="no-background fragment"/>
+<img data-src="img/logos/git-red.png" width="30%" style="vertical-align: middle" class="no-background fragment"/>
+
+note:
+
+Actually, the BrabantJUG logo (slide) was what gave me the idea to talk about Git in the first place (slide).
 

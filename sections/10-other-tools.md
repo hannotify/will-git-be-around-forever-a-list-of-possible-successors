@@ -46,7 +46,7 @@ A usability layer on top of git that adds:
 
 ---
 
-<!-- .slide: data-background="img/background/new-and-shiny.jpg" data-background-color="black" data-background-opacity="0.5"-->
+<!-- .slide: data-background="img/background/new-and-shiny.jpg" data-background-color="black" data-background-opacity="0.3"-->
 
 ## Newer is not always better <!-- .element: class="stroke" -->
 

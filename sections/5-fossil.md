@@ -5,7 +5,7 @@
 <https://pxhere.com/en/photo/652221> <!-- .element: class="attribution" -->
 
 note: 
-**Time Elapsed:** `16:00`.
+**Time Elapsed:** `6:00`.
 
 Let's talk about Fossil first.
 
@@ -66,7 +66,7 @@ Both native Git and GitHub don't provide this capability.
 * Using the web interface (`fossil ui`)
 
 note:
-**Time Elapsed:** `19:00`.
+**Time Elapsed:** `8:00`.
 
 ---
 

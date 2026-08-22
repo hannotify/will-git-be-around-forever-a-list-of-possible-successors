@@ -42,11 +42,6 @@ docker build --tag 'pijul' .
 * Tweede scherm (Safari):
   * Slides
 * Derde scherm (Safari):
-  * https://dangitgit.com
-  * https://git-man-page-generator.lokaltog.net
-  * https://www.janavirgin.com/CO2/
-  * https://ecosia.com
-  * https://oceanhero.today
   * Fossil UI (http://localhost:8080/timeline?c=current)
   * Pull Request created with Sapling (https://github.com/hannotify/articles/pulls)
 * Telefoon met de demostappen erop (Apple Notes)
@@ -67,7 +62,6 @@ note:
 * [show cassette tape to audience]
 * "I have a question for you."
 * "Who knows what this is?"
-* (...) (auf Deutsch: eine Audiokassette)
 * "This is how we listened to audio back then!"
 * "It's easy, it's familiar and it works! Well, most of the time."
 * "Who has used one of these in the past year?"
@@ -206,77 +200,11 @@ Both *indestructible*.
 And CVS relates to the thing with the power plug.
 Both are obviously **ancient**!
 
-Now during the Git course I mainly talk about the events of the year 2005 and why so many new version control systems emerged in that year.
-It has to do with BitKeeper. 
-
-[Tell the licensing story]
-
-* BitKeeper: distributed version control
-* Used to maintain the Linux kernel
-
----
-
-<!-- .slide: data-background="img/background/bitkeeper-goes-commercial.png" data-background-size="contain" data-background-color="#707070" -->
-
-note:
-
-* But in 2005, Bitkeeper started charging licensing costs to open-source projects
-* So the Linkux kernel team developed their own VCS: `git`
-* (which also supports sending patches via email, by the way)
-* [demo `git send-email --help`)
-* So that's "Version Control by Email" all over again!
-
----
-
-<!-- .slide: data-background="img/background/version-control-timeline.png" data-background-size="contain" data-background-color="white" -->
-
-<http://blog.plasticscm.com/2010/11/version-control-timeline.html> <!-- .element: class="attribution" -->
-
-note:
-
-Anyway, to a few of my students, on this slide something entirely different had caught their attention.
-Something that I didn't even notice while I'd prepared the course.
-
-That's nothing to be embarrassed about.
-Sometimes we can just miss stuff that is right in front of us.
-
-
-
----
-
-<!-- .slide: data-background="img/background/red-car-brand-new-front.jpg" data-background-color="black" data-background-opacity="1.0" data-background-size="contain" -->
-
-note:
-Like that time I got a brand-new electric car.
-
-(tell the story 'The Decoy Car', and mention that I was in love with it like a honeymoon phase, also mention sustainability!)
-
----
-
-<!-- .slide: data-background="img/background/red-car-with-damage.jpeg" data-background-color="black" data-background-opacity="1.0" data-background-size="contain" -->
-
----
-
-<!-- .slide: data-background="img/background/two-red-cars.jpeg" data-background-color="black" data-background-opacity="1.0" data-background-size="contain" -->
-
-note: 
-[mention the other car as 'the decoy car']
-
----
-
-<!-- .slide: data-background="img/background/version-control-timeline.png" data-background-size="contain" data-background-color="white" -->
-
-<http://blog.plasticscm.com/2010/11/version-control-timeline.html> <!-- .element: class="attribution" -->
-
-note:
-Back to the Git course I was teaching. Just like the decoy car, what was right in front of us, according to my students in this timeline picture?
-
-Recall that I had focused on the events of the year 2005, but instead my students were drawn to the 'gap' that followed.
-One of them came to me with a question about that 'gap'.
+At the end of one particular course day, a student came to me with a question.
 And she said: "Git is great and all that, but what's gonna be the **next** big thing?"
 "It looks like nothing has happened in Version Control world for over ten years!"
-
 And that was a very good question.
+
 I told her: 
 
 * we're quite sure that distributed version control systems like Git and Mercurial will be around for much longer.
@@ -288,29 +216,4 @@ I had effectively told her that "Git will probably be around forever", even if I
 That didn't sit right with me.
 So I decided to research the matter a bit further.
 And the research got out of hand and eventually turned into this conference talk.
-
----
-
-### So this talk will be about
-
-* Git <!-- .element: class="fragment fade-in-then-semi-out" -->
-* familiar things <!-- .element: class="fragment fade-in-then-semi-out" -->
-* sustainability <!-- .element: class="fragment fade-in-then-semi-out" -->
-
-note:
-
-* **Git**, the version control system, how it became popular and a few alternatives to Git that already exist.
-* It'll be about **familiar things**, things that we keep using but we've forgotten why exactly. (like the USB-stick at the start of the talk)
-* And I'll briefly touch upon **sustainability**, more on that later.
-
----
-
-<!-- .slide: data-background-color="white" data-transition="none" -->
-
-<img data-src="img/logos/brabantjug-white.avif" width="60%" style="vertical-align: middle" class="no-background fragment"/>
-<img data-src="img/logos/git-red.png" width="30%" style="vertical-align: middle" class="no-background fragment"/>
-
-note:
-
-Actually, the BrabantJUG logo (slide) was what gave me the idea to talk about Git in the first place (slide).
-
+So let's see if we can find the answer to the student's question together, shall we?

@@ -5,7 +5,7 @@
 <https://pxhere.com/en/photo/652221>  <!-- .element: class="attribution" -->
 
 note: 
-**Time Elapsed:** `36:30`.
+**Time Elapsed:** `27:00`.
 
 Looks like it's prediction time!
 
@@ -125,7 +125,7 @@ note:
 
 > Azure DevOps
 
-*OK*: Fossil, Pijul, Sapling.
+*OK*: Hg, Fossil, Pijul, Sapling.
 
 > Mercurial has 7 websites.
 > Fossil and Pijul both have one, but with the potential to grow.

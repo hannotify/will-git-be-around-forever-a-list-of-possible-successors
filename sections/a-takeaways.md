@@ -5,7 +5,7 @@
 <https://pxhere.com/en/photo/652221>  <!-- .element: class="attribution" -->
 
 note:
-**Time Elapsed:** `44:00`.
+**Time Elapsed:** `29:00`.
 
 Let's wrap up the talk by leaving you with the takeaways and a few additional resources.
 
@@ -42,17 +42,12 @@ Don't choose a tool just because it's familiar or because "everyone does it".
 1. Question your defaults
 2. Try something else for a change
 3. Newer is not always better <!-- .element: class="fragment" -->
-4. Whatever tool you pick, make sure you master it <!-- .element: class="fragment" -->
 
 note:
 
 **Newer is not always better**
 
 Pick a stable tool, that doesn't have any foreseeable breaking changes in its future.
-
-**Whatever tool you pick, make sure you master it**
-
-This is the more sustainable way. And it'll help you decide whether to stick with the tool or not when a new VCS is released.
 
 ---
 

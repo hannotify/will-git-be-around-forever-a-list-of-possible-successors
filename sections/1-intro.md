@@ -15,7 +15,7 @@
     </tr>
 </table>
 <img data-src="img/logos/info-support.png" width="30%" class="no-background" style="vertical-align: middle; margin-right: 2em">
-<img data-src="img/logos/brabantjug.avif" width="25%" style="vertical-align: middle" class="no-background"/>
+<img data-src="img/logos/spacerockit.png" width="18%" style="vertical-align: middle" class="no-background"/>
 <br/>
 
 note:

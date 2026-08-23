@@ -253,19 +253,19 @@ note:
             <td align="right">&lt;1%</td>
             <td align="right">&lt;1%</td>
         </tr>   
-        <tr style="background-color: #555">
+        <tr class="new-prediction">
             <th align="right">Fossil</th>
             <td align="right">&lt;1%</td>
             <td align="right">&lt;1%</td>
             <td align="right">1%</td>            
         </tr>           
-        <tr style="background-color: #555">
+        <tr class="new-prediction">
             <th align="right">Pijul</th>
             <td align="right"></td>
             <td align="right">&lt;1%</td>
             <td align="right">5%</td>            
         </tr>
-        <tr style="background-color: #555">
+        <tr class="new-prediction">
             <th align="right">Sapling</th>
             <td align="right"></td>
             <td align="right">&lt;1%</td>
@@ -318,19 +318,19 @@ note:
             <td align="right">&lt;1%</td>
             <td align="right">&lt;1% 🔚</td>
         </tr>   
-        <tr style="background-color: #555">
+        <tr class="new-prediction">
             <th align="right">Fossil</th>
             <td align="right">&lt;1%</td>
             <td align="right">&lt;1%</td>
             <td align="right">1% ↗️</td>            
         </tr>           
-        <tr style="background-color: #555">
+        <tr class="new-prediction">
             <th align="right">Pijul</th>
             <td align="right"></td>
             <td align="right">&lt;1%</td>
             <td align="right">5% ↗️</td>            
         </tr>
-        <tr style="background-color: #555">
+        <tr class="new-prediction">
             <th align="right">Sapling</th>
             <td align="right"></td>
             <td align="right">&lt;1%</td>
@@ -365,13 +365,13 @@ note:
             <td align="right">12%</td>
             <td align="right">8% ↘️</td>            
         </tr>
-        <tr style="background-color: #555">
+        <tr class="new-prediction">
             <th align="right">Pijul</th>
             <td align="right"></td>
             <td align="right">&lt;1%</td>
             <td align="right">5% ↗️</td>            
         </tr>
-        <tr style="background-color: #555">
+        <tr class="new-prediction">
             <th align="right">Sapling</th>
             <td align="right"></td>
             <td align="right">&lt;1%</td>
@@ -389,7 +389,7 @@ note:
             <td align="right">6%</td>
             <td align="right">2% ⤵️</td>
         </tr>
-        <tr style="background-color: #555">
+        <tr class="new-prediction">
             <th align="right">Fossil</th>
             <td align="right">&lt;1%</td>
             <td align="right">&lt;1%</td>

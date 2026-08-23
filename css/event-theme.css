@@ -1,33 +1,48 @@
 :root {
-    --eventColor: #E41EC6;
+    --eventColor: #da208e;
 }
 
 .slides img {
-    border:0 !important;
+    border: 0 !important;
     box-shadow: none !important;
 }
+
 .reveal section img.no-background {
     background: none;
 }
+
+.reveal .controls button {
+    color: var(--eventColor);
+}
+
 .stroke {
     color: white !important;
     text-shadow:
-            -1px -1px 0 #000,
-            1px -1px 0 #000,
-            -1px 1px 0 #000,
-            1px 1px 0 #000 !important;
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000 !important;
+    text-transform: none !important;
+    letter-spacing: 1px !important;
 }
-.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
-    text-transform: none;
-}
-input { font-size: 27px; }
 
-tr:hover {
-    background-color: #333;
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+    font-family: "Gill Sans", "Source Sans Pro", Helvetica, sans-serif;
+    text-transform: none;
+    letter-spacing: -1px !important;
+}
+
+input {
+    font-size: 27px;
 }
 
 tr .popup-image {
-    display: none ;
+    display: none;
 }
 
 tr:hover .popup-image {
@@ -44,13 +59,13 @@ a {
 }
 
 .reveal ::selection {
-    color: black;
+    color: white;
     background: var(--eventColor);
     text-shadow: none;
 }
 
 .reveal ::-moz-selection {
-    color: black;
+    color: white;
     background: var(--eventColor);
     text-shadow: none;
 }
@@ -66,6 +81,10 @@ a {
     right: 0;
     font-size: 0.3em;
     text-shadow: none;
+}
+
+.reveal code {
+    font-family: 'Jetbrains Mono', monospace;
 }
 
 .print-pdf .reveal section .attribution {
@@ -85,4 +104,17 @@ a {
     bottom: 1em;
     left: 1em;
     font-size: 0.5em;
+}
+
+.jChampionsConf {
+    font-family: 'Monaco', monospace;
+}
+
+.jChampionsConf .red {
+    background: -webkit-gradient(linear, left top, right top, from(#c70039), color-stop(70%, #ff5733));
+    background: -webkit-linear-gradient(left, #c70039, #ff5733 70%);
+    background: -o-linear-gradient(left, #c70039, #ff5733 70%);
+    background: linear-gradient(to right, #c70039, #ff5733 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

@@ -16,7 +16,7 @@
         overflow: hidden;
         text-overflow: ellipsis;
     }
-    
+
     .subject .excerpt {
         color: gray;
     }
@@ -35,4 +35,8 @@
         max-width: 5em;
         max-height: 4em;
     }
+}
+
+tr.new-prediction {
+    background-color: color-mix(in srgb, #777 20%, var(--r-main-color) 20%);
 }

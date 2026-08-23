@@ -31,8 +31,7 @@ Don't choose a tool just because it's familiar or because "everyone does it".
 <ul>
     <li class="fragment fade-in-then-semi-out">A lot of projects are nothing like the Linux kernel. <strong>So try Fossil for a change!</strong></li>
     <li class="fragment fade-in-then-semi-out">Git's snapshotting might be too technical for the average user. <strong>So try Pijul for a change!</strong></li>
-    <li class="fragment fade-in-then-semi-out">I want to try a new VCS but I still need to use GitHub. <strong>Try Sapling or Jujutsu for a change!</strong></li>
-    <li class="fragment fade-in-then-semi-out">I'm bound to Git, but I wouldn't mind better usability. <strong>Try <code>git-branchless</code> for a change!</strong></li>
+    <li class="fragment fade-in-then-semi-out">I want to try a new VCS but I still need to use GitHub. <strong>Try Sapling for a change!</strong></li>
 </ul>
 
 ---

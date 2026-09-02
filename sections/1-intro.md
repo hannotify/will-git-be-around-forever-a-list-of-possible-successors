@@ -28,10 +28,9 @@ note:
 * Verbind met internet
 * Eerste scherm:
   * Speaker notes
-  * IntelliJ IDEA, met working-dir `/Users/hanno/Code/version-control/fossil`, voor Random.java
   * Terminal:
     * Tab met de slides draaiend
-    * Tab voor fossil, met working-dir `/Users/hanno/Code/version-control/fossil`
+    * Tab voor fossil, met working-dir `/Users/hanno/Code/version-control/fossil` en `sdk use java 26.0.1-open`
     * Tab voor pijul - verbonden met Docker-container (`docker run -it pijul`)
       * If this fails, then build and tag the image first:
 ```bash
